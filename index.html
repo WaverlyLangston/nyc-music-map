@@ -534,17 +534,48 @@ function addVenueLayer() {
 
 // ── Style overrides to make map minimal / grey ─────────────────────────────
 function applyMinimalStyle() {
-  // Layers to completely hide
-  const layersToHide = [
-    "national-park", "landuse", "landuse-residential",
-    "pitch-outline", "waterway-label", "natural-label",
-    "road-label", "transit-label",
-    "poi-label", "airport-label",
-    "settlement-subdivision-label",
+  const safe = (fn) => { try { fn(); } catch(e) {} };
+
+  const hide = [
+    "national-park","landuse","landuse-residential","pitch-outline",
+    "waterway-label","natural-label","road-label","transit-label",
+    "poi-label","airport-label","settlement-subdivision-label",
   ];
-  layersToHide.forEach(id => {
+  hide.forEach(id => safe(() => {
     if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", "none");
+  }));
+
+  const roadColors = [
+    ["road-motorway-trunk","#c8c4bc"],["road-primary","#d4d0c8"],
+    ["road-secondary-tertiary","#dedad4"],["road-street","#e4e0da"],
+    ["road-minor","#eae7e2"],["road-pedestrian","#ece9e4"],
+  ];
+  roadColors.forEach(([id, color]) => safe(() => {
+    if (map.getLayer(id)) map.setPaintProperty(id, "line-color", color);
+  }));
+
+  safe(() => {
+    if (map.getLayer("water")) map.setPaintProperty("water", "fill-color", "#d8dde4");
   });
+  safe(() => {
+    if (map.getLayer("waterway")) map.setPaintProperty("waterway", "line-color", "#d8dde4");
+  });
+  safe(() => {
+    if (map.getLayer("background")) map.setPaintProperty("background", "background-color", "#f4f3f0");
+  });
+  safe(() => {
+    if (map.getLayer("building")) {
+      map.setPaintProperty("building", "fill-color", "#eae7e0");
+      map.setPaintProperty("building", "fill-outline-color", "#ddd9d0");
+    }
+  });
+  safe(() => {
+    if (map.getLayer("settlement-label")) {
+      map.setPaintProperty("settlement-label", "text-color", "#aba79e");
+      map.setPaintProperty("settlement-label", "text-halo-color", "#f4f3f0");
+    }
+  });
+}
 
   // Mute road colors
   const roadMutes = [
