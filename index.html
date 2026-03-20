@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NYC Music Map</title>
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet"/>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+  <style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    :root{
+      --bg:#f2f1ee;--red:#c0392b;--blue:#2962ff;
+      --card:#fff;--border:#e2dfd9;
+      --t1:#1a1a1a;--t2:#5c5753;--t3:#9b9690;
+      --font:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    }
+    html,body{height:100%;font-family:var(--font);background:var(--bg);overflow:hidden}
+    #map{position:fixed;inset:0}
+
+    /* ── Wordmark ── */
+    #wordmark{position:fixed;top:20px;left:20px;z-index:10;pointer-events:none;user-select:none}
+    #wordmark h1{font-size:12px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;color:var(--t1);line-height:1}
+    #wordmark p{font-size:10px;letter-spacing:.07em;color:var(--t3);text-transform:uppercase;margin-top:4px}
+
+    /* ── Counter ── */
+    #counter{position:fixed;top:20px;right:20px;z-index:10;font-size:11px;letter-spacing:.07em;color:var(--t3);text-transform:uppercase;pointer-events:none}
+
+    /* ── Date bar ── */
+    #datebar{
+      position:fixed;bottom:24px;left:50%;transform:translateX(-50%);
+      z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(8px);
+      border:1px solid var(--border);border-radius:999px;padding:7px 20px;
+      font-size:11px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;
+      color:var(--t2);box-shadow:0 2px 12px rgba(0,0,0,.08);
+      pointer-events:none;user-select:none;
+    }
+
+    /* ── Legend ── */
+    #legend{position:fixed;bottom:62px;left:20px;z-index:10;pointer-events:none;display:flex;flex-direction:column;gap:6px}
+    .leg{display:flex;align-items:center;gap:7px;font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:var(--t3)}
+    .leg-dot{width:10px;height:10px;border-radius:50%;border:1.5px solid #fff;box-shadow:0 1px 3px rgba(0,0,0,.2);flex-shrink:0}
+    .leg-dot.red{background:var(--red)} .leg-dot.blue{background:var(--blue)}
+
+    /* ── Popup shell ── */
+    #popup{
+      display:none;position:fixed;z-index:200;width:310px;max-width:calc(100vw - 28px);
+      background:var(--card);border:1px solid var(--border);border-radius:14px;
+      box-shadow:0 12px 40px rgba(0,0,0,.14);overflow:hidden;
+    }
+
+    /* ── Panel system ── */
+    .panel{display:none;flex-direction:column}
+    .panel.active{display:flex}
+
+    /* Shared header */
+    .ph{padding:13px 14px 11px;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;gap:8px}
+    .ph-text{flex:1;min-width:0}
+    .ph-title{font-size:15px;font-weight:700;color:var(--t1);line-height:1.25;word-wrap:break-word}
+    .ph-sub{font-size:11px;color:var(--t2);margin-top:3px;line-height:1.45}
+    .ph-sub.address{color:var(--t2)}
+
+    /* Buttons */
+    .btn-close,.btn-back{
+      flex-shrink:0;height:26px;border:none;border-radius:99px;
+      cursor:pointer;font-size:12px;color:var(--t2);
+      background:#eeebe5;transition:background .12s;padding:0 10px;
+      display:flex;align-items:center;gap:4px;white-space:nowrap;
+    }
+    .btn-close{width:26px;padding:0;justify-content:center;font-size:13px}
+    .btn-close:hover,.btn-back:hover{background:#e0ddd6}
+    .btn-row{display:flex;gap:6px;align-items:center;flex-shrink:0}
+
+    /* Scrollable body */
+    .pb{overflow-y:auto;max-height:360px}
+
+    /* Footer */
+    .pf{padding:9px 14px;border-top:1px solid var(--border);background:#f9f8f5}
+    .pf a{font-size:11px;color:var(--t3);text-decoration:none;display:flex;align-items:center;gap:5px}
+    .pf a:hover{color:var(--t1)}
+
+    /* ── Show list (panel 1) ── */
+    .show-row{
+      padding:12px 14px;border-bottom:1px solid var(--border);cursor:pointer;
+      display:flex;align-items:flex-start;gap:10px;
+      transition:background .1s;
+    }
+    .show-row:last-child{border-bottom:none}
+    .show-row:hover{background:#f7f6f3}
+    .show-time-col{flex-shrink:0;text-align:right;min-width:52px}
+    .show-time{font-size:13px;font-weight:700;color:var(--t1)}
+    .show-price-pill{
+      margin-top:4px;font-size:9px;font-weight:700;letter-spacing:.06em;
+      text-transform:uppercase;padding:2px 7px;border-radius:99px;
+      background:#f0ede8;color:var(--t2);display:inline-block;
+    }
+    .show-price-pill.free{background:#e6f4e6;color:#276227}
+    .show-info-col{flex:1;min-width:0}
+    .show-title{font-size:13px;font-weight:600;color:var(--t1);line-height:1.3;word-wrap:break-word}
+    .show-acts-preview{font-size:11px;color:var(--t3);margin-top:3px;line-height:1.4}
+    .show-arrow{flex-shrink:0;color:var(--t3);font-size:14px;margin-top:2px}
+    .no-shows{padding:14px 14px;font-size:12px;color:var(--t3);font-style:italic}
+
+    /* ── Performer cards (panel 2) ── */
+    .performer-card{padding:12px 14px;border-bottom:1px solid var(--border)}
+    .performer-card:last-child{border-bottom:none}
+    .pc-name{font-size:14px;font-weight:700;color:var(--t1)}
+    .pc-name.headliner{font-size:15px}
+    .pc-tag{
+      display:inline-block;margin-left:6px;font-size:9px;font-weight:700;
+      letter-spacing:.08em;text-transform:uppercase;color:var(--red);
+      vertical-align:middle;
+    }
+    .pc-desc{font-size:12px;color:var(--t2);margin-top:6px;line-height:1.6}
+    .pc-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+    .pc-link{
+      font-size:10px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;
+      padding:3px 9px;border-radius:99px;text-decoration:none;
+      border:1px solid var(--border);color:var(--t2);
+      transition:background .1s,color .1s;
+    }
+    .pc-link:hover{background:var(--t1);color:#fff;border-color:var(--t1)}
+    .pc-link.ig{border-color:#e1306c;color:#e1306c}
+    .pc-link.ig:hover{background:#e1306c;color:#fff}
+    .pc-link.bc{border-color:#1da0c3;color:#1da0c3}
+    .pc-link.bc:hover{background:#1da0c3;color:#fff}
+    .pc-link.sp{border-color:#1db954;color:#1db954}
+    .pc-link.sp:hover{background:#1db954;color:#fff}
+    .no-performers{padding:14px;font-size:12px;color:var(--t3);font-style:italic}
+
+    /* ── Loading ── */
+    #loading{position:fixed;inset:0;z-index:500;background:var(--bg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px}
+    #loading.gone{display:none}
+    .spinner{width:28px;height:28px;border:2px solid #d5d1cb;border-top-color:var(--t1);border-radius:50%;animation:spin .7s linear infinite}
+    @keyframes spin{to{transform:rotate(360deg)}}
+    #load-msg{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--t3)}
+
+    /* Mapbox chrome */
+    .mapboxgl-ctrl-logo,.mapboxgl-ctrl-attrib{display:none!important}
+    .mapboxgl-ctrl-group{background:rgba(255,255,255,.9)!important;border:1px solid var(--border)!important;border-radius:8px!important;box-shadow:0 2px 8px rgba(0,0,0,.07)!important}
+  </style>
+</head>
+<body>
+
+<div id="loading"><div class="spinner"></div><div id="load-msg">Loading NYC Music Map</div></div>
+<div id="map"></div>
+
+<div id="wordmark"><h1>NYC Music Map</h1><p>Tonight&#x2019;s shows</p></div>
+<div id="counter"></div>
+<div id="datebar"></div>
+
+<div id="legend">
+  <div class="leg"><div class="leg-dot red"></div><span>Show tonight</span></div>
+  <div class="leg"><div class="leg-dot blue"></div><span>You are here</span></div>
+</div>
+
+<!-- ── Two-panel popup ── -->
+<div id="popup">
+
+  <!-- Panel 1: Venue + show list -->
+  <div id="panel-venue" class="panel active">
+    <div class="ph">
+      <div class="ph-text">
+        <div class="ph-title" id="v-name"></div>
+        <div class="ph-sub address" id="v-addr"></div>
+      </div>
+      <div class="btn-row">
+        <button class="btn-close" id="close1">&#x2715;</button>
+      </div>
+    </div>
+    <div class="pb" id="show-list"></div>
+    <div class="pf" id="venue-foot">
+      <a id="venue-link" href="#" target="_blank" rel="noopener">
+        &#x2197;&nbsp;<span id="venue-link-label">Visit website</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- Panel 2: Show detail + performers -->
+  <div id="panel-show" class="panel">
+    <div class="ph">
+      <div class="ph-text">
+        <div class="ph-title" id="s-name"></div>
+        <div class="ph-sub" id="s-meta"></div>
+      </div>
+      <div class="btn-row">
+        <button class="btn-back" id="back-btn">&#x2190; Back</button>
+        <button class="btn-close" id="close2">&#x2715;</button>
+      </div>
+    </div>
+    <div class="pb" id="performer-list"></div>
+    <div class="pf" id="show-foot" style="display:none">
+      <a id="ticket-link" href="#" target="_blank" rel="noopener">
+        &#x1F3AB;&nbsp;Get tickets
+      </a>
+    </div>
+  </div>
+
+</div><!-- #popup -->
+
+<script>
+// ── TOKEN ─────────────────────────────────────────────────────────────────
+var MAPBOX_TOKEN = "YOUR_MAPBOX_TOKEN_HERE";
+// ─────────────────────────────────────────────────────────────────────────
+
+mapboxgl.accessToken = MAPBOX_TOKEN;
+
+var venueMap   = {};
+var eventsData = {};
+var popupOpen  = false;
+var justOpened = false;
+
+var loadingEl = document.getElementById("loading");
+var popupEl   = document.getElementById("popup");
+var counter   = document.getElementById("counter");
+var datebar   = document.getElementById("datebar");
+
+// Set date label
+(function(){
+  var d=new Date();
+  var days=["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
+  var months=["January","February","March","April","May","June",
+              "July","August","September","October","November","December"];
+  datebar.textContent=days[d.getDay()]+", "+months[d.getMonth()]+" "+d.getDate();
+})();
+
+// ── Error ──────────────────────────────────────────────────────────────────
+function showError(msg){
+  loadingEl.innerHTML='<div style="text-align:center;padding:40px;max-width:340px;font-family:system-ui">'+
+    '<div style="font-size:26px;margin-bottom:14px">&#x26A0;&#xFE0F;</div>'+
+    '<div style="font-size:13px;font-weight:600;color:#1a1a1a;margin-bottom:10px">Map failed to load</div>'+
+    '<div style="font-size:12px;color:#5c5753;line-height:1.7">'+msg+'</div>'+
+    '<div style="margin-top:16px;font-size:10px;color:#aaa">F12 &rarr; Console for details</div></div>';
+}
+var killswitch=setTimeout(function(){
+  if(!loadingEl.classList.contains("gone")) showError("Timed out. Check your Mapbox token.");
+},15000);
+
+// ── Map ────────────────────────────────────────────────────────────────────
+var map=new mapboxgl.Map({
+  container:"map",style:"mapbox://styles/mapbox/light-v11",
+  center:[-73.9857,40.7484],zoom:13,minZoom:9,maxZoom:18,
+  pitchWithRotate:false,dragRotate:false,
+});
+map.addControl(new mapboxgl.NavigationControl({showCompass:false}),"bottom-right");
+
+map.on("error",function(e){
+  var msg=(e&&e.error&&e.error.message)?e.error.message:String(e);
+  if(msg.indexOf("401")!==-1||msg.toLowerCase().indexOf("unauthorized")!==-1)
+    showError("<strong>401 Unauthorized</strong> — invalid Mapbox token. Open index.html and replace <em>YOUR_MAPBOX_TOKEN_HERE</em>.");
+  else console.error("Mapbox:",e);
+});
+
+// ── Data ───────────────────────────────────────────────────────────────────
+function loadData(){
+  return Promise.all([
+    fetch("./venues.json").then(function(r){
+      if(!r.ok) throw new Error("venues.json HTTP "+r.status);
+      return r.json();
+    }),
+    fetch("./events.json").then(function(r){
+      if(!r.ok) throw new Error("events.json HTTP "+r.status);
+      return r.json();
+    }),
+  ]).then(function(res){
+    res[0].forEach(function(v){ venueMap[String(v.id)]=v; });
+    eventsData=res[1].events||{};
+  });
+}
+
+// ── Geolocation ────────────────────────────────────────────────────────────
+function geolocate(){
+  if(!navigator.geolocation)return;
+  navigator.geolocation.getCurrentPosition(
+    function(pos){
+      map.flyTo({center:[pos.coords.longitude,pos.coords.latitude],zoom:14,duration:1400});
+      addUserDot(pos.coords.latitude,pos.coords.longitude);
+    },
+    function(e){console.warn("Geo:",e);},{timeout:8000}
+  );
+}
+function addUserDot(lat,lng){
+  var geo={type:"Feature",geometry:{type:"Point",coordinates:[lng,lat]}};
+  if(map.getSource("user")){map.getSource("user").setData(geo);return;}
+  map.addSource("user",{type:"geojson",data:geo});
+  map.addLayer({id:"user-ring",type:"circle",source:"user",paint:{"circle-radius":12,"circle-color":"rgba(41,98,255,0.1)","circle-stroke-width":1.5,"circle-stroke-color":"rgba(41,98,255,0.35)"}});
+  map.addLayer({id:"user-dot", type:"circle",source:"user",paint:{"circle-radius":5,"circle-color":"#2962ff","circle-stroke-width":2,"circle-stroke-color":"#fff"}});
+}
+
+// ── GeoJSON — only venues with events ─────────────────────────────────────
+function buildGeoJSON(){
+  var features=[];
+  Object.keys(eventsData).forEach(function(vid){
+    var v=venueMap[vid];
+    if(!v||!v.lat||!v.lng) return;
+    var shows=eventsData[vid];
+    if(!shows||!shows.length) return;
+    features.push({
+      type:"Feature",
+      geometry:{type:"Point",coordinates:[v.lng,v.lat]},
+      properties:{
+        id:      vid,
+        name:    v.name||"",
+        address: v.address||"",
+        website: v.website||v.calendar_url||"",
+        shows:   JSON.stringify(shows),
+      },
+    });
+  });
+  return {type:"FeatureCollection",features:features};
+}
+
+function addDots(){
+  map.addSource("venues",{type:"geojson",data:buildGeoJSON()});
+  map.addLayer({
+    id:"venue-dots",type:"circle",source:"venues",
+    paint:{
+      "circle-radius":["interpolate",["linear"],["zoom"],9,4,11,6,13,8,16,12],
+      "circle-color":"#c0392b",
+      "circle-stroke-width":["interpolate",["linear"],["zoom"],9,1.5,14,2.5],
+      "circle-stroke-color":"#ffffff",
+      "circle-opacity":0.9,
+    },
+  });
+}
+
+// ── Map style muting ───────────────────────────────────────────────────────
+function muteStyle(){
+  function s(fn){try{fn();}catch(e){}}
+  ["poi-label","transit-label","road-label","waterway-label","natural-label",
+   "airport-label","settlement-subdivision-label","national-park","pitch-outline"]
+    .forEach(function(id){s(function(){if(map.getLayer(id))map.setLayoutProperty(id,"visibility","none");});});
+  [["road-motorway-trunk","#cac6be"],["road-primary","#d4d0c8"],
+   ["road-secondary-tertiary","#dedad4"],["road-street","#e4e0da"],
+   ["road-street-low","#e8e5e0"],["road-minor","#eae7e2"],
+   ["road-minor-low","#edeae6"],["road-pedestrian","#ece9e4"]]
+    .forEach(function(p){s(function(){if(map.getLayer(p[0]))map.setPaintProperty(p[0],"line-color",p[1]);});});
+  s(function(){if(map.getLayer("water"))   map.setPaintProperty("water","fill-color","#d6dbe3");});
+  s(function(){if(map.getLayer("waterway"))map.setPaintProperty("waterway","line-color","#d6dbe3");});
+  s(function(){if(map.getLayer("building")){map.setPaintProperty("building","fill-color","#eae7e0");map.setPaintProperty("building","fill-outline-color","#ddd9d2");}});
+  s(function(){if(map.getLayer("background"))map.setPaintProperty("background","background-color","#f2f1ee");});
+  s(function(){if(map.getLayer("land"))      map.setPaintProperty("land","background-color","#f2f1ee");});
+  ["settlement-label","place-label","state-label"].forEach(function(id){
+    s(function(){if(map.getLayer(id)){map.setPaintProperty(id,"text-color","#b0aca3");map.setPaintProperty(id,"text-halo-color","#f2f1ee");}});
+  });
+}
+
+// ── Utilities ──────────────────────────────────────────────────────────────
+function esc(s){
+  return String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+function updateCounter(){
+  var vc=Object.keys(eventsData).filter(function(id){return venueMap[id]&&eventsData[id]&&eventsData[id].length;}).length;
+  var sc=Object.values(eventsData).reduce(function(a,s){return a+(s?s.length:0);},0);
+  counter.textContent=sc>0?sc+" show"+(sc!==1?"s":"")+" \u00B7 "+vc+" venue"+(vc!==1?"s":""):"No events today";
+}
+
+// ── Panel navigation ───────────────────────────────────────────────────────
+function showPanel(id){
+  document.querySelectorAll(".panel").forEach(function(p){p.classList.remove("active");});
+  document.getElementById(id).classList.add("active");
+}
+
+// ── Panel 1: venue + show list ─────────────────────────────────────────────
+function openVenuePanel(props, px, py){
+  var shows=[];
+  try{shows=JSON.parse(props.shows||"[]");}catch(e){}
+
+  document.getElementById("v-name").textContent=props.name||"Venue";
+  document.getElementById("v-addr").textContent=props.address||"";
+
+  // Website footer
+  var vfoot=document.getElementById("venue-foot");
+  if(props.website){
+    document.getElementById("venue-link").href=props.website;
+    try{document.getElementById("venue-link-label").textContent=new URL(props.website).hostname.replace("www.","");}
+    catch(e){document.getElementById("venue-link-label").textContent="Visit website";}
+    vfoot.style.display="";
+  } else {
+    vfoot.style.display="none";
+  }
+
+  // Show list
+  var list=document.getElementById("show-list");
+  if(!shows.length){
+    list.innerHTML='<div class="no-shows">No show details available.</div>';
+  } else {
+    list.innerHTML=shows.map(function(show,idx){
+      var performers=show.performers||[];
+      var preview=performers.slice(0,3).map(function(p){return esc(p.name||"");}).join(", ");
+      if(performers.length>3) preview+=", +more";
+
+      var timeHtml=show.start_time
+        ?'<div class="show-time">'+esc(show.start_time)+'</div>':
+         '<div class="show-time" style="color:var(--t3)">TBA</div>';
+
+      var adv=show.ticket_price_advance||"";
+      var door=show.ticket_price_door||"";
+      var priceStr=adv&&door&&adv!==door?adv+"/"+door:adv||door||"";
+      var isFree=priceStr.toLowerCase()==="free"||priceStr.toLowerCase()==="free/free";
+      var priceHtml=priceStr
+        ?'<span class="show-price-pill'+(isFree?" free":"")+'">'+esc(priceStr)+'</span>'
+        :'';
+
+      var title=show.name||"Show "+(idx+1);
+
+      return '<div class="show-row" data-idx="'+idx+'">'+
+        '<div class="show-time-col">'+timeHtml+priceHtml+'</div>'+
+        '<div class="show-info-col">'+
+          '<div class="show-title">'+esc(title)+'</div>'+
+          (preview?'<div class="show-acts-preview">'+preview+'</div>':'')+
+        '</div>'+
+        '<div class="show-arrow">&#x203A;</div>'+
+        '</div>';
+    }).join("");
+
+    // Attach click handlers
+    list.querySelectorAll(".show-row").forEach(function(row){
+      row.addEventListener("click",function(e){
+        e.stopPropagation();
+        var idx=parseInt(row.dataset.idx,10);
+        openShowPanel(shows[idx]);
+      });
+    });
+  }
+
+  showPanel("panel-venue");
+  positionPopup(px,py);
+  popupEl.style.display="block";
+  popupOpen=true;
+  justOpened=true;
+  setTimeout(function(){justOpened=false;},60);
+}
+
+// ── Panel 2: show detail + performers ─────────────────────────────────────
+function openShowPanel(show){
+  document.getElementById("s-name").textContent=show.name||"Show";
+
+  // Meta line: time + price
+  var parts=[];
+  if(show.start_time) parts.push(show.start_time+(show.end_time?" \u2013 "+show.end_time:""));
+  var adv=show.ticket_price_advance||"";
+  var door=show.ticket_price_door||"";
+  var priceStr=adv&&door&&adv!==door?adv+" adv / "+door+" door":adv||door||"";
+  if(priceStr) parts.push(priceStr);
+  document.getElementById("s-meta").textContent=parts.join("  \u00B7  ");
+
+  // Ticket footer
+  var sfoot=document.getElementById("show-foot");
+  if(show.ticket_url){
+    document.getElementById("ticket-link").href=show.ticket_url;
+    sfoot.style.display="";
+  } else {
+    sfoot.style.display="none";
+  }
+
+  // Performers
+  var perfs=show.performers||[];
+  var plist=document.getElementById("performer-list");
+  if(!perfs.length){
+    plist.innerHTML='<div class="no-performers">No performer details available.</div>';
+  } else {
+    plist.innerHTML=perfs.map(function(p,i){
+      var isHead=i===0;
+      var nameHtml='<div class="pc-name'+(isHead?" headliner":"")+'">'+esc(p.name||"Artist")+
+        (isHead?'<span class="pc-tag">headliner</span>':'')+
+        (p.mbid?'<span style="font-size:9px;color:var(--t3);margin-left:6px;font-weight:400">&#x2713; verified</span>':'')+
+        '</div>';
+
+      var descHtml=p.description
+        ?'<div class="pc-desc">'+esc(p.description)+'</div>':"";
+
+      // Social + website links
+      var links=[];
+      if(p.website) links.push('<a class="pc-link" href="'+esc(p.website)+'" target="_blank" rel="noopener">Website</a>');
+      var s=p.social||{};
+      if(s.instagram) links.push('<a class="pc-link ig" href="'+esc(s.instagram)+'" target="_blank" rel="noopener">Instagram</a>');
+      if(s.bandcamp)  links.push('<a class="pc-link bc" href="'+esc(s.bandcamp)+'" target="_blank" rel="noopener">Bandcamp</a>');
+      if(s.spotify)   links.push('<a class="pc-link sp" href="'+esc(s.spotify)+'" target="_blank" rel="noopener">Spotify</a>');
+      if(s.facebook)  links.push('<a class="pc-link" href="'+esc(s.facebook)+'" target="_blank" rel="noopener">Facebook</a>');
+      if(s.youtube)   links.push('<a class="pc-link" href="'+esc(s.youtube)+'" target="_blank" rel="noopener">YouTube</a>');
+      if(s.soundcloud)links.push('<a class="pc-link" href="'+esc(s.soundcloud)+'" target="_blank" rel="noopener">SoundCloud</a>');
+      if(s.twitter)   links.push('<a class="pc-link" href="'+esc(s.twitter)+'" target="_blank" rel="noopener">Twitter/X</a>');
+      if(s.tiktok)    links.push('<a class="pc-link" href="'+esc(s.tiktok)+'" target="_blank" rel="noopener">TikTok</a>');
+      var linksHtml=links.length?'<div class="pc-links">'+links.join("")+'</div>':"";
+
+      return '<div class="performer-card">'+nameHtml+descHtml+linksHtml+'</div>';
+    }).join("");
+  }
+
+  showPanel("panel-show");
+}
+
+// ── Position popup near dot ────────────────────────────────────────────────
+function positionPopup(px,py){
+  var pw=310,pad=14;
+  var ph=Math.min(popupEl.scrollHeight||300,500);
+  var W=window.innerWidth,H=window.innerHeight;
+  var left=px+16,top=py-60;
+  if(left+pw>W-pad) left=px-pw-16;
+  if(left<pad) left=pad;
+  if(top<pad) top=pad;
+  if(top+ph>H-pad) top=H-ph-pad;
+  popupEl.style.left=left+"px";
+  popupEl.style.top=top+"px";
+}
+
+function closePopup(){popupEl.style.display="none";popupOpen=false;}
+
+// Close buttons
+document.getElementById("close1").addEventListener("click",function(e){e.stopPropagation();closePopup();});
+document.getElementById("close2").addEventListener("click",function(e){e.stopPropagation();closePopup();});
+// Back button
+document.getElementById("back-btn").addEventListener("click",function(e){e.stopPropagation();showPanel("panel-venue");});
+// Popup clicks don't bubble
+popupEl.addEventListener("click",function(e){e.stopPropagation();});
+// Outside click closes
+document.addEventListener("click",function(){if(popupOpen&&!justOpened)closePopup();});
+
+// ── Map interactions ───────────────────────────────────────────────────────
+function setupInteractions(){
+  map.on("mouseenter","venue-dots",function(){map.getCanvas().style.cursor="pointer";});
+  map.on("mouseleave","venue-dots",function(){map.getCanvas().style.cursor="";});
+  map.on("click","venue-dots",function(e){
+    if(!e.features||!e.features.length)return;
+    var props=e.features[0].properties;
+    openVenuePanel(props,e.point.x,e.point.y);
+  });
+  map.on("click",function(){if(popupOpen&&!justOpened)closePopup();});
+}
+
+// ── Boot ───────────────────────────────────────────────────────────────────
+map.on("load",function(){
+  loadData().then(function(){
+    muteStyle();
+    addDots();
+    setupInteractions();
+    geolocate();
+    updateCounter();
+    clearTimeout(killswitch);
+    loadingEl.classList.add("gone");
+  }).catch(function(err){
+    console.error(err);
+    showError(esc(err.message));
+  });
+});
+</script>
+</body>
+</html>
