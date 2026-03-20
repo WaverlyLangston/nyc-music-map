@@ -1,0 +1,60 @@
+{
+  "generated_at": "",
+  "date": "",
+  "events": {
+    "14": [
+      {
+        "name": "Tuesday Night Jazz",
+        "start_time": "7:30 PM",
+        "ticket_price": "Free",
+        "performers": ["The Joe McPhee Quartet", "Special Guest TBA"]
+      }
+    ],
+    "26": [
+      {
+        "name": "Rockwood Presents",
+        "start_time": "6:00 PM",
+        "ticket_price": "$10",
+        "performers": ["Sarah Jarosz", "Aoife O'Donovan"]
+      },
+      {
+        "name": "Late Night Session",
+        "start_time": "9:30 PM",
+        "ticket_price": "$15",
+        "performers": ["Marcus Mumford"]
+      }
+    ],
+    "84": [
+      {
+        "name": "National Sawdust Opening Night",
+        "start_time": "8:00 PM",
+        "ticket_price": "$25",
+        "performers": ["Caroline Shaw", "Roomful of Teeth", "Sō Percussion"]
+      }
+    ],
+    "100": [
+      {
+        "name": "Market Hotel Presents",
+        "start_time": "8:00 PM",
+        "ticket_price": "$12",
+        "performers": ["Guerilla Toss", "Water From Your Eyes", "Divide and Dissolve"]
+      }
+    ],
+    "117": [
+      {
+        "name": "Friday Night at Barbès",
+        "start_time": "10:00 PM",
+        "ticket_price": "$10",
+        "performers": ["Slavic Soul Party"]
+      }
+    ],
+    "151": [
+      {
+        "name": "H0L0 w/ Special Guests",
+        "start_time": "11:00 PM",
+        "ticket_price": "$15",
+        "performers": ["Brenmar", "K Wata", "Jubilee"]
+      }
+    ]
+  }
+}
