@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NYC Music Map</title>
+
+  <!-- Mapbox GL JS -->
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+
+  <style>
+    /* ── Reset & base ──────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:         #f4f3f0;
+      --dot:        #1a1a1a;
+      --dot-hover:  #c0392b;
+      --user-dot:   #2962ff;
+      --card-bg:    #ffffff;
+      --card-border:#e0ddd8;
+      --text-primary:   #1a1a1a;
+      --text-secondary: #6b6560;
+      --text-label:     #999490;
+      --accent:     #c0392b;
+      --font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: var(--font);
+      background: var(--bg);
+      overflow: hidden;
+    }
+
+    /* ── Map container ─────────────────────────────────────────────── */
+    #map {
+      position: fixed;
+      inset: 0;
+    }
+
+    /* ── Wordmark ──────────────────────────────────────────────────── */
+    #wordmark {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      z-index: 10;
+      pointer-events: none;
+      user-select: none;
+    }
+    #wordmark h1 {
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--text-primary);
+      line-height: 1;
+    }
+    #wordmark p {
+      font-size: 10px;
+      letter-spacing: 0.08em;
+      color: var(--text-label);
+      text-transform: uppercase;
+      margin-top: 3px;
+    }
+
+    /* ── Borough pill filter ───────────────────────────────────────── */
+    #filter-bar {
+      position: fixed;
+      bottom: 24px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 10;
+      display: flex;
+      gap: 6px;
+      background: rgba(255,255,255,0.92);
+      backdrop-filter: blur(8px);
+      border: 1px solid var(--card-border);
+      border-radius: 999px;
+      padding: 6px 8px;
+    }
+    .filter-pill {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 5px 12px;
+      border-radius: 999px;
+      border: none;
+      background: transparent;
+      color: var(--text-secondary);
+      cursor: pointer;
+      transition: background 0.15s, color 0.15s;
+      white-space: nowrap;
+    }
+    .filter-pill:hover   { background: #f0ede8; }
+    .filter-pill.active  { background: var(--dot); color: #fff; }
+
+    /* ── Venue count badge ─────────────────────────────────────────── */
+    #venue-count {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 10;
+      font-size: 11px;
+      letter-spacing: 0.08em;
+      color: var(--text-label);
+      text-transform: uppercase;
+      pointer-events: none;
+    }
+
+    /* ── Popup card ────────────────────────────────────────────────── */
+    #popup {
+      display: none;
+      position: fixed;
+      z-index: 20;
+      width: 300px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 2px 8px rgba(0,0,0,0.06);
+      overflow: hidden;
+      animation: popIn 0.15s ease-out;
+    }
+    @keyframes popIn {
+      from { opacity: 0; transform: scale(0.95) translateY(4px); }
+      to   { opacity: 1; transform: scale(1)    translateY(0);   }
+    }
+
+    #popup-header {
+      padding: 14px 16px 12px;
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      align-items: flex-start;
+      gap: 8px;
+    }
+    #popup-title-block { flex: 1; min-width: 0; }
+    #popup-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: var(--text-primary);
+      line-height: 1.3;
+      word-wrap: break-word;
+    }
+    #popup-meta {
+      font-size: 11px;
+      color: var(--text-label);
+      margin-top: 2px;
+      letter-spacing: 0.04em;
+    }
+    #popup-close {
+      flex-shrink: 0;
+      width: 22px;
+      height: 22px;
+      border: none;
+      background: #f0ede8;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 12px;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.1s;
+      margin-top: 1px;
+    }
+    #popup-close:hover { background: #e4e0d8; }
+
+    #popup-body { padding: 12px 16px 14px; max-height: 320px; overflow-y: auto; }
+
+    /* No events state */
+    .popup-no-events {
+      font-size: 12px;
+      color: var(--text-label);
+      font-style: italic;
+      padding: 4px 0;
+    }
+
+    /* Event block */
+    .event-block {
+      padding: 10px 0;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .event-block:last-child { border-bottom: none; }
+
+    .event-name {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.35;
+    }
+    .event-time-price {
+      display: flex;
+      gap: 10px;
+      margin-top: 4px;
+      align-items: center;
+    }
+    .event-time {
+      font-size: 11px;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+    .event-price {
+      font-size: 11px;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 3px;
+    }
+    .event-price.free { color: #2e7d32; }
+
+    .performers-list {
+      margin-top: 6px;
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .performer-item {
+      font-size: 11px;
+      color: var(--text-secondary);
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .performer-item::before {
+      content: "";
+      display: inline-block;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: var(--text-label);
+      flex-shrink: 0;
+    }
+    .performer-item:first-child { font-weight: 600; color: var(--text-primary); }
+    .performer-item:first-child::before { background: var(--accent); }
+
+    /* Website link */
+    #popup-footer {
+      padding: 10px 16px;
+      border-top: 1px solid var(--card-border);
+      background: #faf9f7;
+    }
+    #popup-website {
+      font-size: 11px;
+      color: var(--text-label);
+      text-decoration: none;
+      letter-spacing: 0.03em;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: color 0.1s;
+    }
+    #popup-website:hover { color: var(--text-primary); }
+    #popup-website svg { flex-shrink: 0; }
+
+    /* ── Loading overlay ───────────────────────────────────────────── */
+    #loading {
+      position: fixed;
+      inset: 0;
+      z-index: 50;
+      background: var(--bg);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+    }
+    #loading.hidden { display: none; }
+    .load-spinner {
+      width: 32px;
+      height: 32px;
+      border: 2.5px solid #d8d4cc;
+      border-top-color: var(--dot);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    #loading p {
+      font-size: 11px;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--text-label);
+    }
+
+    /* ── Mapbox overrides ──────────────────────────────────────────── */
+    .mapboxgl-ctrl-logo,
+    .mapboxgl-ctrl-attrib { display: none !important; }
+    .mapboxgl-ctrl-group {
+      background: rgba(255,255,255,0.9) !important;
+      border: 1px solid var(--card-border) !important;
+      border-radius: 8px !important;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08) !important;
+    }
+    .mapboxgl-ctrl-group button {
+      border-radius: 6px !important;
+    }
+    .mapboxgl-canvas { cursor: grab; }
+    .mapboxgl-canvas:active { cursor: grabbing; }
+  </style>
+</head>
+<body>
+
+<!-- Loading screen -->
+<div id="loading">
+  <div class="load-spinner"></div>
+  <p>Loading NYC Music Map</p>
+</div>
+
+<!-- Map -->
+<div id="map"></div>
+
+<!-- Wordmark -->
+<div id="wordmark">
+  <h1>NYC Music Map</h1>
+  <p>Live music · all five boroughs</p>
+</div>
+
+<!-- Venue count -->
+<div id="venue-count"></div>
+
+<!-- Borough filter bar -->
+<div id="filter-bar">
+  <button class="filter-pill active" data-borough="All">All</button>
+  <button class="filter-pill" data-borough="Manhattan">Manhattan</button>
+  <button class="filter-pill" data-borough="Brooklyn">Brooklyn</button>
+  <button class="filter-pill" data-borough="Queens">Queens</button>
+  <button class="filter-pill" data-borough="Bronx">Bronx</button>
+  <button class="filter-pill" data-borough="Staten Island">Staten Island</button>
+</div>
+
+<!-- Venue popup -->
+<div id="popup">
+  <div id="popup-header">
+    <div id="popup-title-block">
+      <div id="popup-name">Venue Name</div>
+      <div id="popup-meta">Neighborhood · Borough</div>
+    </div>
+    <button id="popup-close" aria-label="Close">✕</button>
+  </div>
+  <div id="popup-body"></div>
+  <div id="popup-footer">
+    <a id="popup-website" href="#" target="_blank" rel="noopener">
+      <svg width="11" height="11" viewBox="0 0 16 16" fill="none">
+        <path d="M6 3H3a1 1 0 00-1 1v9a1 1 0 001 1h9a1 1 0 001-1v-3" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        <path d="M9 2h5v5M14 2L8 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+      <span id="popup-website-label">Visit website</span>
+    </a>
+  </div>
+</div>
+
+<script>
+// ── Config — paste your Mapbox token here ──────────────────────────────────
+const MAPBOX_TOKEN = "YOUR_MAPBOX_TOKEN_HERE";
+
+// ── Mapbox setup ───────────────────────────────────────────────────────────
+mapboxgl.accessToken = MAPBOX_TOKEN;
+
+// NYC bounding box: [west, south, east, north]
+const NYC_BOUNDS = [[-74.26, 40.47], [-73.67, 40.93]];
+
+const map = new mapboxgl.Map({
+  container: "map",
+  // Light v11 as the base — we'll override colors via layer paint
+  style: "mapbox://styles/mapbox/light-v11",
+  center: [-73.9857, 40.7484],   // Manhattan center fallback
+  zoom: 13,
+  minZoom: 10,
+  maxZoom: 18,
+  maxBounds: [[-74.45, 40.35], [-73.50, 41.05]], // generous NYC region
+  pitchWithRotate: false,
+  dragRotate: false,
+});
+
+map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "bottom-right");
+
+// ── State ──────────────────────────────────────────────────────────────────
+let venues = [];
+let events = {};
+let activeBorough = "All";
+let openPopupId = null;
+
+// ── Load data ──────────────────────────────────────────────────────────────
+async function loadData() {
+  try {
+    const [vRes, eRes] = await Promise.all([
+      fetch("./venues.json"),
+      fetch("./events.json"),
+    ]);
+    venues = await vRes.json();
+    const evData = await eRes.json();
+    // events keyed by venue id (string)
+    events = evData.events || {};
+  } catch (err) {
+    console.error("Failed to load data:", err);
+  }
+}
+
+// ── Geolocate user ─────────────────────────────────────────────────────────
+function geolocateUser() {
+  if (!navigator.geolocation) return;
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      const { latitude: lat, longitude: lng } = pos.coords;
+      // Fly to 1-mile radius view (~zoom 14)
+      map.flyTo({ center: [lng, lat], zoom: 14, duration: 1200 });
+      // Add user dot
+      addUserMarker(lat, lng);
+    },
+    (err) => console.warn("Geolocation denied or unavailable:", err),
+    { timeout: 8000 }
+  );
+}
+
+function addUserMarker(lat, lng) {
+  // Remove existing
+  if (map.getSource("user-location")) {
+    map.getSource("user-location").setData({
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [lng, lat] },
+    });
+    return;
+  }
+  map.addSource("user-location", {
+    type: "geojson",
+    data: {
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [lng, lat] },
+    },
+  });
+  // Outer ring
+  map.addLayer({
+    id: "user-ring",
+    type: "circle",
+    source: "user-location",
+    paint: {
+      "circle-radius": 11,
+      "circle-color": "rgba(41, 98, 255, 0.12)",
+      "circle-stroke-width": 1.5,
+      "circle-stroke-color": "rgba(41, 98, 255, 0.45)",
+    },
+  });
+  // Inner dot
+  map.addLayer({
+    id: "user-dot",
+    type: "circle",
+    source: "user-location",
+    paint: {
+      "circle-radius": 5,
+      "circle-color": "#2962ff",
+      "circle-stroke-width": 2,
+      "circle-stroke-color": "#ffffff",
+    },
+  });
+}
+
+// ── Venue GeoJSON ──────────────────────────────────────────────────────────
+function buildGeoJSON(boroughFilter) {
+  const filtered = boroughFilter === "All"
+    ? venues
+    : venues.filter(v => v.borough === boroughFilter);
+
+  return {
+    type: "FeatureCollection",
+    features: filtered.map(v => ({
+      type: "Feature",
+      geometry: { type: "Point", coordinates: [v.lng, v.lat] },
+      properties: {
+        id:           v.id,
+        name:         v.name,
+        borough:      v.borough,
+        neighborhood: v.neighborhood,
+        website:      v.website,
+        calendar_url: v.calendar_url,
+        has_events:   !!(events[String(v.id)] && events[String(v.id)].length),
+      },
+    })),
+  };
+}
+
+// ── Add venue dots layer ───────────────────────────────────────────────────
+function addVenueLayer() {
+  map.addSource("venues", {
+    type: "geojson",
+    data: buildGeoJSON("All"),
+    cluster: false,
+  });
+
+  // Shadow dot (for glow effect on hover)
+  map.addLayer({
+    id: "venue-dots-glow",
+    type: "circle",
+    source: "venues",
+    paint: {
+      "circle-radius": [
+        "interpolate", ["linear"], ["zoom"],
+        10, 5, 14, 9, 18, 14,
+      ],
+      "circle-color": "rgba(0,0,0,0)",
+      "circle-stroke-width": 0,
+      "circle-opacity": 0,
+    },
+  });
+
+  // Main venue dot — size scales with zoom
+  map.addLayer({
+    id: "venue-dots",
+    type: "circle",
+    source: "venues",
+    paint: {
+      "circle-radius": [
+        "interpolate", ["linear"], ["zoom"],
+        10, 3,
+        14, 5,
+        18, 8,
+      ],
+      "circle-color": [
+        "case",
+        ["get", "has_events"], "#c0392b",  // red if showing today
+        "#1a1a1a"                           // dark grey otherwise
+      ],
+      "circle-stroke-width": [
+        "interpolate", ["linear"], ["zoom"],
+        10, 1, 14, 1.5, 18, 2,
+      ],
+      "circle-stroke-color": "#ffffff",
+      "circle-opacity": 0.85,
+    },
+  });
+}
+
+// ── Style overrides to make map minimal / grey ─────────────────────────────
+function applyMinimalStyle() {
+  // Layers to completely hide
+  const layersToHide = [
+    "national-park", "landuse", "landuse-residential",
+    "pitch-outline", "waterway-label", "natural-label",
+    "road-label", "transit-label",
+    "poi-label", "airport-label",
+    "settlement-subdivision-label",
+  ];
+  layersToHide.forEach(id => {
+    if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", "none");
+  });
+
+  // Mute road colors
+  const roadMutes = [
+    ["road-motorway-trunk", "#c8c4bc"],
+    ["road-primary",        "#d4d0c8"],
+    ["road-secondary-tertiary", "#dedad4"],
+    ["road-street",         "#e4e0da"],
+    ["road-minor",          "#eae7e2"],
+    ["road-pedestrian",     "#ece9e4"],
+  ];
+  roadMutes.forEach(([layer, color]) => {
+    if (map.getLayer(layer)) {
+      map.setPaintProperty(layer, "line-color", color);
+    }
+  });
+
+  // Water to a very muted grey-blue
+  ["water", "waterway"].forEach(id => {
+    if (map.getLayer(id)) {
+      map.setPaintProperty(id, "fill-color", "#d8dde4");
+    }
+  });
+
+  // Land / background
+  if (map.getLayer("background")) {
+    map.setPaintProperty("background", "background-color", "#f4f3f0");
+  }
+  if (map.getLayer("land")) {
+    map.setPaintProperty("land", "background-color", "#f4f3f0");
+  }
+
+  // Keep only settlement-label (city/neighborhood names) visible, muted
+  if (map.getLayer("settlement-label")) {
+    map.setPaintProperty("settlement-label", "text-color", "#aba79e");
+    map.setPaintProperty("settlement-label", "text-halo-color", "#f4f3f0");
+  }
+
+  // Mute building layer
+  if (map.getLayer("building")) {
+    map.setPaintProperty("building", "fill-color", "#eae7e0");
+    map.setPaintProperty("building", "fill-outline-color", "#ddd9d0");
+  }
+}
+
+// ── Popup ──────────────────────────────────────────────────────────────────
+const popup     = document.getElementById("popup");
+const popupName = document.getElementById("popup-name");
+const popupMeta = document.getElementById("popup-meta");
+const popupBody = document.getElementById("popup-body");
+const popupWebsite = document.getElementById("popup-website");
+const popupWebsiteLabel = document.getElementById("popup-website-label");
+
+function openPopup(feature, screenX, screenY) {
+  const props = feature.properties;
+  const venueEvents = events[String(props.id)] || [];
+
+  popupName.textContent = props.name;
+  popupMeta.textContent = [props.neighborhood, props.borough].filter(Boolean).join(" · ");
+
+  // Website
+  const site = props.website || props.calendar_url;
+  if (site) {
+    const domain = new URL(site).hostname.replace("www.", "");
+    popupWebsite.href = site;
+    popupWebsiteLabel.textContent = domain;
+  }
+
+  // Events
+  if (venueEvents.length === 0) {
+    popupBody.innerHTML = `<p class="popup-no-events">No events listed for today.</p>`;
+  } else {
+    popupBody.innerHTML = venueEvents.map(ev => {
+      const priceClass = ev.ticket_price === "Free" ? "event-price free" : "event-price";
+      const performers = (ev.performers || []).filter(Boolean);
+      return `
+        <div class="event-block">
+          <div class="event-name">${escHtml(ev.name)}</div>
+          <div class="event-time-price">
+            ${ev.start_time ? `<span class="event-time">
+              <svg width="10" height="10" viewBox="0 0 16 16" fill="none">
+                <circle cx="8" cy="8" r="6.5" stroke="currentColor" stroke-width="1.5"/>
+                <path d="M8 5v3.5L10.5 10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+              </svg>
+              ${escHtml(ev.start_time)}
+            </span>` : ""}
+            ${ev.ticket_price ? `<span class="${priceClass}">
+              <svg width="10" height="10" viewBox="0 0 16 16" fill="none">
+                <path d="M3 9.5L6.5 3l6.5 3.5-3.5 6.5L3 9.5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
+              </svg>
+              ${escHtml(ev.ticket_price)}
+            </span>` : ""}
+          </div>
+          ${performers.length > 0 ? `
+            <div class="performers-list">
+              ${performers.map(p => `<div class="performer-item">${escHtml(p)}</div>`).join("")}
+            </div>` : ""}
+        </div>`;
+    }).join("");
+  }
+
+  // Position the popup near the clicked dot
+  positionPopup(screenX, screenY);
+  popup.style.display = "block";
+  openPopupId = props.id;
+}
+
+function positionPopup(x, y) {
+  const pw = 300;
+  const ph = popup.offsetHeight || 260;
+  const pad = 16;
+  const W = window.innerWidth;
+  const H = window.innerHeight;
+
+  let left = x + 14;
+  let top  = y - ph / 2;
+
+  if (left + pw > W - pad) left = x - pw - 14;
+  if (top < pad) top = pad;
+  if (top + ph > H - pad) top = H - ph - pad;
+
+  popup.style.left = left + "px";
+  popup.style.top  = top  + "px";
+}
+
+function closePopup() {
+  popup.style.display = "none";
+  openPopupId = null;
+}
+
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+// Close popup
+document.getElementById("popup-close").addEventListener("click", closePopup);
+document.addEventListener("click", (e) => {
+  if (openPopupId !== null && !popup.contains(e.target)) {
+    // Don't close if click was on the map canvas (handled separately)
+    if (!e.target.classList.contains("mapboxgl-canvas")) {
+      closePopup();
+    }
+  }
+});
+
+// ── Venue count label ──────────────────────────────────────────────────────
+function updateCount() {
+  const total = activeBorough === "All"
+    ? venues.length
+    : venues.filter(v => v.borough === activeBorough).length;
+  const withEvents = (activeBorough === "All" ? venues : venues.filter(v => v.borough === activeBorough))
+    .filter(v => events[String(v.id)] && events[String(v.id)].length).length;
+  const countEl = document.getElementById("venue-count");
+  countEl.textContent = withEvents > 0
+    ? `${total} venues · ${withEvents} with events today`
+    : `${total} venues`;
+}
+
+// ── Borough filter ─────────────────────────────────────────────────────────
+document.querySelectorAll(".filter-pill").forEach(btn => {
+  btn.addEventListener("click", () => {
+    document.querySelectorAll(".filter-pill").forEach(b => b.classList.remove("active"));
+    btn.classList.add("active");
+    activeBorough = btn.dataset.borough;
+    if (map.getSource("venues")) {
+      map.getSource("venues").setData(buildGeoJSON(activeBorough));
+    }
+    updateCount();
+    closePopup();
+  });
+});
+
+// ── Cursor + interaction on venue dots ────────────────────────────────────
+function setupInteractions() {
+  map.on("mouseenter", "venue-dots", () => {
+    map.getCanvas().style.cursor = "pointer";
+  });
+  map.on("mouseleave", "venue-dots", () => {
+    map.getCanvas().style.cursor = "";
+  });
+
+  map.on("click", "venue-dots", (e) => {
+    if (!e.features.length) return;
+    const feature = e.features[0];
+    const { x, y } = e.point;
+    openPopup(feature, x, y);
+    e.originalEvent.stopPropagation();
+  });
+
+  // Click on blank map area → close popup
+  map.on("click", () => {
+    closePopup();
+  });
+}
+
+// ── Boot ───────────────────────────────────────────────────────────────────
+map.on("load", async () => {
+  await loadData();
+  applyMinimalStyle();
+  addVenueLayer();
+  setupInteractions();
+  geolocateUser();
+  updateCount();
+
+  // Hide loading screen
+  document.getElementById("loading").classList.add("hidden");
+});
+</script>
+</body>
+</html>
