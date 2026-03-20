@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NYC Music Map</title>
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.css" rel="stylesheet" />
+  <script src="https://api.mapbox.com/mapbox-gl-js/v3.3.0/mapbox-gl.js"></script>
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg:             #f2f1ee;
+      --dot:            #1a1a1a;
+      --card-bg:        #ffffff;
+      --card-border:    #e0ddd8;
+      --text-primary:   #1a1a1a;
+      --text-secondary: #6b6560;
+      --text-label:     #999490;
+      --accent:         #c0392b;
+      --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    }
+
+    html, body { height: 100%; font-family: var(--font); background: var(--bg); overflow: hidden; }
+    #map { position: fixed; inset: 0; }
+
+    #wordmark {
+      position: fixed; top: 20px; left: 20px; z-index: 10;
+      pointer-events: none; user-select: none;
+    }
+    #wordmark h1 {
+      font-size: 13px; font-weight: 600; letter-spacing: 0.15em;
+      text-transform: uppercase; color: var(--text-primary); line-height: 1;
+    }
+    #wordmark p {
+      font-size: 10px; letter-spacing: 0.08em; color: var(--text-label);
+      text-transform: uppercase; margin-top: 3px;
+    }
+
+    #venue-count {
+      position: fixed; top: 20px; right: 20px; z-index: 10;
+      font-size: 11px; letter-spacing: 0.08em; color: var(--text-label);
+      text-transform: uppercase; pointer-events: none;
+    }
+
+    #filter-bar {
+      position: fixed; bottom: 24px; left: 50%; transform: translateX(-50%);
+      z-index: 10; display: flex; gap: 6px;
+      background: rgba(255,255,255,0.94); backdrop-filter: blur(8px);
+      border: 1px solid var(--card-border); border-radius: 999px; padding: 6px 8px;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    .pill {
+      font-size: 10px; font-weight: 600; letter-spacing: 0.1em;
+      text-transform: uppercase; padding: 5px 12px; border-radius: 999px;
+      border: none; background: transparent; color: var(--text-secondary);
+      cursor: pointer; transition: background 0.15s, color 0.15s; white-space: nowrap;
+    }
+    .pill:hover  { background: #eeebe6; }
+    .pill.active { background: var(--dot); color: #fff; }
+
+    /* ── Popup ── */
+    #popup {
+      display: none;
+      position: fixed;
+      z-index: 100;
+      width: 290px;
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.15);
+      overflow: hidden;
+      pointer-events: all;
+    }
+    #popup-head {
+      padding: 13px 14px 11px;
+      border-bottom: 1px solid var(--card-border);
+      display: flex; align-items: flex-start; gap: 8px;
+    }
+    #popup-titles { flex: 1; min-width: 0; }
+    #popup-name {
+      font-size: 14px; font-weight: 700;
+      color: var(--text-primary); line-height: 1.3; word-wrap: break-word;
+    }
+    #popup-address {
+      font-size: 11px; color: var(--text-secondary); margin-top: 3px; line-height: 1.4;
+    }
+    #popup-meta {
+      font-size: 11px; color: var(--text-label); margin-top: 2px;
+    }
+    #popup-close {
+      flex-shrink: 0; width: 24px; height: 24px;
+      border: none; background: #f0ede8; border-radius: 50%;
+      cursor: pointer; font-size: 14px; color: var(--text-secondary);
+      display: flex; align-items: center; justify-content: center;
+    }
+    #popup-close:hover { background: #e4e0d8; }
+
+    #popup-body { padding: 11px 14px 13px; max-height: 280px; overflow-y: auto; }
+    .no-events { font-size: 12px; color: var(--text-label); font-style: italic; }
+    .ev { padding: 9px 0; border-bottom: 1px solid var(--card-border); }
+    .ev:last-child { border-bottom: none; }
+    .ev-name { font-size: 13px; font-weight: 600; color: var(--text-primary); }
+    .ev-meta { font-size: 11px; color: var(--text-secondary); margin-top: 3px; }
+    .ev-meta span { margin-right: 10px; }
+    .ev-meta .free { color: #2e7d32; }
+    .ev-performers { margin-top: 5px; }
+    .ev-performer { font-size: 11px; color: var(--text-secondary); padding: 1px 0; }
+    .ev-performer.headliner { font-weight: 600; color: var(--text-primary); }
+
+    #popup-foot {
+      padding: 9px 14px; border-top: 1px solid var(--card-border); background: #faf9f7;
+    }
+    #popup-link {
+      font-size: 11px; color: var(--text-label); text-decoration: none;
+      display: flex; align-items: center; gap: 4px;
+    }
+    #popup-link:hover { color: var(--text-primary); }
+
+    /* ── Loading ── */
+    #loading {
+      position: fixed; inset: 0; z-index: 50; background: var(--bg);
+      display: flex; flex-direction: column; align-items: center;
+      justify-content: center; gap: 14px;
+    }
+    #loading.gone { display: none; }
+    .spinner {
+      width: 30px; height: 30px; border: 2px solid #d8d4cc;
+      border-top-color: #1a1a1a; border-radius: 50%;
+      animation: spin 0.75s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    #load-msg {
+      font-size: 11px; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--text-label);
+    }
+
+    .mapboxgl-ctrl-logo, .mapboxgl-ctrl-attrib { display: none !important; }
+    .mapboxgl-ctrl-group {
+      background: rgba(255,255,255,0.9) !important;
+      border: 1px solid var(--card-border) !important;
+      border-radius: 8px !important;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.07) !important;
+    }
+  </style>
+</head>
+<body>
+
+<div id="loading">
+  <div class="spinner"></div>
+  <div id="load-msg">Loading NYC Music Map</div>
+</div>
+
+<div id="map"></div>
+
+<div id="wordmark">
+  <h1>NYC Music Map</h1>
+  <p>Live music &middot; all five boroughs</p>
+</div>
+
+<div id="venue-count"></div>
+
+<div id="filter-bar">
+  <button class="pill active" data-b="All">All</button>
+  <button class="pill" data-b="Manhattan">Manhattan</button>
+  <button class="pill" data-b="Brooklyn">Brooklyn</button>
+  <button class="pill" data-b="Queens">Queens</button>
+  <button class="pill" data-b="Bronx">Bronx</button>
+  <button class="pill" data-b="Staten Island">S.I.</button>
+</div>
+
+<!-- Popup lives OUTSIDE the map div so map clicks don't bleed through -->
+<div id="popup">
+  <div id="popup-head">
+    <div id="popup-titles">
+      <div id="popup-name"></div>
+      <div id="popup-address"></div>
+      <div id="popup-meta"></div>
+    </div>
+    <button id="popup-close" aria-label="Close">&#x2715;</button>
+  </div>
+  <div id="popup-body"></div>
+  <div id="popup-foot">
+    <a id="popup-link" href="#" target="_blank" rel="noopener">
+      &#x2197;&nbsp;<span id="popup-link-label">Visit website</span>
+    </a>
+  </div>
+</div>
+
+<script>
+// ── PASTE YOUR MAPBOX TOKEN BELOW ─────────────────────────────────────────
+var MAPBOX_TOKEN = "YOUR_MAPBOX_TOKEN_HERE";
+// ─────────────────────────────────────────────────────────────────────────
+
+mapboxgl.accessToken = MAPBOX_TOKEN;
+
+var venues        = [];
+var events        = {};
+var activeBorough = "All";
+var popupOpen     = false;
+var justOpenedPopup = false;   // ← THE KEY FIX: prevents map click from instantly closing popup
+
+var loadingEl  = document.getElementById("loading");
+var popupEl    = document.getElementById("popup");
+var popupName  = document.getElementById("popup-name");
+var popupAddr  = document.getElementById("popup-address");
+var popupMeta  = document.getElementById("popup-meta");
+var popupBody  = document.getElementById("popup-body");
+var popupLink  = document.getElementById("popup-link");
+var popupLabel = document.getElementById("popup-link-label");
+var countEl    = document.getElementById("venue-count");
+
+// ── Error display ──────────────────────────────────────────────────────────
+function showError(msg) {
+  loadingEl.innerHTML =
+    '<div style="text-align:center;padding:40px;max-width:360px;font-family:system-ui,sans-serif;">' +
+    '<div style="font-size:28px;margin-bottom:14px;">&#x26A0;&#xFE0F;</div>' +
+    '<div style="font-size:14px;font-weight:600;color:#1a1a1a;margin-bottom:10px;">Could not load the map</div>' +
+    '<div style="font-size:12px;color:#6b6560;line-height:1.7;">' + msg + '</div>' +
+    '<div style="margin-top:18px;font-size:11px;color:#aaa;">Press F12 &rarr; Console for details.</div>' +
+    '</div>';
+}
+
+var killswitch = setTimeout(function() {
+  if (!loadingEl.classList.contains("gone")) {
+    showError("Timed out. Check that your Mapbox token is correct and venues.json is in the repo root.");
+  }
+}, 15000);
+
+// ── Map init ───────────────────────────────────────────────────────────────
+var map = new mapboxgl.Map({
+  container: "map",
+  style: "mapbox://styles/mapbox/light-v11",
+  center: [-73.9857, 40.7484],
+  zoom: 13,
+  minZoom: 9,
+  maxZoom: 18,
+  pitchWithRotate: false,
+  dragRotate: false,
+});
+
+map.addControl(new mapboxgl.NavigationControl({ showCompass: false }), "bottom-right");
+
+map.on("error", function(e) {
+  console.error("Mapbox error:", e);
+  var msg = (e && e.error && e.error.message) ? e.error.message : String(e);
+  if (msg.indexOf("401") !== -1 || msg.toLowerCase().indexOf("unauthorized") !== -1) {
+    showError("<strong>401 Unauthorized</strong> &mdash; your Mapbox token is invalid or still the placeholder. Open index.html and replace <em>YOUR_MAPBOX_TOKEN_HERE</em> with your real token.");
+  }
+});
+
+// ── Data loading ───────────────────────────────────────────────────────────
+function loadData() {
+  return Promise.all([
+    fetch("./venues.json").then(function(r) {
+      if (!r.ok) throw new Error("venues.json returned HTTP " + r.status);
+      return r.json();
+    }),
+    fetch("./events.json").then(function(r) {
+      if (!r.ok) throw new Error("events.json returned HTTP " + r.status);
+      return r.json();
+    }),
+  ]).then(function(results) {
+    venues = results[0];
+    events = results[1].events || {};
+  });
+}
+
+// ── Geolocation ────────────────────────────────────────────────────────────
+function geolocate() {
+  if (!navigator.geolocation) return;
+  navigator.geolocation.getCurrentPosition(
+    function(pos) {
+      map.flyTo({ center: [pos.coords.longitude, pos.coords.latitude], zoom: 14, duration: 1400 });
+      addUserDot(pos.coords.latitude, pos.coords.longitude);
+    },
+    function(err) { console.warn("Geolocation:", err); },
+    { timeout: 8000 }
+  );
+}
+
+function addUserDot(lat, lng) {
+  var geo = { type: "Feature", geometry: { type: "Point", coordinates: [lng, lat] } };
+  if (map.getSource("user-loc")) { map.getSource("user-loc").setData(geo); return; }
+  map.addSource("user-loc", { type: "geojson", data: geo });
+  map.addLayer({ id: "user-ring", type: "circle", source: "user-loc",
+    paint: { "circle-radius": 12, "circle-color": "rgba(41,98,255,0.1)",
+             "circle-stroke-width": 1.5, "circle-stroke-color": "rgba(41,98,255,0.4)" } });
+  map.addLayer({ id: "user-dot", type: "circle", source: "user-loc",
+    paint: { "circle-radius": 5, "circle-color": "#2962ff",
+             "circle-stroke-width": 2, "circle-stroke-color": "#fff" } });
+}
+
+// ── GeoJSON builder ────────────────────────────────────────────────────────
+function toGeoJSON(borough) {
+  var list = borough === "All" ? venues : venues.filter(function(v) { return v.borough === borough; });
+  return {
+    type: "FeatureCollection",
+    features: list.map(function(v) {
+      return {
+        type: "Feature",
+        geometry: { type: "Point", coordinates: [v.lng, v.lat] },
+        properties: {
+          id:           String(v.id),
+          name:         v.name         || "",
+          address:      v.address      || "",
+          borough:      v.borough      || "",
+          neighborhood: v.neighborhood || "",
+          website:      v.website      || "",
+          calendar_url: v.calendar_url || "",
+          has_events:   !!(events[String(v.id)] && events[String(v.id)].length),
+        },
+      };
+    }),
+  };
+}
+
+// ── Add dots layer ─────────────────────────────────────────────────────────
+function addDots() {
+  map.addSource("venues", { type: "geojson", data: toGeoJSON("All") });
+  map.addLayer({
+    id: "venue-dots",
+    type: "circle",
+    source: "venues",
+    paint: {
+      "circle-radius":       ["interpolate", ["linear"], ["zoom"], 9,3, 12,5, 14,7, 18,10],
+      "circle-color":        ["case", ["==", ["get","has_events"], true], "#c0392b", "#1a1a1a"],
+      "circle-stroke-width": ["interpolate", ["linear"], ["zoom"], 9,1, 14,2, 18,2.5],
+      "circle-stroke-color": "#ffffff",
+      "circle-opacity":      0.9,
+    },
+  });
+}
+
+// ── Mute map style ─────────────────────────────────────────────────────────
+function muteStyle() {
+  function s(fn) { try { fn(); } catch(e) {} }
+
+  ["poi-label","transit-label","road-label","waterway-label",
+   "natural-label","airport-label","settlement-subdivision-label",
+   "national-park","pitch-outline"].forEach(function(id) {
+    s(function() { if (map.getLayer(id)) map.setLayoutProperty(id, "visibility", "none"); });
+  });
+
+  [["road-motorway-trunk","#cac6be"],["road-primary","#d4d0c8"],
+   ["road-secondary-tertiary","#dedad4"],["road-street","#e4e0da"],
+   ["road-street-low","#e8e5e0"],["road-minor","#eae7e2"],
+   ["road-minor-low","#edeae6"],["road-pedestrian","#ece9e4"]
+  ].forEach(function(pair) {
+    s(function() { if (map.getLayer(pair[0])) map.setPaintProperty(pair[0], "line-color", pair[1]); });
+  });
+
+  s(function() { if (map.getLayer("water"))    map.setPaintProperty("water",    "fill-color", "#d6dbe3"); });
+  s(function() { if (map.getLayer("waterway")) map.setPaintProperty("waterway", "line-color", "#d6dbe3"); });
+  s(function() {
+    if (map.getLayer("building")) {
+      map.setPaintProperty("building", "fill-color",         "#eae7e0");
+      map.setPaintProperty("building", "fill-outline-color", "#ddd9d2");
+    }
+  });
+  s(function() { if (map.getLayer("background")) map.setPaintProperty("background", "background-color", "#f2f1ee"); });
+  s(function() { if (map.getLayer("land"))       map.setPaintProperty("land",       "background-color", "#f2f1ee"); });
+  ["settlement-label","place-label","state-label"].forEach(function(id) {
+    s(function() {
+      if (map.getLayer(id)) {
+        map.setPaintProperty(id, "text-color",      "#b0aca3");
+        map.setPaintProperty(id, "text-halo-color", "#f2f1ee");
+      }
+    });
+  });
+}
+
+// ── Helpers ────────────────────────────────────────────────────────────────
+function esc(s) {
+  return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;")
+                  .replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+}
+
+// ── Popup open / close ─────────────────────────────────────────────────────
+function openPopup(props, px, py) {
+  var ev = events[props.id] || [];
+
+  popupName.textContent = props.name || "Unknown venue";
+  popupAddr.textContent = props.address || "";
+  popupMeta.textContent = [props.neighborhood, props.borough].filter(Boolean).join(" \u00B7 ");
+
+  var site = props.website || props.calendar_url;
+  if (site) {
+    popupLink.href = site;
+    try { popupLabel.textContent = new URL(site).hostname.replace("www.", ""); }
+    catch(_) { popupLabel.textContent = "Visit website"; }
+    document.getElementById("popup-foot").style.display = "";
+  } else {
+    document.getElementById("popup-foot").style.display = "none";
+  }
+
+  if (!ev.length) {
+    popupBody.innerHTML = '<p class="no-events">No events listed for today.</p>';
+  } else {
+    popupBody.innerHTML = ev.map(function(e) {
+      var priceClass = (e.ticket_price || "").toLowerCase() === "free" ? "free" : "";
+      var perfs = (e.performers || []).filter(Boolean);
+      return '<div class="ev">' +
+        '<div class="ev-name">' + esc(e.name || "") + '</div>' +
+        '<div class="ev-meta">' +
+          (e.start_time   ? '<span>&#128336; ' + esc(e.start_time) + '</span>' : '') +
+          (e.ticket_price ? '<span class="' + priceClass + '">&#127915; ' + esc(e.ticket_price) + '</span>' : '') +
+        '</div>' +
+        (perfs.length ? '<div class="ev-performers">' +
+          perfs.map(function(name, i) {
+            return '<div class="ev-performer' + (i === 0 ? ' headliner' : '') + '">' +
+              (i === 0 ? '&#9656; ' : '&nbsp;&nbsp;') + esc(name) + '</div>';
+          }).join("") + '</div>' : '') +
+        '</div>';
+    }).join("");
+  }
+
+  // Position popup: right of dot by default, flip left near edge
+  var pw = 290, pad = 16;
+  var ph = 200; // estimate before display
+  var W = window.innerWidth, H = window.innerHeight;
+
+  var left = px + 16;
+  var top  = py - 80;
+
+  if (left + pw > W - pad) left = px - pw - 16;
+  if (left < pad) left = pad;
+  if (top < pad) top = pad;
+  if (top + ph > H - pad) top = H - ph - pad;
+
+  popupEl.style.left    = left + "px";
+  popupEl.style.top     = top + "px";
+  popupEl.style.display = "block";
+  popupOpen = true;
+
+  // Set this flag so the map's general click handler (which fires right after)
+  // knows NOT to immediately close the popup we just opened
+  justOpenedPopup = true;
+  setTimeout(function() { justOpenedPopup = false; }, 50);
+}
+
+function closePopup() {
+  popupEl.style.display = "none";
+  popupOpen = false;
+}
+
+// Close button
+document.getElementById("popup-close").addEventListener("click", function(e) {
+  e.stopPropagation();
+  closePopup();
+});
+
+// Clicking the popup itself should NOT close it
+popupEl.addEventListener("click", function(e) {
+  e.stopPropagation();
+});
+
+// Clicking anywhere outside the popup closes it
+document.addEventListener("click", function() {
+  if (popupOpen && !justOpenedPopup) closePopup();
+});
+
+// ── Venue count ────────────────────────────────────────────────────────────
+function updateCount() {
+  var list = activeBorough === "All" ? venues
+    : venues.filter(function(v) { return v.borough === activeBorough; });
+  var withEv = list.filter(function(v) {
+    return events[String(v.id)] && events[String(v.id)].length;
+  }).length;
+  countEl.textContent = withEv > 0
+    ? list.length + " venues \u00B7 " + withEv + " with events today"
+    : list.length + " venues";
+}
+
+// ── Borough filter ─────────────────────────────────────────────────────────
+document.querySelectorAll(".pill").forEach(function(btn) {
+  btn.addEventListener("click", function(e) {
+    e.stopPropagation();
+    document.querySelectorAll(".pill").forEach(function(b) { b.classList.remove("active"); });
+    btn.classList.add("active");
+    activeBorough = btn.dataset.b;
+    if (map.getSource("venues")) map.getSource("venues").setData(toGeoJSON(activeBorough));
+    updateCount();
+    closePopup();
+  });
+});
+
+// ── Map interactions ───────────────────────────────────────────────────────
+function setupInteractions() {
+
+  // Cursor changes on hover
+  map.on("mouseenter", "venue-dots", function() {
+    map.getCanvas().style.cursor = "pointer";
+  });
+  map.on("mouseleave", "venue-dots", function() {
+    map.getCanvas().style.cursor = "";
+  });
+
+  // Click a dot → open popup
+  map.on("click", "venue-dots", function(e) {
+    if (!e.features || !e.features.length) return;
+    var props = e.features[0].properties;
+    openPopup(props, e.point.x, e.point.y);
+  });
+
+  // Click blank map → close popup (guarded by justOpenedPopup flag)
+  map.on("click", function() {
+    if (popupOpen && !justOpenedPopup) closePopup();
+  });
+}
+
+// ── Boot ───────────────────────────────────────────────────────────────────
+map.on("load", function() {
+  loadData().then(function() {
+    muteStyle();
+    addDots();
+    setupInteractions();
+    geolocate();
+    updateCount();
+    clearTimeout(killswitch);
+    loadingEl.classList.add("gone");
+  }).catch(function(err) {
+    console.error(err);
+    showError(esc(err.message));
+  });
+});
+</script>
+</body>
+</html>
