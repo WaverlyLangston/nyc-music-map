@@ -266,6 +266,7 @@ function toGeoJSON(borough) {
         properties: {
           id:           String(v.id),
           name:         v.name || "",
+          address:      v.address || "",
           borough:      v.borough || "",
           neighborhood: v.neighborhood || "",
           website:      v.website || "",
@@ -350,7 +351,7 @@ function openPopup(feature, px, py) {
   var ev = events[p.id] || [];
 
   popupName.textContent = p.name;
-  popupMeta.textContent = [p.neighborhood, p.borough].filter(Boolean).join(" · ");
+  popupMeta.textContent = p.address || [p.neighborhood, p.borough].filter(Boolean).join(" · ");
 
   var site = p.website || p.calendar_url;
   if (site) {
@@ -362,7 +363,7 @@ function openPopup(feature, px, py) {
   if (!ev.length) {
     popupBody.innerHTML = '<p class="no-events">No events listed for today.</p>';
   } else {
-    popupBody.innerHTML = ev.map(function(e, i) {
+    popupBody.innerHTML = ev.map(function(e) {
       var priceClass = (e.ticket_price || "").toLowerCase() === "free" ? "free" : "";
       var perfs = (e.performers || []).filter(Boolean);
       return '<div class="ev">' +
@@ -390,7 +391,7 @@ function openPopup(feature, px, py) {
   popupEl.style.display = "block";
   openVenueId = p.id;
 }
-
+  
 function closePopup() { popupEl.style.display = "none"; openVenueId = null; }
 
 document.getElementById("popup-close").addEventListener("click", closePopup);
