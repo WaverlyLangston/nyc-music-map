@@ -26,7 +26,7 @@ nyc-music-map/
 
 ### 1. Create the GitHub repository
 
-1. Go to [github.com/new](https://github.com/new)
+1. Go to https://waverlylangston.github.io/nyc-music-map/
 2. Name it `nyc-music-map` (or anything you like)
 3. Set it to **Public**
 4. Do **not** initialize with a README (you already have one)
