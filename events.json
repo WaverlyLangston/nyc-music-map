@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-22T09:06:57.197042-04:00",
-  "date": "2026-03-22",
+  "generated_at": "2026-03-23T09:24:07.574428-04:00",
+  "date": "2026-03-23",
   "events": {
     "2": [
       {
-        "name": "Today + Tomorrow \\ Mar 22 Sun - Mar 23 Mon Click on an event to purchase tickets",
-        "start_time": "2:00 PM",
+        "name": "Today + Tomorrow \\ Mar 23 Mon - Mar 24 Tue Click on an event to purchase tickets",
+        "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -62,8 +62,8 @@
         ]
       },
       {
-        "name": "Smalls Afternoon Jam Session Hosted by Ryo Sasaki",
-        "start_time": "2:00 PM",
+        "name": "Joe Farnsworth Quartet",
+        "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -120,7 +120,7 @@
         ]
       },
       {
-        "name": "Charles Ruggiero Quartet",
+        "name": "Gene Perla Trio",
         "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -129,25 +129,7 @@
         "performers": []
       },
       {
-        "name": "Melissa Stylianou Brazilian Trio",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Jesse Davis Quartet feat. Lewis Nash",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Nick Hempton Quartet",
+        "name": "George DeLancey Trio",
         "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -156,7 +138,7 @@
         "performers": []
       },
       {
-        "name": "Richard Cortez Quartet",
+        "name": "Jon Davis Trio",
         "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -165,8 +147,17 @@
         "performers": []
       },
       {
-        "name": "Saul Rubin Zebtet",
-        "start_time": "11:55 PM",
+        "name": "Vinyl After Hours",
+        "start_time": "11:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Jam Session Hosted By Adam Ray",
+        "start_time": "11:45 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -176,8 +167,8 @@
     ],
     "7": [
       {
-        "name": "Carolyn Hester",
-        "start_time": "6:30 PM",
+        "name": "Matt Witte",
+        "start_time": "7:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -185,8 +176,17 @@
         "performers": []
       },
       {
-        "name": "Emily Clark’s All-Star Tribute To Bonnie Raitt",
+        "name": "Black Hole Organ Trio",
         "start_time": "8:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Richie Cannata's Monday Night Jam",
+        "start_time": "10:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -196,63 +196,34 @@
     ],
     "17": [
       {
-        "name": "Jesse Malin\\'s Silver Manhattan",
+        "name": "She\\'s Rock & Roll",
+        "start_time": "8:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Mar 23, 2026 @ 8:00 PM",
+        "start_time": "8:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "She’s Rock & Roll",
         "start_time": "7:00 PM",
         "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
+        "ticket_price_advance": "$18.78",
+        "ticket_price_door": "$18.78",
+        "ticket_url": "https://www.ticketweb.com/event/shes-rock-roll-bowery-palace-tickets/14769473?pl=boweryelectric&REFID=clientsitewp",
         "performers": []
       },
       {
-        "name": "Mar 22, 2026 @ 7:00 PM",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Jesse Malin’s Silver Manhattan",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "https://www.ticketmaster.com/jesse-malins-silver-manhattan-new-york-new-york-03-22-2026/event/0000638BDF9EE35B",
-        "performers": []
-      },
-      {
-        "name": "Mar 22, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "21": [
-      {
-        "name": "Sapphic Speed Dating",
-        "start_time": "5:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "https://www.eventbrite.com/e/sapphic-speed-dating-35-w-burlesque-show-tickets-1984498786291?aff=ebdssbdestsearch",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 22, 2026 5:00 PM 7:00 PM 17:00 19:00 Club Cumming (map) Google Cal",
-        "start_time": "5:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 22, 2026",
+        "name": "Mar 23, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -263,7 +234,7 @@
     ],
     "20": [
       {
-        "name": "Livia Barrell | Nailah Carrie | René Hélène",
+        "name": "Skeeter De Milo | Abbie Roper | Tomorrowish",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -272,16 +243,7 @@
         "performers": []
       },
       {
-        "name": "March 22, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Jus Muse | Hudson Holms | Mode IV",
+        "name": "March 23, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -292,8 +254,55 @@
     ],
     "22": [
       {
-        "name": "Sunday Night Traditional Irish Seisiún",
-        "start_time": "09:30 PM",
+        "name": "Keyed Up! presents Monday Night Jazz",
+        "start_time": "08:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "21": [
+      {
+        "name": "Drag King Bingo with Cunning Stunt",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Monday, March 23, 2026 7:00 PM 9:00 PM 19:00 21:00 Club Cumming (map) Google Cal",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Monday, March 23, 2026",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Mondays in the Club with Lance",
+        "start_time": "9:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Monday, March 23, 2026 9:30 PM 11:59 PM 21:30 23:59 Club Cumming (map) Google Ca",
+        "start_time": "9:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -303,16 +312,16 @@
     ],
     "24": [
       {
-        "name": "*SOLD OUT* Rin",
-        "start_time": "5:00 PM",
+        "name": "Truly",
+        "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://www.ticketmaster.com/rin-new-york-new-york-03-22-2026/event/0000636DEA264260",
+        "ticket_url": "https://www.ticketmaster.com/truly-new-york-new-york-03-23-2026/event/000063819F207B06",
         "performers": []
       },
       {
-        "name": "Sun Mar 22, 2026",
+        "name": "Mon Mar 23, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -321,21 +330,10 @@
         "performers": []
       }
     ],
-    "27": [
-      {
-        "name": "Stereo Mandrax (FREE w/ RSVP): Pink Must • Surrender • Jeff Tobias • Chris Forsyth's What is Now",
-        "start_time": "11:00 PM",
-        "end_time": "2:30 AM",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/stereo-mandrax-free-w-rsvp-pink-must-surrender-jeff-tobias-chris-forsyths-what-is-now-22nd-mar-pianos-showroom-new-york-tickets",
-        "performers": []
-      }
-    ],
     "30": [
       {
-        "name": "The Surrealist Winter Ball",
-        "start_time": "9:00 PM",
+        "name": "SLOTH SHOP",
+        "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
@@ -376,17 +374,8 @@
         ]
       },
       {
-        "name": "READINGS AT PARKSIDE: WAYNE KOESTENBAUM",
-        "start_time": "4:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "$5",
-        "ticket_price_door": "$5",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 22, 2026 4:00 PM 6:00 PM Parkside Lounge (map) Google Calendar ICS",
-        "start_time": "4:00 PM",
+        "name": "Monday, March 23, 2026 6:00 PM 9:00 PM Parkside Lounge (map) Google Calendar ICS",
+        "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -394,107 +383,8 @@
         "performers": []
       },
       {
-        "name": "Sunday, March 22, 2026",
+        "name": "Monday, March 23, 2026",
         "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "A Night Inside with Claywoman and Friends",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "$20",
-        "ticket_price_door": "$20",
-        "ticket_url": "",
-        "performers": [
-          {
-            "name": "CLAYWOMAN",
-            "mbid": "",
-            "description": "",
-            "website": "",
-            "social": {
-              "instagram": "https://www.instagram.com/claywomanhello/",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Amber Martin,",
-            "mbid": "",
-            "description": "",
-            "website": "",
-            "social": {
-              "instagram": "https://www.instagram.com/msambermartin/",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Jemima Kirke",
-            "mbid": "",
-            "description": "",
-            "website": "",
-            "social": {
-              "instagram": "https://www.instagram.com/jemima_jo_kirke/",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Josh Sharp",
-            "mbid": "",
-            "description": "",
-            "website": "",
-            "social": {
-              "instagram": "https://www.instagram.com/cluckcluckjoshsharp/",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "JUDITH",
-            "mbid": "",
-            "description": "",
-            "website": "",
-            "social": {
-              "instagram": "https://www.instagram.com/imgoingtomarryyourdad/",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          }
-        ]
-      },
-      {
-        "name": "Sunday, March 22, 2026 7:00 PM 9:30 PM Parkside Lounge (map) Google Calendar ICS",
-        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -504,7 +394,7 @@
     ],
     "33": [
       {
-        "name": "Gokumon",
+        "name": "The Power of Love: The Music of Luther Vandross & Anita Baker",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -514,33 +404,6 @@
       }
     ],
     "34": [
-      {
-        "name": "The EarRegulars",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 22, 2026 8:00 PM 11:00 PM 20:00 23:00 The Ear Inn (map) Google Cal",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 22, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
       {
         "name": "Chris Bergson Duo with Matt Clohesy",
         "start_time": "11:30 PM",
@@ -569,7 +432,7 @@
         "performers": []
       },
       {
-        "name": "Wed, Mar 22, 2023",
+        "name": "Thu, Mar 23, 2023",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -580,25 +443,16 @@
     ],
     "41": [
       {
-        "name": "Strawberry Fields Ultimate Beatles Brunch Concert",
-        "start_time": "11:30 AM",
+        "name": "Laugh Through The Heartbreak",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://tickets.citywinery.com/event/strawberry-fields-ultimate-beatles-brunch-concer-0ueced",
+        "ticket_url": "https://tickets.citywinery.com/event/all-eyes-on-iran-8qfni9",
         "performers": []
       },
       {
-        "name": "Sun, Mar 22 @ 11:30 am",
-        "start_time": "11:30 AM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sun, Mar 22 @ 7:00 pm",
+        "name": "Mon, Mar 23 @ 7:00 pm",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -607,7 +461,7 @@
         "performers": []
       },
       {
-        "name": "Sun, Mar 22 @ 7:30 pm",
+        "name": "Mon, Mar 23 @ 7:30 pm",
         "start_time": "7:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -616,158 +470,98 @@
         "performers": []
       }
     ],
-    "42": [
+    "54": [
       {
-        "name": "STRIPPED: Sabrina Carpenter",
-        "start_time": "2:00PM",
+        "name": "The 40th Annual MAC Awards",
+        "start_time": "7:00PM",
         "end_time": "",
-        "ticket_price_advance": "$38.00",
-        "ticket_price_door": "$38.00",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
         "ticket_url": "",
         "performers": []
       },
       {
-        "name": "Sun Mar 22",
+        "name": "Mar 23, 2026 | 7:00pm",
+        "start_time": "7:00PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Cutting Edge Concerts “Miami Comes to New York”",
+        "start_time": "7:30PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Mar 23, 2026 | 7:30pm",
+        "start_time": "7:30PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "73": [
+      {
+        "name": "March 23 | Stefano Doglioni",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
         "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "51": [
-      {
-        "name": "Scarecrow (ends Mar 1)",
-        "start_time": "3:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "HALALish (ends Mar 7)",
-        "start_time": "9:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "THE MALL THE MALL THE MALL (ends Mar 22)",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "PLAN C (ends Apr 12)",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "52": [
-      {
-        "name": "A 90th Birthday Tribute to Harold Mabern featuring Eric Alexander & Cyrus Chestnut",
-        "start_time": "6PM",
-        "end_time": "",
-        "ticket_price_advance": "$25.00",
-        "ticket_price_door": "$25.00",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "73": [
-      {
-        "name": "March 22 | The Milkman & Sons",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "93": [
-      {
-        "name": "James Ilgenfritz/Joe Morris/Stephen Haynes Trio//Golden Feelings//The Caribbean",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "Free",
-        "ticket_price_door": "Free",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "M.Val w Brandon Lopez and Matt Moran//Liam Grant//Sam Boston and Emma Mistele",
-        "start_time": "5:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 22, 2026 5:00 PM 9:00 PM Google Calendar ICS",
-        "start_time": "5:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 22, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "101": [
-      {
-        "name": "Haza Souk Eid Edition Music, Market, Chai, & Snacks",
-        "start_time": "7:00 PM",
-        "end_time": "12:00 AM",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/haza-souk-eid-edition-music-market-chai-snacks-22nd-mar-the-sultan-room-new-york-tickets",
         "performers": []
       }
     ],
     "102": [
       {
-        "name": "Pettyy, Genique, Blass 89, King Kamayera",
-        "start_time": "11:00 PM",
-        "end_time": "2:00 AM",
+        "name": "Yard Sale Comedy Open Mic",
+        "start_time": "10:30 PM",
+        "end_time": "2:30 AM",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/pettyy-genique-blass-89-king-kamayera-22nd-mar-alphaville-new-york-tickets",
+        "ticket_url": "https://dice.fm/event/yard-sale-comedy-open-mic-23rd-mar-alphaville-new-york-tickets",
+        "performers": []
+      }
+    ],
+    "109": [
+      {
+        "name": "THE DAWN IS YOUR ENEMY: an [adult swim] drag show",
+        "start_time": "8:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "$10",
+        "ticket_price_door": "$10",
+        "ticket_url": "",
         "performers": []
       },
       {
-        "name": "Vinyl Sundays Free at Alphaville",
-        "start_time": "11:00 PM",
-        "end_time": "3:00 AM",
+        "name": "Monday, March 23, 2026 8:00 PM 11:59 PM 20:00 23:59 Wonderville (map) Google Cal",
+        "start_time": "8:00 PM",
+        "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/vinyl-sundays-free-at-alphaville-22nd-mar-alphaville-new-york-tickets",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Monday, March 23, 2026",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
         "performers": []
       }
     ],
     "110": [
       {
-        "name": "Earlybird Show",
+        "name": "Female Piano Composers Showcase",
         "start_time": "06:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -776,7 +570,7 @@
         "performers": []
       },
       {
-        "name": "Sunday March 22nd",
+        "name": "Monday March 23rd",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -785,46 +579,8 @@
         "performers": []
       },
       {
-        "name": "Jazz Dialogue",
+        "name": "Jazz Dialogue: 3Yo",
         "start_time": "09:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "111": [
-      {
-        "name": "Upcoming Events",
-        "start_time": "10:30 AM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Damballa Sundays",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 22, 2026 6:00 PM 6:00 PM Google Calendar ICS",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 22, 2026",
-        "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -843,7 +599,7 @@
         "performers": []
       },
       {
-        "name": "Mar 22, 2026",
+        "name": "Mar 23, 2026",
         "start_time": "9PM",
         "end_time": "",
         "ticket_price_advance": "$10",
@@ -861,120 +617,8 @@
         "performers": []
       },
       {
-        "name": "Mar 22, 2026 9:00 PM – 11:30 PM21:00 – 23:309:00 PM – 11:30 PM",
+        "name": "Mar 23, 2026 9:00 PM – 11:30 PM21:00 – 23:309:00 PM – 11:30 PM",
         "start_time": "9:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "109": [
-      {
-        "name": "SPLIT/SCREEN",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sat, Mar 21, 2026 8:00 PM 20:00 Sun, Mar 22, 2026 1:00 AM 01:00 Wonderville (map",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sat, Mar 21, 2026 8:00 PM 20:00 Sun, Mar 22, 2026 1:00 AM 01:00",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sun, Mar 22, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "The Kitty Games",
-        "start_time": "2:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "Free",
-        "ticket_price_door": "Free",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 22, 2026 2:30 PM 6:00 PM 14:30 18:00 Wonderville (map) Google Cale",
-        "start_time": "2:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 22, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Spread Love // The Brooklyn Way",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "Free",
-        "ticket_price_door": "Free",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 22, 2026 6:00 PM 11:59 PM 18:00 23:59 Wonderville (map) Google Cal",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "121": [
-      {
-        "name": "Community Bluegrass Jam",
-        "start_time": "8:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "March 22, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "BKCM’s open Community Bluegrass Jam series continues on March 22!",
-        "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -984,16 +628,7 @@
     ],
     "122": [
       {
-        "name": "Josh Sharp: An Hour Of Crowd Work In The Round",
-        "start_time": "3:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Desi Comedy Fest",
+        "name": "Heated Rivalry: The Unauthorized Musical Parody",
         "start_time": "7:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1002,40 +637,9 @@
         "performers": []
       }
     ],
-    "153": [
-      {
-        "name": "Aerobicide: Depeche Mode",
-        "start_time": "2:00PM",
-        "end_time": "",
-        "ticket_price_advance": "$20.00",
-        "ticket_price_door": "$20.00",
-        "ticket_url": "https://wl.seetickets.us/event/aerobicide-depeche-mode/679083?afflky=TVEye",
-        "performers": []
-      },
-      {
-        "name": "Tunnel, Like a Doll, Bummer Camp",
-        "start_time": "7:00PM",
-        "end_time": "",
-        "ticket_price_advance": "$20.00",
-        "ticket_price_door": "$20.00",
-        "ticket_url": "https://wl.seetickets.us/event/tunnel-like-a-doll-bummer-camp/683153?afflky=TVEye",
-        "performers": []
-      }
-    ],
     "160": [
       {
-        "name": "MYQ @ QED (3/22)",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "161": [
-      {
-        "name": "No upcoming events.",
+        "name": "Final Boss Comedy (3/23)",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1052,118 +656,6 @@
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
         "ticket_url": "https://www.eventbrite.com/e/strength-courage-wisdom-2026-tickets-1979912731277?aff=oddtdtcreator&keep_tld=true",
-        "performers": []
-      }
-    ],
-    "190": [
-      {
-        "name": "Farm Stewardship",
-        "start_time": "9:00 AM",
-        "end_time": "",
-        "ticket_price_advance": "Free",
-        "ticket_price_door": "Free",
-        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg000008yxa5MAA",
-        "performers": []
-      },
-      {
-        "name": "Mar 22 @ 9:00 AM – 12:00 PM",
-        "start_time": "9:00 AM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Chinese Scholar’s Garden Tour",
-        "start_time": "12:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "$10.00",
-        "ticket_price_door": "$10.00",
-        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg0000099WzZMAU",
-        "performers": []
-      },
-      {
-        "name": "Mar 22 @ 12:00 PM – 3:30 PM",
-        "start_time": "12:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "When:",
-        "start_time": "12:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "$10.00",
-        "ticket_price_door": "$10.00",
-        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg0000099WzZMAU",
-        "performers": []
-      },
-      {
-        "name": "Water Stewardship",
-        "start_time": "12:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "Free",
-        "ticket_price_door": "Free",
-        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg0000098ur3MAA",
-        "performers": []
-      },
-      {
-        "name": "Mar 22 @ 12:30 PM – 3:00 PM",
-        "start_time": "12:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Cultivating Balance Workshop Series",
-        "start_time": "3:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "$20.00",
-        "ticket_price_door": "$20.00",
-        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg0000090qcXMAQ",
-        "performers": []
-      },
-      {
-        "name": "Mar 22 @ 3:30 PM – 6:30 PM",
-        "start_time": "3:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "196": [
-      {
-        "name": "The Broadway is a multi-story bar and music venue under the J train along the border of Bushwick and Bedford-Stuyvesant.",
-        "start_time": "4PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Calendar",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Mar 22, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
         "performers": []
       }
     ]
