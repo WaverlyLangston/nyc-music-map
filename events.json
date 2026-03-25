@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-24T09:27:54.692011-04:00",
-  "date": "2026-03-24",
+  "generated_at": "2026-03-25T09:27:07.349712-04:00",
+  "date": "2026-03-25",
   "events": {
     "2": [
       {
-        "name": "Today + Tomorrow \\ Mar 24 Tue - Mar 25 Wed Click on an event to purchase tickets",
+        "name": "Today + Tomorrow \\ Mar 25 Wed - Mar 26 Thu Click on an event to purchase tickets",
         "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -62,7 +62,7 @@
         ]
       },
       {
-        "name": "Steve Nelson Quartet",
+        "name": "Eyal Vilner Big Band",
         "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -120,7 +120,7 @@
         ]
       },
       {
-        "name": "Tardo Hammer Trio",
+        "name": "Katsuko Tanaka Trio",
         "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -129,7 +129,7 @@
         "performers": []
       },
       {
-        "name": "David Gibson Quartet",
+        "name": "Alex Minasian Quartet",
         "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -138,7 +138,7 @@
         "performers": []
       },
       {
-        "name": "Andrea Domenici & John Hasselback III",
+        "name": "Roni Ben-Hur Trio",
         "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -156,7 +156,7 @@
         "performers": []
       },
       {
-        "name": "Jam Session Hosted By Kyle Colina",
+        "name": "Jam Session Hosted By Carlos Abadie",
         "start_time": "11:45 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -167,8 +167,26 @@
     ],
     "7": [
       {
-        "name": "Big Richard",
-        "start_time": "8:00 PM",
+        "name": "Joel Zighel",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Becky Curtis Birthday Show",
+        "start_time": "8:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "MJT Madness Residency",
+        "start_time": "10:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -178,7 +196,7 @@
     ],
     "17": [
       {
-        "name": "NY Grim | Ravi Shavi | Outernational",
+        "name": "Clem Burke - Rock ‘n’ Roll Memorial & Life Celebration",
         "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -187,7 +205,7 @@
         "performers": []
       },
       {
-        "name": "Mar 24, 2026 @ 8:00 PM",
+        "name": "Mar 25, 2026 @ 8:00 PM",
         "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -196,7 +214,45 @@
         "performers": []
       },
       {
-        "name": "Mar 24, 2026",
+        "name": "Clem Burke – Rock ‘n’ Roll Memorial & Life Celebration",
+        "start_time": "7:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "https://www.ticketweb.com/event/clem-burke-rock-bowery-palace-tickets/14133644?pl=boweryelectric&REFID=clientsitewp",
+        "performers": []
+      },
+      {
+        "name": "Mar 25, 2026",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "20": [
+      {
+        "name": "Midamerican Elevator | Toomi | Sibyl",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "March 25, 2026",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "DimBoi | The Planes | Lukka | Project Diem",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -207,8 +263,17 @@
     ],
     "21": [
       {
-        "name": "Make It with Brini Maxwell",
-        "start_time": "6:00 PM",
+        "name": "Times New Rita",
+        "start_time": "7:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "$15",
+        "ticket_price_door": "$15",
+        "ticket_url": "https://timesnewrita.eventbrite.com",
+        "performers": []
+      },
+      {
+        "name": "Wednesday, March 25, 2026 7:30 PM 9:00 PM 19:30 21:00 Club Cumming (map) Google",
+        "start_time": "7:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -216,63 +281,7 @@
         "performers": []
       },
       {
-        "name": "Tuesday, March 24, 2026 6:00 PM 8:00 PM 18:00 20:00 Club Cumming (map) Google Ca",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Tuesday, March 24, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "In The Living Room with The Garden Commmittee",
-        "start_time": "9:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Tuesday, March 24, 2026 9:00 PM 11:59 PM 21:00 23:59 Club Cumming (map) Google C",
-        "start_time": "9:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "20": [
-      {
-        "name": "ON THE HOUSE | Smores | Noah Whiteside",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "March 24, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Receiver | Some of Mine | YARD",
+        "name": "Wednesday, March 25, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -283,7 +292,7 @@
     ],
     "22": [
       {
-        "name": "Liz Hanley & Jefferson Hamer",
+        "name": "James Maddock",
         "start_time": "08:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -294,16 +303,16 @@
     ],
     "24": [
       {
-        "name": "*SOLD OUT* LEAP",
+        "name": "Pink Skies",
         "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://www.ticketmaster.com/leap-new-york-new-york-03-24-2026/event/00006329C4702278",
+        "ticket_url": "https://www.ticketmaster.com/pink-skies-new-york-new-york-03-25-2026/event/00006372D27EDA0E",
         "performers": []
       },
       {
-        "name": "Tue Mar 24, 2026",
+        "name": "Wed Mar 25, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -314,19 +323,19 @@
     ],
     "27": [
       {
-        "name": "A-Sides Presents: Mediocrecafe / Topanga Breakfast / Mommy Ryan",
+        "name": "Martian Tickets Presents: Live Mic",
         "start_time": "11:00 PM",
         "end_time": "2:30 AM",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/a-sides-presents-mediocrecafe-topanga-breakfast-mommy-ryan-24th-mar-pianos-showroom-new-york-tickets",
+        "ticket_url": "https://dice.fm/event/martian-tickets-presents-live-mic-25th-mar-pianos-showroom-new-york-tickets",
         "performers": []
       }
     ],
     "30": [
       {
-        "name": "SLOTH SHOP",
-        "start_time": "6:00 PM",
+        "name": "Something To Show For It by Anya Volz",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
@@ -367,8 +376,8 @@
         ]
       },
       {
-        "name": "Something To Show For It by Anya Volz",
-        "start_time": "7:00 PM",
+        "name": "The brian and alex trivia show",
+        "start_time": "7:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -376,8 +385,8 @@
         "performers": []
       },
       {
-        "name": "Tuesday, March 24, 2026 7:00 PM 9:00 PM Parkside Lounge (map) Google Calendar IC",
-        "start_time": "7:00 PM",
+        "name": "Wednesday, March 25, 2026 7:30 PM 8:30 PM Parkside Lounge (map) Google Calendar",
+        "start_time": "7:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -385,7 +394,7 @@
         "performers": []
       },
       {
-        "name": "Tuesday, March 24, 2026",
+        "name": "Wednesday, March 25, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -394,10 +403,37 @@
         "performers": []
       }
     ],
-    "33": [
+    "34": [
       {
-        "name": "SOB’s Premiere x Let Her Cook: Women’s Month Hip Hop Show",
-        "start_time": "7:00 PM",
+        "name": "Mulebone",
+        "start_time": "11:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Wed, Mar 25, 2026 11:00 PM 23:00 Thu, Mar 26, 2026 2:00 AM 02:00 Google Calendar",
+        "start_time": "11:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Wed, Mar 25, 2026 11:00 PM 23:00 Thu, Mar 26, 2026 2:00 AM 02:00",
+        "start_time": "11:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Wed, Mar 25, 2026",
+        "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -407,16 +443,16 @@
     ],
     "41": [
       {
-        "name": "Special Event at City Vineyard at Pier 26: Hi, I'm High",
+        "name": "Special Event at City Vineyard at Pier 26: Ari Hest - A Tribute to Peter Gabriel",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://tickets.citywinery.com/event/special-event-at-city-vineyard-at-pier-26-hi-im--8ks6yb",
+        "ticket_url": "https://tickets.citywinery.com/event/special-event-at-city-vineyard-at-pier-26-ari-he-us6hrw",
         "performers": []
       },
       {
-        "name": "Tue, Mar 24 @ 7:00 pm",
+        "name": "Wed, Mar 25 @ 7:00 pm",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -425,8 +461,39 @@
         "performers": []
       },
       {
-        "name": "Tue, Mar 24 @ 7:30 pm",
-        "start_time": "7:30 PM",
+        "name": "Wed, Mar 25 @ 8:30 pm",
+        "start_time": "8:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "42": [
+      {
+        "name": "STEVEN MAGLIO & HIS BIG BAND ORCHESTRA",
+        "start_time": "6:00PM",
+        "end_time": "",
+        "ticket_price_advance": "$95.00",
+        "ticket_price_door": "$95.00",
+        "ticket_url": "https://wl.seetickets.us/event/STEVEN-MAGLIO-and-HIS-BIG-BAND-ORCHESTRA/675341?afflky=TheCuttingRoom",
+        "performers": []
+      },
+      {
+        "name": "Wed Mar 25",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "47": [
+      {
+        "name": "THOSE GIRLS: \"LONDON CALLING!\" 3/25/26 ( 7:00 pm )",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -435,15 +502,6 @@
       }
     ],
     "51": [
-      {
-        "name": "THE MALL THE MALL THE MALL (ends Mar 22)",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
       {
         "name": "PLAN C (ends Apr 12)",
         "start_time": "7:00 PM",
@@ -454,9 +512,78 @@
         "performers": []
       }
     ],
+    "54": [
+      {
+        "name": "Ani DiFranco, The Spirit of Ani",
+        "start_time": "7:00PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Mar 25, 2026 | 7:00pm",
+        "start_time": "7:00PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Mar 25, 2026 | 7pm",
+        "start_time": "7PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "52": [
+      {
+        "name": "Kenny Barron Trio",
+        "start_time": "6PM",
+        "end_time": "",
+        "ticket_price_advance": "$25.00",
+        "ticket_price_door": "$25.00",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
     "73": [
       {
-        "name": "March 24 | Ricky Alexander Trio",
+        "name": "March 25 | New Moon Acoustic Blues",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "93": [
+      {
+        "name": "Activist Art & Graphic History ft Susan Simensky Bietila, John Vasquez Mejias and Seth Tobocman",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "Free",
+        "ticket_price_door": "Free",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Wednesday, March 25, 2026 7:00 PM 10:00 PM Google Calendar ICS",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Wednesday, March 25, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -467,45 +594,13 @@
     ],
     "96": [
       {
-        "name": "BleoodliveZone One",
+        "name": "Zoume (Album Release Show), P.H.0, L punkliveZone One",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
-        "ticket_url": "https://www.eventbrite.com/e/bleood-tickets-1981861998588",
+        "ticket_url": "https://www.eventbrite.com/e/zoume-album-release-show-ph0-l-punk-tickets-1982790352319",
         "performers": [
-          {
-            "name": "BleoodliveZone One",
-            "mbid": "",
-            "description": "",
-            "website": "https://www.elsewhere.club/events/1981861998588",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Bleood",
-            "mbid": "",
-            "description": "",
-            "website": "https://www.elsewhere.club/events/1981861998588",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
           {
             "name": "Zoume (Album Release Show), P.H.0, L punkliveZone One",
             "mbid": "",
@@ -891,7 +986,7 @@
             }
           },
           {
-            "name": "Klur, DJ ExstraliveZone One",
+            "name": "Klur, ExstraliveZone One",
             "mbid": "",
             "description": "",
             "website": "https://www.elsewhere.club/events/1972840787904",
@@ -907,7 +1002,7 @@
             }
           },
           {
-            "name": "Klur, DJ Exstra",
+            "name": "Klur, Exstra",
             "mbid": "",
             "description": "",
             "website": "https://www.elsewhere.club/events/1972840787904",
@@ -1593,11 +1688,43 @@
               "soundcloud": "",
               "tiktok": ""
             }
+          },
+          {
+            "name": "Luna Luna, VALÉliveZone One",
+            "mbid": "",
+            "description": "",
+            "website": "https://www.elsewhere.club/events/1977733481081",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Luna Luna, VALÉ",
+            "mbid": "",
+            "description": "",
+            "website": "https://www.elsewhere.club/events/1977733481081",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
           }
         ]
       },
       {
-        "name": "Tue, Mar 24",
+        "name": "Wed, Mar 25",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1606,14 +1733,25 @@
         "performers": []
       }
     ],
-    "102": [
+    "101": [
       {
-        "name": "Free Pure Chaos Open Mic Comedy",
+        "name": "Singer-Songwriter Spotlight: Sofi Vonn, Devika, Angel Chrisztina",
         "start_time": "11:00 PM",
-        "end_time": "3:00 AM",
+        "end_time": "2:00 AM",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/free-pure-chaos-open-mic-comedy-24th-mar-alphaville-new-york-tickets",
+        "ticket_url": "https://dice.fm/event/singer-songwriter-spotlight-sofi-vonn-devika-angel-chrisztina-25th-mar-the-sultan-room-new-york-tickets",
+        "performers": []
+      }
+    ],
+    "102": [
+      {
+        "name": "Why I Oughta! Improv",
+        "start_time": "10:00 PM",
+        "end_time": "2:00 AM",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "https://dice.fm/event/why-i-oughta-improv-25th-mar-alphaville-new-york-tickets",
         "performers": []
       }
     ],
@@ -1628,7 +1766,7 @@
         "performers": []
       },
       {
-        "name": "Tuesday March 24th",
+        "name": "Wednesday March 25th",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1646,9 +1784,18 @@
         "performers": []
       }
     ],
-    "109": [
+    "111": [
       {
-        "name": "the FORT90 BROADCAST SYSTEM presents: the FORT90 FILM CLUB (\"THE KIDS ARE STILL NOT ALRIGHT\" part 2))",
+        "name": "Upcoming Events",
+        "start_time": "10:30 AM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Paraíso",
         "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1657,7 +1804,7 @@
         "performers": []
       },
       {
-        "name": "Mon, Mar 23, 2026 8:00 PM 20:00 Tue, Mar 24, 2026 5:00 AM 05:00 Wonderville (map",
+        "name": "Wednesday, March 25, 2026 8:00 PM 8:00 PM Google Calendar ICS",
         "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1666,23 +1813,54 @@
         "performers": []
       },
       {
-        "name": "Mon, Mar 23, 2026 8:00 PM 20:00 Tue, Mar 24, 2026 5:00 AM 05:00",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Tue, Mar 24, 2026",
+        "name": "Wednesday, March 25, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
         "ticket_url": "",
         "performers": []
+      }
+    ],
+    "112": [
+      {
+        "name": "Next",
+        "start_time": "9PM",
+        "end_time": "",
+        "ticket_price_advance": "$10",
+        "ticket_price_door": "$10",
+        "ticket_url": "",
+        "performers": []
       },
+      {
+        "name": "Mar 25, 2026",
+        "start_time": "9PM",
+        "end_time": "",
+        "ticket_price_advance": "$10",
+        "ticket_price_door": "$10",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Coming up",
+        "start_time": "9:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Mar 25, 2026 9:00 PM – 11:59 PM21:00 – 23:599:00 PM – 11:59 PM",
+        "start_time": "9:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "109": [
       {
         "name": "35th Line Clear presents: Tournament Tuesday - Puyo Puyo Tetris 2",
         "start_time": "7:00 PM",
@@ -1709,50 +1887,48 @@
         "ticket_price_door": "",
         "ticket_url": "",
         "performers": []
+      },
+      {
+        "name": "Wed, Mar 25, 2026",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Killer Queen Open Hive Night",
+        "start_time": "8:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Wed, Mar 25, 2026 8:00 PM 20:00 Thu, Mar 26, 2026 12:30 AM 00:30 Wonderville (ma",
+        "start_time": "8:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Wed, Mar 25, 2026 8:00 PM 20:00 Thu, Mar 26, 2026 12:30 AM 00:30",
+        "start_time": "8:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
       }
     ],
     "113": [
       {
-        "name": "3/24 — Brooklyn Maqam Hang: Sami Salloum 3/25 — Sally Gates Residency 3/27 — Mys",
+        "name": "3/25 — Sally Gates Residency 3/27 — Mystic Sound (DJ set) 3/28 — Jesse Mann + Ce",
         "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "112": [
-      {
-        "name": "Next",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "$10",
-        "ticket_price_door": "$10",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Mar 24, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "$10",
-        "ticket_price_door": "$10",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Coming up",
-        "start_time": "9:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Mar 24, 2026 9:00 PM – 11:30 PM21:00 – 23:309:00 PM – 11:30 PM",
-        "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -1762,8 +1938,8 @@
     ],
     "122": [
       {
-        "name": "Heated Rivalry: The Unauthorized Musical Parody",
-        "start_time": "7:30 PM",
+        "name": "The Moth StorySLAM",
+        "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -1771,9 +1947,27 @@
         "performers": []
       }
     ],
-    "127": [
+    "121": [
       {
-        "name": "Maria Somerville, Joanne Robertson, Colle",
+        "name": "Studio Collective Happy Hour",
+        "start_time": "8:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "March 25, 2026",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Join us next Wednesday, March 25th at The Commissioner for a Studio Collective H",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1793,16 +1987,7 @@
         "performers": []
       },
       {
-        "name": "TUES 8-11pm Jam Session. House band set: Rich Perry, Ugonna Okegwo, Diego Voglino",
-        "start_time": "11PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Tuesday, March 24, 2026 8:00 PM 11:00 PM Google Calendar ICS",
+        "name": "WED 8 & 9:30 - Rico Jones",
         "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1811,19 +1996,8 @@
         "performers": []
       },
       {
-        "name": "Tuesday, March 24, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "135": [
-      {
-        "name": "ISSUE Online",
-        "start_time": "12:00 PM",
+        "name": "Wednesday, March 25, 2026 8:00 PM 11:00 PM Google Calendar ICS",
+        "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -1831,8 +2005,8 @@
         "performers": []
       },
       {
-        "name": "Tuesday, March 24, 2026 - 12:00 pm",
-        "start_time": "12:00 PM",
+        "name": "Wednesday, March 25, 2026",
+        "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -1842,8 +2016,8 @@
     ],
     "140": [
       {
-        "name": "Joyce Manor, Militarie Gun, Teen Mortgage, & Combat",
-        "start_time": "6:00 PM",
+        "name": "DVSN - SEPT 5TH - 10 Year Anniversary Shows",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -1853,7 +2027,7 @@
     ],
     "152": [
       {
-        "name": "Shark(e)'Theratrix / Angel Barn / YOUCH! / Ditch",
+        "name": "7pm Peanut / Natural Rat / WireBed / Love Somebody Sometimes",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1864,76 +2038,130 @@
     ],
     "153": [
       {
-        "name": "Still House Plants, Torture Methods, Autobahn",
+        "name": "Frank Hurricane, Cool Whip, Ada Interactive",
         "start_time": "7:00PM",
         "end_time": "",
-        "ticket_price_advance": "$18.00",
-        "ticket_price_door": "$18.00",
-        "ticket_url": "https://wl.seetickets.us/event/still-house-plants-torture-methods-autobahn/685494?afflky=TVEye",
+        "ticket_price_advance": "$15.00",
+        "ticket_price_door": "$15.00",
+        "ticket_url": "https://wl.seetickets.us/event/frank-hurricane-cool-whip-ada-interactive/682874?afflky=TVEye",
         "performers": []
       },
       {
-        "name": "Karaoke Funhouse",
-        "start_time": "9:00PM",
+        "name": "DJ Sean Jones of The Jones Bar",
+        "start_time": "7:00PM",
         "end_time": "",
         "ticket_price_advance": "$0.00",
         "ticket_price_door": "$0.00",
-        "ticket_url": "https://wl.seetickets.us/event/Karaoke-Funhouse/683009?afflky=TVEye",
+        "ticket_url": "https://wl.seetickets.us/event/dj-sean-jones-of-the-jones-bar/685628?afflky=TVEye",
+        "performers": []
+      }
+    ],
+    "161": [
+      {
+        "name": "No upcoming events.",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
         "performers": []
       }
     ],
     "169": [
       {
-        "name": "jcal event calendar",
+        "name": "Riddim Section Presents Aziza Miller",
         "start_time": "8:00 PM",
+        "end_time": "9:30 PM",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "https://www.sociablekit.com",
+        "performers": [
+          {
+            "name": "name",
+            "mbid": "",
+            "description": "",
+            "website": "",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          }
+        ]
+      }
+    ],
+    "170": [
+      {
+        "name": "Viva El Cinco De Mayo 2026",
+        "start_time": "3 PM",
         "end_time": "",
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
-        "ticket_url": "https://www.eventbrite.com/e/strength-courage-wisdom-2026-tickets-1979912731277?aff=oddtdtcreator&keep_tld=true",
+        "ticket_url": "https://www.ticketmaster.com/event/1D006305C74821A9",
+        "performers": []
+      },
+      {
+        "name": "A Fiction Reading by Min Jin Lee",
+        "start_time": "7 PM",
+        "end_time": "",
+        "ticket_price_advance": "Free",
+        "ticket_price_door": "Free",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "March 25, 2026",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "190": [
+      {
+        "name": "Master Composter Certificate | Course 4: Caring for Soils | Virtual Session |",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "Free",
+        "ticket_price_door": "Free",
+        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg000008x6RNMAY",
+        "performers": []
+      },
+      {
+        "name": "Mar 25 @ 7:00 PM – 9:00 PM",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "When:",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "Free",
+        "ticket_price_door": "Free",
+        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg000008x6RNMAY",
         "performers": []
       }
     ],
     "193": [
       {
-        "name": "BleoodliveZone One",
+        "name": "Zoume (Album Release Show), P.H.0, L punkliveZone One",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
-        "ticket_url": "https://www.eventbrite.com/e/bleood-tickets-1981861998588",
+        "ticket_url": "https://www.eventbrite.com/e/zoume-album-release-show-ph0-l-punk-tickets-1982790352319",
         "performers": [
-          {
-            "name": "BleoodliveZone One",
-            "mbid": "",
-            "description": "",
-            "website": "https://www.elsewhere.club/events/1981861998588",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Bleood",
-            "mbid": "",
-            "description": "",
-            "website": "https://www.elsewhere.club/events/1981861998588",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
           {
             "name": "Zoume (Album Release Show), P.H.0, L punkliveZone One",
             "mbid": "",
@@ -2319,7 +2547,7 @@
             }
           },
           {
-            "name": "Klur, DJ ExstraliveZone One",
+            "name": "Klur, ExstraliveZone One",
             "mbid": "",
             "description": "",
             "website": "https://www.elsewhere.club/events/1972840787904",
@@ -2335,7 +2563,7 @@
             }
           },
           {
-            "name": "Klur, DJ Exstra",
+            "name": "Klur, Exstra",
             "mbid": "",
             "description": "",
             "website": "https://www.elsewhere.club/events/1972840787904",
@@ -3021,11 +3249,43 @@
               "soundcloud": "",
               "tiktok": ""
             }
+          },
+          {
+            "name": "Luna Luna, VALÉliveZone One",
+            "mbid": "",
+            "description": "",
+            "website": "https://www.elsewhere.club/events/1977733481081",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Luna Luna, VALÉ",
+            "mbid": "",
+            "description": "",
+            "website": "https://www.elsewhere.club/events/1977733481081",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
           }
         ]
       },
       {
-        "name": "Tue, Mar 24",
+        "name": "Wed, Mar 25",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -3054,7 +3314,7 @@
         "performers": []
       },
       {
-        "name": "Mar 24, 2026",
+        "name": "Mar 25, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
