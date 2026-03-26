@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-03-25T09:27:07.349712-04:00",
-  "date": "2026-03-25",
+  "generated_at": "2026-03-26T09:44:47.096337-04:00",
+  "date": "2026-03-26",
   "events": {
     "2": [
       {
-        "name": "Today + Tomorrow \\ Mar 25 Wed - Mar 26 Thu Click on an event to purchase tickets",
+        "name": "Today + Tomorrow \\ Mar 26 Thu - Mar 27 Fri Click on an event to purchase tickets",
         "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -62,7 +62,7 @@
         ]
       },
       {
-        "name": "Eyal Vilner Big Band",
+        "name": "Alexandra Ridout Quartet",
         "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -120,7 +120,7 @@
         ]
       },
       {
-        "name": "Katsuko Tanaka Trio",
+        "name": "Andy Brown Trio",
         "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -129,7 +129,7 @@
         "performers": []
       },
       {
-        "name": "Alex Minasian Quartet",
+        "name": "Matt Pavolka's New Quintet",
         "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -138,7 +138,7 @@
         "performers": []
       },
       {
-        "name": "Roni Ben-Hur Trio",
+        "name": "Pucci Amanda Jhones Quartet",
         "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -156,7 +156,7 @@
         "performers": []
       },
       {
-        "name": "Jam Session Hosted By Carlos Abadie",
+        "name": "Jam Session Hosted By Matt Snow",
         "start_time": "11:45 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -167,7 +167,7 @@
     ],
     "7": [
       {
-        "name": "Joel Zighel",
+        "name": "Blake Morgan",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -176,17 +176,8 @@
         "performers": []
       },
       {
-        "name": "Becky Curtis Birthday Show",
-        "start_time": "8:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "MJT Madness Residency",
-        "start_time": "10:00 PM",
+        "name": "Brandon Boone, Zacchae’us Paul , Kebbi Williams, Morgan Guerin, Daniel Wytanis",
+        "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -205,7 +196,7 @@
         "performers": []
       },
       {
-        "name": "Mar 25, 2026 @ 8:00 PM",
+        "name": "Mar 26, 2026 @ 8:00 PM",
         "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -215,15 +206,15 @@
       },
       {
         "name": "Clem Burke – Rock ‘n’ Roll Memorial & Life Celebration",
-        "start_time": "7:30 PM",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://www.ticketweb.com/event/clem-burke-rock-bowery-palace-tickets/14133644?pl=boweryelectric&REFID=clientsitewp",
+        "ticket_url": "https://www.ticketweb.com/event/clem-burke-rock-bowery-palace-tickets/14592043?pl=boweryelectric&REFID=clientsitewp",
         "performers": []
       },
       {
-        "name": "Mar 25, 2026",
+        "name": "Mar 26, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -234,7 +225,7 @@
     ],
     "20": [
       {
-        "name": "Midamerican Elevator | Toomi | Sibyl",
+        "name": "Sophia Tice | Yuat | Katie Wang",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -243,7 +234,7 @@
         "performers": []
       },
       {
-        "name": "March 25, 2026",
+        "name": "March 26, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -252,7 +243,7 @@
         "performers": []
       },
       {
-        "name": "DimBoi | The Planes | Lukka | Project Diem",
+        "name": "Pretty Bad Dream",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -263,16 +254,16 @@
     ],
     "21": [
       {
-        "name": "Times New Rita",
+        "name": "Thursday Night Live! with Oscar Taub",
         "start_time": "7:30 PM",
         "end_time": "",
         "ticket_price_advance": "$15",
         "ticket_price_door": "$15",
-        "ticket_url": "https://timesnewrita.eventbrite.com",
+        "ticket_url": "https://oscartaub.eventbrite.com",
         "performers": []
       },
       {
-        "name": "Wednesday, March 25, 2026 7:30 PM 9:00 PM 19:30 21:00 Club Cumming (map) Google",
+        "name": "Thursday, March 26, 2026 7:30 PM 9:00 PM 19:30 21:00 Club Cumming (map) Google C",
         "start_time": "7:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -281,7 +272,7 @@
         "performers": []
       },
       {
-        "name": "Wednesday, March 25, 2026",
+        "name": "Thursday, March 26, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -292,27 +283,92 @@
     ],
     "22": [
       {
-        "name": "James Maddock",
+        "name": "Chris Campion's Last Thursday of the Month",
         "start_time": "08:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
         "ticket_url": "",
-        "performers": []
+        "performers": [
+          {
+            "name": "iCalendar",
+            "mbid": "",
+            "description": "",
+            "website": "",
+            "social": {
+              "instagram": "",
+              "bandcamp": "https://addtocalendar.com/atc/ical?utz=0&uln=en-US&vjs=1.5&e[0][date_start]=2026-03-26%2020%3A30%3A00&e[0][date_end]=2026-03-26%2023%3A00%3A00&e[0][timezone]=America%2FNew_York&e[0][title]=Chris%20Campion's%20Last%20Thursday%20of%20the%20Month&e[0][description]=Chris%20Campion%20has%20one%20of%20the%20longest%20running%20residencies%20at%2011th%20St.%20Bar%2C%20%22The%20Last%20Thursday%20of%20Every%20Month.%22%20%26nbsp%3BHe%20brings%20an%20eclectic%20mix%20of%20both%20original%20and%20cover%20songs%20tied%20together%20by%20some%20of%20the%20best%20between%20song%20banter%20you'll%20ever%20hear.%20He%20is%20joined%20by%20any%20number%20of%20his%20musical%20co%20conspirators%20including%20Bennett%20LaGreca%2C%20Paul%20Giannini%2C%20Bill%20Ryan%2C%20Mike%20Cranmer%2C%20or%20even%20his%20brother%2C%20Billy%20Campion.%20Download%20the%20new%20album%20here%3A%26nbsp%3B%3Ca%20href%3D%22https%3A%2F%2Fchristopherjohncampion.bandcamp.com%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fchristopherjohncampion.bandcamp.com%3C%2Fa%3E%20.&e[0][location]=11th%20St.%20Bar&e[0][organizer]=11th%20St.%20Bar&e[0][organizer_email]=11thStBar%40gmail.com",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Outlook",
+            "mbid": "",
+            "description": "",
+            "website": "",
+            "social": {
+              "instagram": "",
+              "bandcamp": "https://addtocalendar.com/atc/outlook?utz=0&uln=en-US&vjs=1.5&e[0][date_start]=2026-03-26%2020%3A30%3A00&e[0][date_end]=2026-03-26%2023%3A00%3A00&e[0][timezone]=America%2FNew_York&e[0][title]=Chris%20Campion's%20Last%20Thursday%20of%20the%20Month&e[0][description]=Chris%20Campion%20has%20one%20of%20the%20longest%20running%20residencies%20at%2011th%20St.%20Bar%2C%20%22The%20Last%20Thursday%20of%20Every%20Month.%22%20%26nbsp%3BHe%20brings%20an%20eclectic%20mix%20of%20both%20original%20and%20cover%20songs%20tied%20together%20by%20some%20of%20the%20best%20between%20song%20banter%20you'll%20ever%20hear.%20He%20is%20joined%20by%20any%20number%20of%20his%20musical%20co%20conspirators%20including%20Bennett%20LaGreca%2C%20Paul%20Giannini%2C%20Bill%20Ryan%2C%20Mike%20Cranmer%2C%20or%20even%20his%20brother%2C%20Billy%20Campion.%20Download%20the%20new%20album%20here%3A%26nbsp%3B%3Ca%20href%3D%22https%3A%2F%2Fchristopherjohncampion.bandcamp.com%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fchristopherjohncampion.bandcamp.com%3C%2Fa%3E%20.&e[0][location]=11th%20St.%20Bar&e[0][organizer]=11th%20St.%20Bar&e[0][organizer_email]=11thStBar%40gmail.com",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Outlook Online",
+            "mbid": "",
+            "description": "",
+            "website": "",
+            "social": {
+              "instagram": "",
+              "bandcamp": "https://addtocalendar.com/atc/outlookonline?utz=0&uln=en-US&vjs=1.5&e[0][date_start]=2026-03-26%2020%3A30%3A00&e[0][date_end]=2026-03-26%2023%3A00%3A00&e[0][timezone]=America%2FNew_York&e[0][title]=Chris%20Campion's%20Last%20Thursday%20of%20the%20Month&e[0][description]=Chris%20Campion%20has%20one%20of%20the%20longest%20running%20residencies%20at%2011th%20St.%20Bar%2C%20%22The%20Last%20Thursday%20of%20Every%20Month.%22%20%26nbsp%3BHe%20brings%20an%20eclectic%20mix%20of%20both%20original%20and%20cover%20songs%20tied%20together%20by%20some%20of%20the%20best%20between%20song%20banter%20you'll%20ever%20hear.%20He%20is%20joined%20by%20any%20number%20of%20his%20musical%20co%20conspirators%20including%20Bennett%20LaGreca%2C%20Paul%20Giannini%2C%20Bill%20Ryan%2C%20Mike%20Cranmer%2C%20or%20even%20his%20brother%2C%20Billy%20Campion.%20Download%20the%20new%20album%20here%3A%26nbsp%3B%3Ca%20href%3D%22https%3A%2F%2Fchristopherjohncampion.bandcamp.com%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fchristopherjohncampion.bandcamp.com%3C%2Fa%3E%20.&e[0][location]=11th%20St.%20Bar&e[0][organizer]=11th%20St.%20Bar&e[0][organizer_email]=11thStBar%40gmail.com",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Yahoo! Calendar",
+            "mbid": "",
+            "description": "",
+            "website": "",
+            "social": {
+              "instagram": "",
+              "bandcamp": "https://addtocalendar.com/atc/yahoo?utz=0&uln=en-US&vjs=1.5&e[0][date_start]=2026-03-26%2020%3A30%3A00&e[0][date_end]=2026-03-26%2023%3A00%3A00&e[0][timezone]=America%2FNew_York&e[0][title]=Chris%20Campion's%20Last%20Thursday%20of%20the%20Month&e[0][description]=Chris%20Campion%20has%20one%20of%20the%20longest%20running%20residencies%20at%2011th%20St.%20Bar%2C%20%22The%20Last%20Thursday%20of%20Every%20Month.%22%20%26nbsp%3BHe%20brings%20an%20eclectic%20mix%20of%20both%20original%20and%20cover%20songs%20tied%20together%20by%20some%20of%20the%20best%20between%20song%20banter%20you'll%20ever%20hear.%20He%20is%20joined%20by%20any%20number%20of%20his%20musical%20co%20conspirators%20including%20Bennett%20LaGreca%2C%20Paul%20Giannini%2C%20Bill%20Ryan%2C%20Mike%20Cranmer%2C%20or%20even%20his%20brother%2C%20Billy%20Campion.%20Download%20the%20new%20album%20here%3A%26nbsp%3B%3Ca%20href%3D%22https%3A%2F%2Fchristopherjohncampion.bandcamp.com%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fchristopherjohncampion.bandcamp.com%3C%2Fa%3E%20.&e[0][location]=11th%20St.%20Bar&e[0][organizer]=11th%20St.%20Bar&e[0][organizer_email]=11thStBar%40gmail.com",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          }
+        ]
       }
     ],
     "24": [
       {
-        "name": "Pink Skies",
-        "start_time": "6:00 PM",
+        "name": "Juice",
+        "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://www.ticketmaster.com/pink-skies-new-york-new-york-03-25-2026/event/00006372D27EDA0E",
+        "ticket_url": "https://www.ticketmaster.com/juice-new-york-new-york-03-26-2026/event/0000645877035AA3",
         "performers": []
       },
       {
-        "name": "Wed Mar 25, 2026",
+        "name": "Thu Mar 26, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -323,19 +379,28 @@
     ],
     "27": [
       {
-        "name": "Martian Tickets Presents: Live Mic",
+        "name": "Low Key High Key w/ Julie Roland",
         "start_time": "11:00 PM",
         "end_time": "2:30 AM",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/martian-tickets-presents-live-mic-25th-mar-pianos-showroom-new-york-tickets",
+        "ticket_url": "https://dice.fm/event/low-key-high-key-w-julie-roland-26th-mar-pianos-the-mezzanine-new-york-tickets",
+        "performers": []
+      },
+      {
+        "name": "Underground Sewer Cult / Jack Rangeley / Narayan Two",
+        "start_time": "11:00 PM",
+        "end_time": "2:30 AM",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "https://dice.fm/event/underground-sewer-cult-jack-rangeley-narayan-two-26th-mar-pianos-showroom-new-york-tickets",
         "performers": []
       }
     ],
     "30": [
       {
-        "name": "Something To Show For It by Anya Volz",
-        "start_time": "7:00 PM",
+        "name": "The brian and alex trivia show",
+        "start_time": "7:30 PM",
         "end_time": "",
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
@@ -376,8 +441,8 @@
         ]
       },
       {
-        "name": "The brian and alex trivia show",
-        "start_time": "7:30 PM",
+        "name": "Jazz at Parkside Lounge",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -385,8 +450,8 @@
         "performers": []
       },
       {
-        "name": "Wednesday, March 25, 2026 7:30 PM 8:30 PM Parkside Lounge (map) Google Calendar",
-        "start_time": "7:30 PM",
+        "name": "Thursday, March 26, 2026 7:00 PM 9:00 PM Parkside Lounge (map) Google Calendar I",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -394,8 +459,28 @@
         "performers": []
       },
       {
-        "name": "Wednesday, March 25, 2026",
+        "name": "Thursday, March 26, 2026",
         "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "33": [
+      {
+        "name": "IYLA – THE ANGEL TOUR",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Lady Harlem Presents: African Night",
+        "start_time": "10:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -432,7 +517,7 @@
         "performers": []
       },
       {
-        "name": "Wed, Mar 25, 2026",
+        "name": "Thu, Mar 26, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -443,26 +528,17 @@
     ],
     "41": [
       {
-        "name": "Special Event at City Vineyard at Pier 26: Ari Hest - A Tribute to Peter Gabriel",
+        "name": "Special Event at City Vineyard at Pier 26: Peter Mulvey",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://tickets.citywinery.com/event/special-event-at-city-vineyard-at-pier-26-ari-he-us6hrw",
+        "ticket_url": "https://tickets.citywinery.com/event/special-event-at-city-vineyard-at-pier-26-peter--krj19v",
         "performers": []
       },
       {
-        "name": "Wed, Mar 25 @ 7:00 pm",
+        "name": "Thu, Mar 26 @ 7:00 pm",
         "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Wed, Mar 25 @ 8:30 pm",
-        "start_time": "8:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -472,16 +548,16 @@
     ],
     "42": [
       {
-        "name": "STEVEN MAGLIO & HIS BIG BAND ORCHESTRA",
-        "start_time": "6:00PM",
+        "name": "BROADWAY SINGS ABBA",
+        "start_time": "4:00PM",
         "end_time": "",
-        "ticket_price_advance": "$95.00",
-        "ticket_price_door": "$95.00",
-        "ticket_url": "https://wl.seetickets.us/event/STEVEN-MAGLIO-and-HIS-BIG-BAND-ORCHESTRA/675341?afflky=TheCuttingRoom",
+        "ticket_price_advance": "$28.80",
+        "ticket_price_door": "$28.80",
+        "ticket_url": "",
         "performers": []
       },
       {
-        "name": "Wed Mar 25",
+        "name": "Thu Mar 26",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -490,21 +566,19 @@
         "performers": []
       }
     ],
-    "47": [
+    "48": [
       {
-        "name": "THOSE GIRLS: \"LONDON CALLING!\" 3/25/26 ( 7:00 pm )",
-        "start_time": "7:00 PM",
+        "name": "The Surfrajettes",
+        "start_time": "6:00PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "",
+        "ticket_url": "https://www.ticketweb.com/event/the-surfrajettes-w-bethlehem-shalom-sony-hall-tickets/14072744?pl=sonyhall&REFID=260326site",
         "performers": []
-      }
-    ],
-    "51": [
+      },
       {
-        "name": "PLAN C (ends Apr 12)",
-        "start_time": "7:00 PM",
+        "name": "Thursday Mar 26 DOORS 6:00pm | SHOW 8:00pm",
+        "start_time": "6:00PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -514,8 +588,8 @@
     ],
     "54": [
       {
-        "name": "Ani DiFranco, The Spirit of Ani",
-        "start_time": "7:00PM",
+        "name": "Tony Trischka In Residence: Great Big World",
+        "start_time": "7:30PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -523,17 +597,8 @@
         "performers": []
       },
       {
-        "name": "Mar 25, 2026 | 7:00pm",
-        "start_time": "7:00PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Mar 25, 2026 | 7pm",
-        "start_time": "7PM",
+        "name": "Mar 26, 2026 | 7:30pm",
+        "start_time": "7:30PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -552,9 +617,29 @@
         "performers": []
       }
     ],
+    "62": [
+      {
+        "name": "*SOLD OUT* Slomosa",
+        "start_time": "7:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "https://www.ticketmaster.com/slomosa-new-york-new-york-03-26-2026/event/00006385D144D74B",
+        "performers": []
+      },
+      {
+        "name": "Thu Mar 26, 2026",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
     "73": [
       {
-        "name": "March 25 | New Moon Acoustic Blues",
+        "name": "March 26 | The Creswell Club",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -574,8 +659,8 @@
         "performers": []
       },
       {
-        "name": "Wednesday, March 25, 2026 7:00 PM 10:00 PM Google Calendar ICS",
-        "start_time": "7:00 PM",
+        "name": "M.Val/Michael Foster/Guillermo Gregorio",
+        "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -583,7 +668,16 @@
         "performers": []
       },
       {
-        "name": "Wednesday, March 25, 2026",
+        "name": "Thursday, March 26, 2026 6:00 PM 8:00 PM Google Calendar ICS",
+        "start_time": "6:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Thursday, March 26, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -594,45 +688,13 @@
     ],
     "96": [
       {
-        "name": "Zoume (Album Release Show), P.H.0, L punkliveZone One",
+        "name": "Boris and the Mess, Globe, JosettaliveZone One",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
-        "ticket_url": "https://www.eventbrite.com/e/zoume-album-release-show-ph0-l-punk-tickets-1982790352319",
+        "ticket_url": "https://www.eventbrite.com/e/boris-and-the-mess-globe-josetta-tickets-1984814393280",
         "performers": [
-          {
-            "name": "Zoume (Album Release Show), P.H.0, L punkliveZone One",
-            "mbid": "",
-            "description": "Zoume (Album Release Show), P.H.0, L punk",
-            "website": "https://www.elsewhere.club/events/1982790352319",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Zoume (Album Release Show), P.H.0, L punk",
-            "mbid": "",
-            "description": "Zoume (Album Release Show), P.H.0, L punk",
-            "website": "https://www.elsewhere.club/events/1982790352319",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
           {
             "name": "Boris and the Mess, Globe, JosettaliveZone One",
             "mbid": "",
@@ -698,9 +760,9 @@
             }
           },
           {
-            "name": "Conducta & Friends w/ JIALING, Samo, Denham Audio, HONEY BclubFull Venue",
+            "name": "Conducta & Friends w/ JIALING, Sana, Denham Audio, HONEY BclubFull Venue",
             "mbid": "",
-            "description": "Conducta & Friends w/ JIALING, Samo, Denham Audio, HONEY B",
+            "description": "Conducta & Friends w/ JIALING, Sana, Denham Audio, HONEY B",
             "website": "https://www.elsewhere.club/events/1981061109106",
             "social": {
               "instagram": "",
@@ -714,9 +776,9 @@
             }
           },
           {
-            "name": "Conducta & Friends w/ JIALING, Samo, Denham Audio, HONEY B",
+            "name": "Conducta & Friends w/ JIALING, Sana, Denham Audio, HONEY B",
             "mbid": "",
-            "description": "Conducta & Friends w/ JIALING, Samo, Denham Audio, HONEY B",
+            "description": "Conducta & Friends w/ JIALING, Sana, Denham Audio, HONEY B",
             "website": "https://www.elsewhere.club/events/1981061109106",
             "social": {
               "instagram": "",
@@ -1242,38 +1304,6 @@
             }
           },
           {
-            "name": "Getdown Services, ProblemsliveThe Hall",
-            "mbid": "",
-            "description": "Getdown Services, Problems",
-            "website": "https://www.elsewhere.club/events/1965529270960",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Getdown Services, Problems",
-            "mbid": "",
-            "description": "Getdown Services, Problems",
-            "website": "https://www.elsewhere.club/events/1965529270960",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
             "name": "Baby JaneliveZone One",
             "mbid": "",
             "description": "",
@@ -1294,6 +1324,38 @@
             "mbid": "",
             "description": "",
             "website": "https://www.elsewhere.club/events/1983782641282",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Getdown Services, ProblemsliveThe Hall",
+            "mbid": "",
+            "description": "Getdown Services, Problems",
+            "website": "https://www.elsewhere.club/events/1965529270960",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Getdown Services, Problems",
+            "mbid": "",
+            "description": "Getdown Services, Problems",
+            "website": "https://www.elsewhere.club/events/1965529270960",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -1338,38 +1400,6 @@
             }
           },
           {
-            "name": "Frog, Olivia O., DJ Silky SmoothliveThe Hall",
-            "mbid": "",
-            "description": "Frog, Olivia O., DJ Silky Smooth",
-            "website": "https://www.elsewhere.club/events/1983103228139",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Frog, Olivia O., DJ Silky Smooth",
-            "mbid": "",
-            "description": "Frog, Olivia O., DJ Silky Smooth",
-            "website": "https://www.elsewhere.club/events/1983103228139",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
             "name": "Indie Hourzz Presents: Scarlet Rae, Comet, Theo BleakliveZone One",
             "mbid": "",
             "description": "Indie Hourzz Presents: Scarlet Rae, Comet, Theo Bleak",
@@ -1390,6 +1420,38 @@
             "mbid": "",
             "description": "Indie Hourzz Presents: Scarlet Rae, Comet, Theo Bleak",
             "website": "https://www.elsewhere.club/events/1983828506466",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Frog, Olivia O., DJ Silky SmoothliveThe Hall",
+            "mbid": "",
+            "description": "Frog, Olivia O., DJ Silky Smooth",
+            "website": "https://www.elsewhere.club/events/1983103228139",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Frog, Olivia O., DJ Silky Smooth",
+            "mbid": "",
+            "description": "Frog, Olivia O., DJ Silky Smooth",
+            "website": "https://www.elsewhere.club/events/1983103228139",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -1434,38 +1496,6 @@
             }
           },
           {
-            "name": "Pallbearer (Performing Foundations of Burden in Full), Knoll + moreliveThe Hall",
-            "mbid": "",
-            "description": "Pallbearer (Performing Foundations of Burden in Full), Knoll + more",
-            "website": "https://www.elsewhere.club/events/1981053864437",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Pallbearer (Performing Foundations of Burden in Full), Knoll + more",
-            "mbid": "",
-            "description": "Pallbearer (Performing Foundations of Burden in Full), Knoll + more",
-            "website": "https://www.elsewhere.club/events/1981053864437",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
             "name": "Held., Common SageliveZone One",
             "mbid": "",
             "description": "",
@@ -1486,6 +1516,38 @@
             "mbid": "",
             "description": "",
             "website": "https://www.elsewhere.club/events/1985154809474",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Pallbearer (Performing Foundations of Burden in Full), Knoll + moreliveThe Hall",
+            "mbid": "",
+            "description": "Pallbearer (Performing Foundations of Burden in Full), Knoll + more",
+            "website": "https://www.elsewhere.club/events/1981053864437",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Pallbearer (Performing Foundations of Burden in Full), Knoll + more",
+            "mbid": "",
+            "description": "Pallbearer (Performing Foundations of Burden in Full), Knoll + more",
+            "website": "https://www.elsewhere.club/events/1981053864437",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -1720,11 +1782,43 @@
               "soundcloud": "",
               "tiktok": ""
             }
+          },
+          {
+            "name": "Hippie Sabotage - Give and Take Tour, Kembe XliveThe Hall",
+            "mbid": "",
+            "description": "Hippie Sabotage - Give and Take Tour, Kembe X",
+            "website": "https://www.elsewhere.club/events/1981249201696",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Hippie Sabotage - Give and Take Tour, Kembe X",
+            "mbid": "",
+            "description": "Hippie Sabotage - Give and Take Tour, Kembe X",
+            "website": "https://www.elsewhere.club/events/1981249201696",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
           }
         ]
       },
       {
-        "name": "Wed, Mar 25",
+        "name": "Thu, Mar 26",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1735,23 +1829,43 @@
     ],
     "101": [
       {
-        "name": "Singer-Songwriter Spotlight: Sofi Vonn, Devika, Angel Chrisztina",
+        "name": "Stella Gray, Nora Conlon, Nat Brennan",
         "start_time": "11:00 PM",
         "end_time": "2:00 AM",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/singer-songwriter-spotlight-sofi-vonn-devika-angel-chrisztina-25th-mar-the-sultan-room-new-york-tickets",
+        "ticket_url": "https://dice.fm/event/stella-gray-nora-conlon-nat-brennan-26th-mar-the-sultan-room-new-york-tickets",
+        "performers": []
+      }
+    ],
+    "100": [
+      {
+        "name": "Katzman and Coach Birthday ShowMARKET HOTEL // 1140 Myrtle Ave, Brooklyn, NYC, NY",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Thursday Mar 26 7:00 PM",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
         "performers": []
       }
     ],
     "102": [
       {
-        "name": "Why I Oughta! Improv",
-        "start_time": "10:00 PM",
+        "name": "Dog Shaped (single release), Keta Ester, Al Sugarman",
+        "start_time": "11:00 PM",
         "end_time": "2:00 AM",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/why-i-oughta-improv-25th-mar-alphaville-new-york-tickets",
+        "ticket_url": "https://dice.fm/event/dog-shaped-single-release-keta-ester-al-sugarman-26th-mar-alphaville-new-york-tickets",
         "performers": []
       }
     ],
@@ -1766,7 +1880,7 @@
         "performers": []
       },
       {
-        "name": "Wednesday March 25th",
+        "name": "Thursday March 26th",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1795,8 +1909,8 @@
         "performers": []
       },
       {
-        "name": "Paraíso",
-        "start_time": "8:00 PM",
+        "name": "Energy Exchange",
+        "start_time": "10:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -1804,8 +1918,8 @@
         "performers": []
       },
       {
-        "name": "Wednesday, March 25, 2026 8:00 PM 8:00 PM Google Calendar ICS",
-        "start_time": "8:00 PM",
+        "name": "Thursday, March 26, 2026 10:00 PM 10:00 PM Google Calendar ICS",
+        "start_time": "10:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -1813,7 +1927,7 @@
         "performers": []
       },
       {
-        "name": "Wednesday, March 25, 2026",
+        "name": "Thursday, March 26, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1833,7 +1947,7 @@
         "performers": []
       },
       {
-        "name": "Mar 25, 2026",
+        "name": "Mar 26, 2026",
         "start_time": "9PM",
         "end_time": "",
         "ticket_price_advance": "$10",
@@ -1851,7 +1965,7 @@
         "performers": []
       },
       {
-        "name": "Mar 25, 2026 9:00 PM – 11:59 PM21:00 – 23:599:00 PM – 11:59 PM",
+        "name": "Mar 26, 2026 9:00 PM – 11:30 PM21:00 – 23:309:00 PM – 11:30 PM",
         "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1861,42 +1975,6 @@
       }
     ],
     "109": [
-      {
-        "name": "35th Line Clear presents: Tournament Tuesday - Puyo Puyo Tetris 2",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "Free",
-        "ticket_price_door": "Free",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Tue, Mar 24, 2026 7:00 PM 19:00 Wed, Mar 25, 2026 1:00 AM 01:00 Wonderville (map",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Tue, Mar 24, 2026 7:00 PM 19:00 Wed, Mar 25, 2026 1:00 AM 01:00",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Wed, Mar 25, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
       {
         "name": "Killer Queen Open Hive Night",
         "start_time": "8:00 PM",
@@ -1923,12 +2001,64 @@
         "ticket_price_door": "",
         "ticket_url": "",
         "performers": []
-      }
-    ],
-    "113": [
+      },
       {
-        "name": "3/25 — Sally Gates Residency 3/27 — Mystic Sound (DJ set) 3/28 — Jesse Mann + Ce",
+        "name": "Thu, Mar 26, 2026",
         "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Brooklyn Experimental Electronic Music March Artist Showcase",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Thursday, March 26, 2026 7:00 PM 11:00 PM 19:00 23:00 Wonderville (map) Google C",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Thursday, March 26, 2026",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "DJAJ",
+        "start_time": "11:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Thu, Mar 26, 2026 11:00 PM 23:00 Fri, Mar 27, 2026 1:30 AM 01:30 Wonderville (ma",
+        "start_time": "11:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Thu, Mar 26, 2026 11:00 PM 23:00 Fri, Mar 27, 2026 1:30 AM 01:30",
+        "start_time": "11:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -1938,19 +2068,8 @@
     ],
     "122": [
       {
-        "name": "The Moth StorySLAM",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "121": [
-      {
-        "name": "Studio Collective Happy Hour",
-        "start_time": "8:00 PM",
+        "name": "UpDating",
+        "start_time": "7:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -1958,17 +2077,8 @@
         "performers": []
       },
       {
-        "name": "March 25, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Join us next Wednesday, March 25th at The Commissioner for a Studio Collective H",
-        "start_time": "",
+        "name": "Janelle James",
+        "start_time": "10:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -1979,15 +2089,6 @@
     "131": [
       {
         "name": "jazz calendar",
-        "start_time": "11PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "WED 8 & 9:30 - Rico Jones",
         "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1996,8 +2097,8 @@
         "performers": []
       },
       {
-        "name": "Wednesday, March 25, 2026 8:00 PM 11:00 PM Google Calendar ICS",
-        "start_time": "8:00 PM",
+        "name": "Thurs Happy Hour w/ Max Light",
+        "start_time": "5:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -2005,8 +2106,35 @@
         "performers": []
       },
       {
-        "name": "Wednesday, March 25, 2026",
+        "name": "Thursday, March 26, 2026 5:30 PM 7:30 PM Google Calendar ICS",
+        "start_time": "5:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Thursday, March 26, 2026",
         "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "THURS 8 & 9:30 Carmen Staff w/Adam Kolker, Jeremy Stratton, George Schuller",
+        "start_time": "8:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Thursday, March 26, 2026 8:00 PM 11:00 PM Google Calendar ICS",
+        "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -2016,7 +2144,7 @@
     ],
     "140": [
       {
-        "name": "DVSN - SEPT 5TH - 10 Year Anniversary Shows",
+        "name": "Zara Larsson",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -2027,7 +2155,7 @@
     ],
     "152": [
       {
-        "name": "7pm Peanut / Natural Rat / WireBed / Love Somebody Sometimes",
+        "name": "c86'd Presents: Fragile Like Life After / Rosemary Nods Upon The Grave / Silverdollar / Fo",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -2038,21 +2166,12 @@
     ],
     "153": [
       {
-        "name": "Frank Hurricane, Cool Whip, Ada Interactive",
+        "name": "Ringing, SUN ORGAN, Wince, Manyshiningwindows",
         "start_time": "7:00PM",
         "end_time": "",
-        "ticket_price_advance": "$15.00",
-        "ticket_price_door": "$15.00",
-        "ticket_url": "https://wl.seetickets.us/event/frank-hurricane-cool-whip-ada-interactive/682874?afflky=TVEye",
-        "performers": []
-      },
-      {
-        "name": "DJ Sean Jones of The Jones Bar",
-        "start_time": "7:00PM",
-        "end_time": "",
-        "ticket_price_advance": "$0.00",
-        "ticket_price_door": "$0.00",
-        "ticket_url": "https://wl.seetickets.us/event/dj-sean-jones-of-the-jones-bar/685628?afflky=TVEye",
+        "ticket_price_advance": "$20.00",
+        "ticket_price_door": "$20.00",
+        "ticket_url": "https://wl.seetickets.us/event/ringing-sun-organ-wince-manyshiningwindows/681859?afflky=TVEye",
         "performers": []
       }
     ],
@@ -2069,131 +2188,24 @@
     ],
     "169": [
       {
-        "name": "Riddim Section Presents Aziza Miller",
+        "name": "jcal event calendar",
         "start_time": "8:00 PM",
-        "end_time": "9:30 PM",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "https://www.sociablekit.com",
-        "performers": [
-          {
-            "name": "name",
-            "mbid": "",
-            "description": "",
-            "website": "",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          }
-        ]
-      }
-    ],
-    "170": [
-      {
-        "name": "Viva El Cinco De Mayo 2026",
-        "start_time": "3 PM",
         "end_time": "",
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
-        "ticket_url": "https://www.ticketmaster.com/event/1D006305C74821A9",
-        "performers": []
-      },
-      {
-        "name": "A Fiction Reading by Min Jin Lee",
-        "start_time": "7 PM",
-        "end_time": "",
-        "ticket_price_advance": "Free",
-        "ticket_price_door": "Free",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "March 25, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "190": [
-      {
-        "name": "Master Composter Certificate | Course 4: Caring for Soils | Virtual Session |",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "Free",
-        "ticket_price_door": "Free",
-        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg000008x6RNMAY",
-        "performers": []
-      },
-      {
-        "name": "Mar 25 @ 7:00 PM – 9:00 PM",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "When:",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "Free",
-        "ticket_price_door": "Free",
-        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg000008x6RNMAY",
+        "ticket_url": "https://www.eventbrite.com/e/strength-courage-wisdom-2026-tickets-1979912731277?aff=oddtdtcreator&keep_tld=true",
         "performers": []
       }
     ],
     "193": [
       {
-        "name": "Zoume (Album Release Show), P.H.0, L punkliveZone One",
+        "name": "Boris and the Mess, Globe, JosettaliveZone One",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
-        "ticket_url": "https://www.eventbrite.com/e/zoume-album-release-show-ph0-l-punk-tickets-1982790352319",
+        "ticket_url": "https://www.eventbrite.com/e/boris-and-the-mess-globe-josetta-tickets-1984814393280",
         "performers": [
-          {
-            "name": "Zoume (Album Release Show), P.H.0, L punkliveZone One",
-            "mbid": "",
-            "description": "Zoume (Album Release Show), P.H.0, L punk",
-            "website": "https://www.elsewhere.club/events/1982790352319",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Zoume (Album Release Show), P.H.0, L punk",
-            "mbid": "",
-            "description": "Zoume (Album Release Show), P.H.0, L punk",
-            "website": "https://www.elsewhere.club/events/1982790352319",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
           {
             "name": "Boris and the Mess, Globe, JosettaliveZone One",
             "mbid": "",
@@ -2259,9 +2271,9 @@
             }
           },
           {
-            "name": "Conducta & Friends w/ JIALING, Samo, Denham Audio, HONEY BclubFull Venue",
+            "name": "Conducta & Friends w/ JIALING, Sana, Denham Audio, HONEY BclubFull Venue",
             "mbid": "",
-            "description": "Conducta & Friends w/ JIALING, Samo, Denham Audio, HONEY B",
+            "description": "Conducta & Friends w/ JIALING, Sana, Denham Audio, HONEY B",
             "website": "https://www.elsewhere.club/events/1981061109106",
             "social": {
               "instagram": "",
@@ -2275,9 +2287,9 @@
             }
           },
           {
-            "name": "Conducta & Friends w/ JIALING, Samo, Denham Audio, HONEY B",
+            "name": "Conducta & Friends w/ JIALING, Sana, Denham Audio, HONEY B",
             "mbid": "",
-            "description": "Conducta & Friends w/ JIALING, Samo, Denham Audio, HONEY B",
+            "description": "Conducta & Friends w/ JIALING, Sana, Denham Audio, HONEY B",
             "website": "https://www.elsewhere.club/events/1981061109106",
             "social": {
               "instagram": "",
@@ -2803,38 +2815,6 @@
             }
           },
           {
-            "name": "Getdown Services, ProblemsliveThe Hall",
-            "mbid": "",
-            "description": "Getdown Services, Problems",
-            "website": "https://www.elsewhere.club/events/1965529270960",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Getdown Services, Problems",
-            "mbid": "",
-            "description": "Getdown Services, Problems",
-            "website": "https://www.elsewhere.club/events/1965529270960",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
             "name": "Baby JaneliveZone One",
             "mbid": "",
             "description": "",
@@ -2855,6 +2835,38 @@
             "mbid": "",
             "description": "",
             "website": "https://www.elsewhere.club/events/1983782641282",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Getdown Services, ProblemsliveThe Hall",
+            "mbid": "",
+            "description": "Getdown Services, Problems",
+            "website": "https://www.elsewhere.club/events/1965529270960",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Getdown Services, Problems",
+            "mbid": "",
+            "description": "Getdown Services, Problems",
+            "website": "https://www.elsewhere.club/events/1965529270960",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -2899,38 +2911,6 @@
             }
           },
           {
-            "name": "Frog, Olivia O., DJ Silky SmoothliveThe Hall",
-            "mbid": "",
-            "description": "Frog, Olivia O., DJ Silky Smooth",
-            "website": "https://www.elsewhere.club/events/1983103228139",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Frog, Olivia O., DJ Silky Smooth",
-            "mbid": "",
-            "description": "Frog, Olivia O., DJ Silky Smooth",
-            "website": "https://www.elsewhere.club/events/1983103228139",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
             "name": "Indie Hourzz Presents: Scarlet Rae, Comet, Theo BleakliveZone One",
             "mbid": "",
             "description": "Indie Hourzz Presents: Scarlet Rae, Comet, Theo Bleak",
@@ -2951,6 +2931,38 @@
             "mbid": "",
             "description": "Indie Hourzz Presents: Scarlet Rae, Comet, Theo Bleak",
             "website": "https://www.elsewhere.club/events/1983828506466",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Frog, Olivia O., DJ Silky SmoothliveThe Hall",
+            "mbid": "",
+            "description": "Frog, Olivia O., DJ Silky Smooth",
+            "website": "https://www.elsewhere.club/events/1983103228139",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Frog, Olivia O., DJ Silky Smooth",
+            "mbid": "",
+            "description": "Frog, Olivia O., DJ Silky Smooth",
+            "website": "https://www.elsewhere.club/events/1983103228139",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -2995,38 +3007,6 @@
             }
           },
           {
-            "name": "Pallbearer (Performing Foundations of Burden in Full), Knoll + moreliveThe Hall",
-            "mbid": "",
-            "description": "Pallbearer (Performing Foundations of Burden in Full), Knoll + more",
-            "website": "https://www.elsewhere.club/events/1981053864437",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Pallbearer (Performing Foundations of Burden in Full), Knoll + more",
-            "mbid": "",
-            "description": "Pallbearer (Performing Foundations of Burden in Full), Knoll + more",
-            "website": "https://www.elsewhere.club/events/1981053864437",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
             "name": "Held., Common SageliveZone One",
             "mbid": "",
             "description": "",
@@ -3047,6 +3027,38 @@
             "mbid": "",
             "description": "",
             "website": "https://www.elsewhere.club/events/1985154809474",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Pallbearer (Performing Foundations of Burden in Full), Knoll + moreliveThe Hall",
+            "mbid": "",
+            "description": "Pallbearer (Performing Foundations of Burden in Full), Knoll + more",
+            "website": "https://www.elsewhere.club/events/1981053864437",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Pallbearer (Performing Foundations of Burden in Full), Knoll + more",
+            "mbid": "",
+            "description": "Pallbearer (Performing Foundations of Burden in Full), Knoll + more",
+            "website": "https://www.elsewhere.club/events/1981053864437",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -3281,11 +3293,43 @@
               "soundcloud": "",
               "tiktok": ""
             }
+          },
+          {
+            "name": "Hippie Sabotage - Give and Take Tour, Kembe XliveThe Hall",
+            "mbid": "",
+            "description": "Hippie Sabotage - Give and Take Tour, Kembe X",
+            "website": "https://www.elsewhere.club/events/1981249201696",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Hippie Sabotage - Give and Take Tour, Kembe X",
+            "mbid": "",
+            "description": "Hippie Sabotage - Give and Take Tour, Kembe X",
+            "website": "https://www.elsewhere.club/events/1981249201696",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
           }
         ]
       },
       {
-        "name": "Wed, Mar 25",
+        "name": "Thu, Mar 26",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -3314,7 +3358,7 @@
         "performers": []
       },
       {
-        "name": "Mar 25, 2026",
+        "name": "Mar 26, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
