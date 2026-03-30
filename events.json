@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-03-29T09:11:20.943287-04:00",
-  "date": "2026-03-29",
+  "generated_at": "2026-03-30T09:50:14.107011-04:00",
+  "date": "2026-03-30",
   "events": {
     "2": [
       {
-        "name": "Today + Tomorrow \\ Mar 29 Sun - Mar 30 Mon Click on an event to purchase tickets",
-        "start_time": "2:00 PM",
+        "name": "Today + Tomorrow \\ Mar 30 Mon - Mar 31 Tue Click on an event to purchase tickets",
+        "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -62,8 +62,8 @@
         ]
       },
       {
-        "name": "Smalls Afternoon Jam Session Hosted by Ryo Sasaki",
-        "start_time": "2:00 PM",
+        "name": "Barry Stephenson Quintet",
+        "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -120,7 +120,7 @@
         ]
       },
       {
-        "name": "Chris Byars Octet",
+        "name": "Jeremy Manasia Trio",
         "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -129,25 +129,7 @@
         "performers": []
       },
       {
-        "name": "Judy Niemack Trio",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "George Coleman Quintet",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Alex Norris Quintet",
+        "name": "Corey Wallace DUBtet",
         "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -156,7 +138,7 @@
         "performers": []
       },
       {
-        "name": "Noa Lee Chait Trio",
+        "name": "Stefano Doglioni Quartet",
         "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -165,19 +147,8 @@
         "performers": []
       },
       {
-        "name": "Aaron Johnson Boplicity",
-        "start_time": "11:55 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "7": [
-      {
-        "name": "The New York Songwriters Collective",
-        "start_time": "5:00 PM",
+        "name": "Vinyl After Hours",
+        "start_time": "11:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -185,17 +156,8 @@
         "performers": []
       },
       {
-        "name": "Claudia Marie: EP Release Party",
-        "start_time": "8:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Fenix360 Monthly Showcase",
-        "start_time": "10:00 PM",
+        "name": "Jam Session Hosted By Mike Boone",
+        "start_time": "11:45 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -205,7 +167,7 @@
     ],
     "17": [
       {
-        "name": "Jesse Malin\\'s Silver Manhattan",
+        "name": "Music Meetup",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -214,7 +176,7 @@
         "performers": []
       },
       {
-        "name": "Mar 29, 2026 @ 7:00 PM",
+        "name": "Mar 30, 2026 @ 7:00 PM",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -223,17 +185,55 @@
         "performers": []
       },
       {
-        "name": "Jesse Malin’s Silver Manhattan",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "https://www.ticketmaster.com/jesse-malins-silver-manhattan-new-york-new-york-03-29-2026/event/0000638BDFA3E368",
-        "performers": []
-      },
-      {
-        "name": "Mar 29, 2026",
+        "name": "Mar 30, 2026",
         "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "21": [
+      {
+        "name": "'Club Cumming' World Premiere Watch Party",
+        "start_time": "8:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Monday, March 30, 2026 8:00 PM 9:00 PM 20:00 21:00 Club Cumming (map) Google Cal",
+        "start_time": "8:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Monday, March 30, 2026",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Mondays in the Club with Lance",
+        "start_time": "9:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Monday, March 30, 2026 9:30 PM 11:59 PM 21:30 23:59 Club Cumming (map) Google Ca",
+        "start_time": "9:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -243,7 +243,7 @@
     ],
     "20": [
       {
-        "name": "Gavin Bermudez | Southpxw",
+        "name": "Lora Mouna | Abbie Roper | Stupid Lucky",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -252,16 +252,7 @@
         "performers": []
       },
       {
-        "name": "March 29, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "RINN | Villins | Art Thief",
+        "name": "March 30, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -272,73 +263,8 @@
     ],
     "22": [
       {
-        "name": "Sunday Night Traditional Irish Seisiún",
-        "start_time": "09:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "21": [
-      {
-        "name": "Club Haus with DJ Darren Dryden",
-        "start_time": "11:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sat, Mar 28, 2026 11:00 PM 23:00 Sun, Mar 29, 2026 3:00 AM 03:00 Club Cumming (m",
-        "start_time": "11:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sat, Mar 28, 2026 11:00 PM 23:00 Sun, Mar 29, 2026 3:00 AM 03:00",
-        "start_time": "11:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sun, Mar 29, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "The Anatomy Lesson: Drink & Draw",
-        "start_time": "5:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 29, 2026 5:00 PM 8:00 PM 17:00 20:00 Club Cumming (map) Google Cal",
-        "start_time": "5:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 29, 2026",
-        "start_time": "",
+        "name": "Keyed Up! presents Monday Night Jazz",
+        "start_time": "08:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -348,16 +274,16 @@
     ],
     "24": [
       {
-        "name": "Ndanu Mutisya, Mojo and The Mayhem, Joe Grisanzio",
-        "start_time": "5:00 PM",
+        "name": "Cory Branan",
+        "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://www.ticketmaster.com/ndanu-mutisya-mojo-and-the-mayhem-new-york-new-york-03-29-2026/event/0000645707D574D3",
+        "ticket_url": "https://www.ticketmaster.com/cory-branan-new-york-new-york-03-30-2026/event/0000636BE1BFF558",
         "performers": []
       },
       {
-        "name": "Sun Mar 29, 2026",
+        "name": "Mon Mar 30, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -366,21 +292,10 @@
         "performers": []
       }
     ],
-    "27": [
-      {
-        "name": "Stereo Mandrax (FREE w/ RSVP): Alan Licht • Ward/Holmes Volume Off • Gryphon Rue",
-        "start_time": "11:00 PM",
-        "end_time": "2:30 AM",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/stereo-mandrax-free-w-rsvp-alan-licht-wardholmes-volume-off-gryphon-rue-29th-mar-pianos-showroom-new-york-tickets",
-        "performers": []
-      }
-    ],
     "30": [
       {
-        "name": "Krebs and Simone present: The Endless Party",
-        "start_time": "7:00 PM",
+        "name": "NYC Fringe: SNAPSHOTS",
+        "start_time": "6:30 PM",
         "end_time": "",
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
@@ -421,8 +336,50 @@
         ]
       },
       {
-        "name": "DEFCON INDUSTRIAL DANCE PARTY",
-        "start_time": "11:00 PM",
+        "name": "Wet Spot presents: Send in the Queers",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "$12",
+        "ticket_price_door": "$12",
+        "ticket_url": "",
+        "performers": [
+          {
+            "name": "Wet Spot",
+            "mbid": "",
+            "description": "",
+            "website": "",
+            "social": {
+              "instagram": "https://www.instagram.com/wetspotnyc/",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Kaylyn Buehler",
+            "mbid": "",
+            "description": "",
+            "website": "",
+            "social": {
+              "instagram": "https://www.instagram.com/kaylyn_buehler/",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          }
+        ]
+      },
+      {
+        "name": "Monday, March 30, 2026 7:00 PM 9:00 PM Parkside Lounge (map) Google Calendar ICS",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -430,92 +387,7 @@
         "performers": []
       },
       {
-        "name": "Sat, Mar 28, 2026 11:00 PM Sun, Mar 29, 2026 4:00 AM Parkside Lounge (map) Googl",
-        "start_time": "11:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sat, Mar 28, 2026 11:00 PM Sun, Mar 29, 2026 4:00 AM",
-        "start_time": "11:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sun, Mar 29, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "NYC Fringe: SNAPSHOTS",
-        "start_time": "6:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 29, 2026 6:30 PM 8:30 PM Parkside Lounge (map) Google Calendar ICS",
-        "start_time": "6:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 29, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "33": [
-      {
-        "name": "Chris Patrick & Marco Plus",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "34": [
-      {
-        "name": "The EarRegulars 8-11pm",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 29, 2026 8:00 PM 11:00 PM 20:00 23:00 The Ear Inn (map) Google Cal",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 29, 2026",
+        "name": "Monday, March 30, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -526,69 +398,51 @@
     ],
     "41": [
       {
-        "name": "Strawberry Fields Ultimate Beatles Brunch Concert",
-        "start_time": "11:30 AM",
+        "name": "Special Event at City Vineyard at Pier 26: Lectures on Tap",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://tickets.citywinery.com/event/strawberry-fields-ultimate-beatles-brunch-concer-insweg",
+        "ticket_url": "https://tickets.citywinery.com/event/special-event-at-city-vineyard-at-pier-26-lectur-gdc9k2",
         "performers": []
       },
       {
-        "name": "Sun, Mar 29 @ 11:30 am",
-        "start_time": "11:30 AM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sun, Mar 29 @ 7:00 pm",
+        "name": "Mon, Mar 30 @ 7:00 pm",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
         "ticket_url": "",
         "performers": []
-      }
-    ],
-    "42": [
-      {
-        "name": "BROADWAY SINGS TAYLOR SWIFT",
-        "start_time": "2:00PM",
-        "end_time": "",
-        "ticket_price_advance": "$40.00",
-        "ticket_price_door": "$40.00",
-        "ticket_url": "",
-        "performers": []
       },
       {
-        "name": "Sun Mar 29",
-        "start_time": "",
+        "name": "Mon, Mar 30 @ 7:30 pm",
+        "start_time": "7:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
         "ticket_url": "",
         "performers": []
-      },
-      {
-        "name": "The Carnaby Street Girls",
-        "start_time": "8:00PM",
-        "end_time": "",
-        "ticket_price_advance": "$35.00",
-        "ticket_price_door": "$35.00",
-        "ticket_url": "https://wl.seetickets.us/event/the-carnaby-street-girls/682319?afflky=TheCuttingRoom",
-        "performers": []
       }
     ],
     "43": [
       {
-        "name": "Lew Tabackin Trio",
+        "name": "Vince Giordano and the Nighthawks",
         "start_time": "4:30PM",
         "end_time": "",
-        "ticket_price_advance": "$35.46",
-        "ticket_price_door": "$35.46",
+        "ticket_price_advance": "$24.91",
+        "ticket_price_door": "$24.91",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "47": [
+      {
+        "name": "\"THE FOURTH ANNUAL CHOCOLATE SEDER\" 3/3026 ( 7:00 pm )",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
         "ticket_url": "",
         "performers": []
       }
@@ -604,20 +458,38 @@
         "performers": []
       }
     ],
-    "52": [
+    "54": [
       {
-        "name": "Kenny Barron Trio",
-        "start_time": "6PM",
+        "name": "Abby Jimenez, The Night We Met",
+        "start_time": "7:00PM",
         "end_time": "",
-        "ticket_price_advance": "$25.00",
-        "ticket_price_door": "$25.00",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Mar 30, 2026 | 7:00pm",
+        "start_time": "7:00PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Mar 30, 2026 | 7pm",
+        "start_time": "7PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
         "ticket_url": "",
         "performers": []
       }
     ],
     "73": [
       {
-        "name": "March 29 | The Milkman & Sons",
+        "name": "March 30 | The New Wonders - Mike Davis",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -628,88 +500,30 @@
     ],
     "77": [
       {
-        "name": "Lew Tabackin Trio",
+        "name": "Vince Giordano and the Nighthawks",
         "start_time": "4:30PM",
         "end_time": "",
-        "ticket_price_advance": "$35.46",
-        "ticket_price_door": "$35.46",
+        "ticket_price_advance": "$24.91",
+        "ticket_price_door": "$24.91",
         "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "93": [
-      {
-        "name": "Punk Archives for the Present from CBGB to Gilman and Beyond: We’re Having Much More Fun",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "Free",
-        "ticket_price_door": "Free",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Book Launch: Corridors of Contagion by Victoria Law",
-        "start_time": "3:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 29, 2026 3:00 PM 5:30 PM Google Calendar ICS",
-        "start_time": "3:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 29, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "101": [
-      {
-        "name": "Girl Noise ft. Buffchick, Caitlin Starr, Father Koi, For Opal, Leyla Ebrahimi, Simone, Speedrun, ABBIIZA",
-        "start_time": "10:00 PM",
-        "end_time": "3:00 AM",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/girl-noise-ft-buffchick-caitlin-starr-father-koi-for-opal-leyla-ebrahimi-simone-speedrun-abbiiza-29th-mar-the-sultan-room-new-york-tickets",
         "performers": []
       }
     ],
     "102": [
       {
-        "name": "Bodies of Work",
-        "start_time": "10:00 PM",
-        "end_time": "2:00 AM",
+        "name": "Yard Sale Comedy Open Mic",
+        "start_time": "10:30 PM",
+        "end_time": "2:30 AM",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/bodies-of-work-29th-mar-alphaville-new-york-tickets",
-        "performers": []
-      },
-      {
-        "name": "Vinyl Sundays Free at Alphaville",
-        "start_time": "11:00 PM",
-        "end_time": "3:00 AM",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/vinyl-sundays-free-at-alphaville-29th-mar-alphaville-new-york-tickets",
+        "ticket_url": "https://dice.fm/event/yard-sale-comedy-open-mic-30th-mar-alphaville-new-york-tickets",
         "performers": []
       }
     ],
     "109": [
       {
-        "name": "The Donut Lounge",
-        "start_time": "6:00 PM",
+        "name": "Robot Karaoke",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
@@ -717,8 +531,8 @@
         "performers": []
       },
       {
-        "name": "Sat, Mar 28, 2026 6:00 PM 18:00 Sun, Mar 29, 2026 2:00 AM 02:00 Wonderville (map",
-        "start_time": "6:00 PM",
+        "name": "Monday, March 30, 2026 7:00 PM 10:00 PM 19:00 22:00 Wonderville (map) Google Cal",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -726,16 +540,7 @@
         "performers": []
       },
       {
-        "name": "Sat, Mar 28, 2026 6:00 PM 18:00 Sun, Mar 29, 2026 2:00 AM 02:00",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sun, Mar 29, 2026",
+        "name": "Monday, March 30, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -744,17 +549,8 @@
         "performers": []
       },
       {
-        "name": "A Pokémon Variety Show!",
-        "start_time": "2:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "$10",
-        "ticket_price_door": "$10",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 29, 2026 2:30 PM 6:00 PM 14:30 18:00 Wonderville (map) Google Cale",
-        "start_time": "2:30 PM",
+        "name": "the FORT90 BROADCAST SYSTEM presents: FORT90 TV",
+        "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -762,26 +558,26 @@
         "performers": []
       },
       {
-        "name": "Sunday, March 29, 2026",
+        "name": "Mon, Mar 30, 2026 8:00 PM 20:00 Tue, Mar 31, 2026 5:00 AM 05:00 Wonderville (map",
+        "start_time": "8:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Mon, Mar 30, 2026 8:00 PM 20:00 Tue, Mar 31, 2026 5:00 AM 05:00",
+        "start_time": "8:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Mon, Mar 30, 2026",
         "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "fortress, wujeria, vangas, daysies at wonderville",
-        "start_time": "7:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 29, 2026 7:30 PM 11:00 PM 19:30 23:00 Wonderville (map) Google Cal",
-        "start_time": "7:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -791,7 +587,7 @@
     ],
     "110": [
       {
-        "name": "Earlybird Show",
+        "name": "Female Piano Composers Showcase: Jihee Heo",
         "start_time": "06:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -800,7 +596,7 @@
         "performers": []
       },
       {
-        "name": "Sunday March 29th",
+        "name": "Monday March 30th",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -818,21 +614,10 @@
         "performers": []
       }
     ],
-    "113": [
-      {
-        "name": "3/29 — Flamenco in Brooklyn 4/7 — Sam Weinberg Residency 4/12 — Scree / Marwan A",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
     "112": [
       {
         "name": "Next",
-        "start_time": "9PM",
+        "start_time": "",
         "end_time": "",
         "ticket_price_advance": "$10",
         "ticket_price_door": "$10",
@@ -840,8 +625,8 @@
         "performers": []
       },
       {
-        "name": "Mar 29, 2026",
-        "start_time": "9PM",
+        "name": "Mar 30, 2026",
+        "start_time": "",
         "end_time": "",
         "ticket_price_advance": "$10",
         "ticket_price_door": "$10",
@@ -858,46 +643,8 @@
         "performers": []
       },
       {
-        "name": "Mar 29, 2026 9:00 PM – 11:30 PM21:00 – 23:309:00 PM – 11:30 PM",
+        "name": "Mar 30, 2026 9:00 PM – 11:59 PM21:00 – 23:599:00 PM – 11:59 PM",
         "start_time": "9:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "111": [
-      {
-        "name": "Upcoming Events",
-        "start_time": "10:30 AM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Damballa Sundays",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 29, 2026 6:00 PM 6:00 PM Google Calendar ICS",
-        "start_time": "6:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Sunday, March 29, 2026",
-        "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -907,8 +654,28 @@
     ],
     "122": [
       {
-        "name": "Joel Kim Booster: Chose This Way",
-        "start_time": "7:00 PM",
+        "name": "Richard Perez: For One Night (with a Band) Okay",
+        "start_time": "7:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "121": [
+      {
+        "name": "That Feeling In Your Gut: Is This the Right School?",
+        "start_time": "8:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "March 30, 2026",
+        "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -918,7 +685,7 @@
     ],
     "127": [
       {
-        "name": "Meshell Ndegeocello, Justin Hicks",
+        "name": "Supper Club with Calvin Eng",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -927,25 +694,23 @@
         "performers": []
       }
     ],
-    "140": [
+    "153": [
       {
-        "name": "Cock Sparrer",
-        "start_time": "6:00 PM",
+        "name": "David J, Paul Wallfisch, Joseph Keckler, Alison Clancy",
+        "start_time": "7:00PM",
         "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
+        "ticket_price_advance": "$35.00",
+        "ticket_price_door": "$35.00",
+        "ticket_url": "https://wl.seetickets.us/event/david-j-paul-wallfisch-joseph-keckler-alison-clancy/680705?afflky=TVEye",
         "performers": []
-      }
-    ],
-    "152": [
+      },
       {
-        "name": "Zzzahara + Bleary Eyed + Faerybabyy",
-        "start_time": "7:00 PM",
+        "name": "Karaoke Funhouse",
+        "start_time": "9:00PM",
         "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
+        "ticket_price_advance": "$0.00",
+        "ticket_price_door": "$0.00",
+        "ticket_url": "https://wl.seetickets.us/event/Karaoke-Funhouse/683010?afflky=TVEye",
         "performers": []
       }
     ],
@@ -968,145 +733,6 @@
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
         "ticket_url": "https://www.eventbrite.com/e/queens-international-childrens-festival-2026-tickets-1984073534351?aff=oddtdtcreator&keep_tld=true",
-        "performers": []
-      }
-    ],
-    "190": [
-      {
-        "name": "Farm Stewardship",
-        "start_time": "9:00 AM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Mar 29 @ 9:00 AM – 12:00 PM",
-        "start_time": "9:00 AM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Master Composter Certificate | Course 5: Composting Systems, Tools, and Scales |",
-        "start_time": "9:30 AM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Mar 29 @ 9:30 AM – 11:30 AM",
-        "start_time": "9:30 AM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Master Composter Certificate | Course 6: Designing and Managing Community |",
-        "start_time": "11:30 AM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Mar 29 @ 11:30 AM – 1:30 PM",
-        "start_time": "11:30 AM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Chinese Scholar’s Garden Tour",
-        "start_time": "12:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Mar 29 @ 12:00 PM – 3:30 PM",
-        "start_time": "12:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Environmental and Tree Stewardship",
-        "start_time": "12:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Mar 29 @ 12:30 PM – 3:00 PM",
-        "start_time": "12:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Compost Processing Workday",
-        "start_time": "2:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Mar 29 @ 2:00 PM – 3:30 PM",
-        "start_time": "2:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "196": [
-      {
-        "name": "The Broadway is a multi-story bar and music venue under the J train along the border of Bushwick and Bedford-Stuyvesant.",
-        "start_time": "4PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Calendar",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Mar 29, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
         "performers": []
       }
     ]
