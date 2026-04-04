@@ -1,27 +1,18 @@
 {
-  "generated_at": "2026-04-03T09:19:09.830206-04:00",
-  "date": "2026-04-03",
+  "generated_at": "2026-04-04T09:10:51.801900-04:00",
+  "date": "2026-04-04",
   "events": {
     "9": [
       {
-        "name": "Klub Nocturno presents",
-        "start_time": "11:00PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "with Herbert Holler & host Savior Elmundo",
-        "start_time": "6:00PM",
+        "name": "LPR Presents",
+        "start_time": "7:00PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
         "ticket_url": "",
         "performers": [
           {
-            "name": "with Herbert Holler & host Savior Elmundo",
+            "name": "with Gay Meat",
             "mbid": "",
             "description": "",
             "website": "",
@@ -41,8 +32,8 @@
     ],
     "7": [
       {
-        "name": "Rebecca Haviland",
-        "start_time": "7:30 PM",
+        "name": "Youth Arts Forum",
+        "start_time": "1:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -50,25 +41,7 @@
         "performers": []
       },
       {
-        "name": "Matt Kelley & The Big Reveal",
-        "start_time": "9:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Rae The Band",
-        "start_time": "11:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Jessenia & Madi Task's Birthday Show",
+        "name": "Michael \"BULL\" LoBue",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -77,8 +50,8 @@
         "performers": []
       },
       {
-        "name": "JT Curtis \"Where Did The Music Go\" Record Release",
-        "start_time": "8:15 PM",
+        "name": "A Soulful Musical Celebration of The Staple Singers",
+        "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -86,8 +59,8 @@
         "performers": []
       },
       {
-        "name": "Oz Noy Organ Trio",
-        "start_time": "9:30 PM",
+        "name": "Ethan Eubanks Blues Bangers",
+        "start_time": "11:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -97,8 +70,8 @@
     ],
     "17": [
       {
-        "name": "Fruit Punch | The Backstacks | Joey Whelan",
-        "start_time": "8:00 PM",
+        "name": "Spite Fences | My Friend Noel | Bluebelt",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -106,8 +79,8 @@
         "performers": []
       },
       {
-        "name": "Apr 3, 2026 @ 8:00 PM",
-        "start_time": "8:00 PM",
+        "name": "Apr 4, 2026 @ 7:00 PM",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -115,112 +88,7 @@
         "performers": []
       },
       {
-        "name": "Apr 3, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "22": [
-      {
-        "name": "Chris Campion's Last Thursday of the Month",
-        "start_time": "08:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": [
-          {
-            "name": "iCalendar",
-            "mbid": "",
-            "description": "",
-            "website": "",
-            "social": {
-              "instagram": "",
-              "bandcamp": "https://addtocalendar.com/atc/ical?utz=0&uln=en-US&vjs=1.5&e[0][date_start]=2026-03-26%2020%3A30%3A00&e[0][date_end]=2026-03-26%2023%3A00%3A00&e[0][timezone]=America%2FNew_York&e[0][title]=Chris%20Campion's%20Last%20Thursday%20of%20the%20Month&e[0][description]=Chris%20Campion%20has%20one%20of%20the%20longest%20running%20residencies%20at%2011th%20St.%20Bar%2C%20%22The%20Last%20Thursday%20of%20Every%20Month.%22%20%26nbsp%3BHe%20brings%20an%20eclectic%20mix%20of%20both%20original%20and%20cover%20songs%20tied%20together%20by%20some%20of%20the%20best%20between%20song%20banter%20you'll%20ever%20hear.%20He%20is%20joined%20by%20any%20number%20of%20his%20musical%20co%20conspirators%20including%20Bennett%20LaGreca%2C%20Paul%20Giannini%2C%20Bill%20Ryan%2C%20Mike%20Cranmer%2C%20or%20even%20his%20brother%2C%20Billy%20Campion.%20Download%20the%20new%20album%20here%3A%26nbsp%3B%3Ca%20href%3D%22https%3A%2F%2Fchristopherjohncampion.bandcamp.com%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fchristopherjohncampion.bandcamp.com%3C%2Fa%3E%20.&e[0][location]=11th%20St.%20Bar&e[0][organizer]=11th%20St.%20Bar&e[0][organizer_email]=11thStBar%40gmail.com",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Outlook",
-            "mbid": "",
-            "description": "",
-            "website": "",
-            "social": {
-              "instagram": "",
-              "bandcamp": "https://addtocalendar.com/atc/outlook?utz=0&uln=en-US&vjs=1.5&e[0][date_start]=2026-03-26%2020%3A30%3A00&e[0][date_end]=2026-03-26%2023%3A00%3A00&e[0][timezone]=America%2FNew_York&e[0][title]=Chris%20Campion's%20Last%20Thursday%20of%20the%20Month&e[0][description]=Chris%20Campion%20has%20one%20of%20the%20longest%20running%20residencies%20at%2011th%20St.%20Bar%2C%20%22The%20Last%20Thursday%20of%20Every%20Month.%22%20%26nbsp%3BHe%20brings%20an%20eclectic%20mix%20of%20both%20original%20and%20cover%20songs%20tied%20together%20by%20some%20of%20the%20best%20between%20song%20banter%20you'll%20ever%20hear.%20He%20is%20joined%20by%20any%20number%20of%20his%20musical%20co%20conspirators%20including%20Bennett%20LaGreca%2C%20Paul%20Giannini%2C%20Bill%20Ryan%2C%20Mike%20Cranmer%2C%20or%20even%20his%20brother%2C%20Billy%20Campion.%20Download%20the%20new%20album%20here%3A%26nbsp%3B%3Ca%20href%3D%22https%3A%2F%2Fchristopherjohncampion.bandcamp.com%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fchristopherjohncampion.bandcamp.com%3C%2Fa%3E%20.&e[0][location]=11th%20St.%20Bar&e[0][organizer]=11th%20St.%20Bar&e[0][organizer_email]=11thStBar%40gmail.com",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Outlook Online",
-            "mbid": "",
-            "description": "",
-            "website": "",
-            "social": {
-              "instagram": "",
-              "bandcamp": "https://addtocalendar.com/atc/outlookonline?utz=0&uln=en-US&vjs=1.5&e[0][date_start]=2026-03-26%2020%3A30%3A00&e[0][date_end]=2026-03-26%2023%3A00%3A00&e[0][timezone]=America%2FNew_York&e[0][title]=Chris%20Campion's%20Last%20Thursday%20of%20the%20Month&e[0][description]=Chris%20Campion%20has%20one%20of%20the%20longest%20running%20residencies%20at%2011th%20St.%20Bar%2C%20%22The%20Last%20Thursday%20of%20Every%20Month.%22%20%26nbsp%3BHe%20brings%20an%20eclectic%20mix%20of%20both%20original%20and%20cover%20songs%20tied%20together%20by%20some%20of%20the%20best%20between%20song%20banter%20you'll%20ever%20hear.%20He%20is%20joined%20by%20any%20number%20of%20his%20musical%20co%20conspirators%20including%20Bennett%20LaGreca%2C%20Paul%20Giannini%2C%20Bill%20Ryan%2C%20Mike%20Cranmer%2C%20or%20even%20his%20brother%2C%20Billy%20Campion.%20Download%20the%20new%20album%20here%3A%26nbsp%3B%3Ca%20href%3D%22https%3A%2F%2Fchristopherjohncampion.bandcamp.com%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fchristopherjohncampion.bandcamp.com%3C%2Fa%3E%20.&e[0][location]=11th%20St.%20Bar&e[0][organizer]=11th%20St.%20Bar&e[0][organizer_email]=11thStBar%40gmail.com",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Yahoo! Calendar",
-            "mbid": "",
-            "description": "",
-            "website": "",
-            "social": {
-              "instagram": "",
-              "bandcamp": "https://addtocalendar.com/atc/yahoo?utz=0&uln=en-US&vjs=1.5&e[0][date_start]=2026-03-26%2020%3A30%3A00&e[0][date_end]=2026-03-26%2023%3A00%3A00&e[0][timezone]=America%2FNew_York&e[0][title]=Chris%20Campion's%20Last%20Thursday%20of%20the%20Month&e[0][description]=Chris%20Campion%20has%20one%20of%20the%20longest%20running%20residencies%20at%2011th%20St.%20Bar%2C%20%22The%20Last%20Thursday%20of%20Every%20Month.%22%20%26nbsp%3BHe%20brings%20an%20eclectic%20mix%20of%20both%20original%20and%20cover%20songs%20tied%20together%20by%20some%20of%20the%20best%20between%20song%20banter%20you'll%20ever%20hear.%20He%20is%20joined%20by%20any%20number%20of%20his%20musical%20co%20conspirators%20including%20Bennett%20LaGreca%2C%20Paul%20Giannini%2C%20Bill%20Ryan%2C%20Mike%20Cranmer%2C%20or%20even%20his%20brother%2C%20Billy%20Campion.%20Download%20the%20new%20album%20here%3A%26nbsp%3B%3Ca%20href%3D%22https%3A%2F%2Fchristopherjohncampion.bandcamp.com%22%20target%3D%22_blank%22%3Ehttps%3A%2F%2Fchristopherjohncampion.bandcamp.com%3C%2Fa%3E%20.&e[0][location]=11th%20St.%20Bar&e[0][organizer]=11th%20St.%20Bar&e[0][organizer_email]=11thStBar%40gmail.com",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          }
-        ]
-      }
-    ],
-    "20": [
-      {
-        "name": "Essenger | Echoes",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "April 30, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Office Hours | Mars Rodriguez | Cowboygirl",
+        "name": "Apr 4, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -231,8 +99,8 @@
     ],
     "21": [
       {
-        "name": "Drag Race Season 18 Viewing Party",
-        "start_time": "8:00 PM",
+        "name": "Romy & Michele's Afternoon Tea Dance",
+        "start_time": "4:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -240,8 +108,8 @@
         "performers": []
       },
       {
-        "name": "Friday, April 3, 2026 8:00 PM 10:00 PM 20:00 22:00 Club Cumming (map) Google Cal",
-        "start_time": "8:00 PM",
+        "name": "Saturday, April 4, 2026 4:00 PM 8:00 PM 16:00 20:00 Club Cumming (map) Google Ca",
+        "start_time": "4:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -249,7 +117,7 @@
         "performers": []
       },
       {
-        "name": "Friday, April 3, 2026",
+        "name": "Saturday, April 4, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -258,8 +126,8 @@
         "performers": []
       },
       {
-        "name": "Déja Vu with William Francis & Eggz",
-        "start_time": "10:30 PM",
+        "name": "Private Event",
+        "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -267,8 +135,8 @@
         "performers": []
       },
       {
-        "name": "Thursday, April 30, 2026 10:30 PM 11:59 PM 22:30 23:59 Club Cumming (map) Google",
-        "start_time": "10:30 PM",
+        "name": "Saturday, April 4, 2026 8:00 PM 11:00 PM 20:00 23:00 Club Cumming (map) Google C",
+        "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -276,8 +144,46 @@
         "performers": []
       },
       {
-        "name": "Thursday, April 30, 2026",
+        "name": "Haus of Cumming: Iceland Edition!",
+        "start_time": "11:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Sat, Apr 4, 2026 11:00 PM 23:00 Sun, Apr 5, 2026 4:00 AM 04:00 Club Cumming (map",
+        "start_time": "11:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Sat, Apr 4, 2026 11:00 PM 23:00 Sun, Apr 5, 2026 4:00 AM 04:00",
+        "start_time": "11:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Sat, Apr 4, 2026",
         "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "22": [
+      {
+        "name": "Liverpool vs. Man City (FA Cup)",
+        "start_time": "7:00AM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -287,16 +193,16 @@
     ],
     "24": [
       {
-        "name": "Blush Boy",
-        "start_time": "9:00 PM",
+        "name": "Max Morgen, Andre Lawrence, Nadia Faye",
+        "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://www.ticketmaster.com/blush-boy-new-york-new-york-04-03-2026/event/0000645AAA21D41D",
+        "ticket_url": "https://www.ticketmaster.com/max-morgen-andre-lawrence-nadia-faye-new-york-new-york-04-04-2026/event/00006470A777849C",
         "performers": []
       },
       {
-        "name": "Fri Apr 3, 2026",
+        "name": "Sat Apr 4, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -307,21 +213,12 @@
     ],
     "27": [
       {
-        "name": "Ava Trepeck / Provider / Maya Luz",
-        "start_time": "11:00 PM",
+        "name": "Martian Tickets Presents: Open Mic",
+        "start_time": "10:00 PM",
         "end_time": "2:30 AM",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/ava-trepeck-provider-maya-luz-3rd-apr-pianos-showroom-new-york-tickets",
-        "performers": []
-      },
-      {
-        "name": "TWOFACE / urfriendgrace / walkmanbaby / upintheair",
-        "start_time": "11:00 PM",
-        "end_time": "2:30 AM",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/twoface-urfriendgrace-walkmanbaby-upintheair-3rd-apr-pianos-showroom-new-york-tickets",
+        "ticket_url": "https://dice.fm/event/martian-tickets-presents-open-mic-4th-apr-pianos-showroom-new-york-tickets",
         "performers": []
       }
     ],
@@ -367,24 +264,6 @@
             }
           }
         ]
-      },
-      {
-        "name": "Friday, April 3, 2026 6:30 PM 9:30 PM Parkside Lounge (map) Google Calendar ICS",
-        "start_time": "6:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "http://www.google.com/calendar/event?action=TEMPLATE&text=Parts%20is%20Parts%21%20George%20Gilmore%20and%20the%20Giblets%2C%20Tim%20Heap%20and%20the%20Buybacks%20and%20the%20Werewolves&dates=20260403T223000Z/20260404T013000Z&location=317%20East%20Houston%20Street%2C%20New%20York%2C%20NY%2C%2010002%2C%20United%20States",
-        "performers": []
-      },
-      {
-        "name": "Friday, April 3, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
       },
       {
         "name": "Brick Presents: BEAR BOUNCE / buNnY BoUnCe",
@@ -479,8 +358,35 @@
         "performers": []
       },
       {
-        "name": "Fri, Apr 3, 2026",
+        "name": "Sat, Apr 4, 2026",
         "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Val Kinzler Band, Bedpan Fight, and Patti Rothberg Coincidence",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Sat, Apr 4, 2026 7:00 PM Sun, Apr 5, 2026 12:00 AM Parkside Lounge (map) Google",
+        "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Sat, Apr 4, 2026 7:00 PM Sun, Apr 5, 2026 12:00 AM",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -489,42 +395,6 @@
       }
     ],
     "34": [
-      {
-        "name": "Mulebone",
-        "start_time": "11:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Wed, Apr 29, 2026 11:00 PM 23:00 Thu, Apr 30, 2026 2:00 AM 02:00 Google Calendar",
-        "start_time": "11:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Wed, Apr 29, 2026 11:00 PM 23:00 Thu, Apr 30, 2026 2:00 AM 02:00",
-        "start_time": "11:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Thu, Apr 30, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
       {
         "name": "Dirty Water Dogs",
         "start_time": "11:00 PM",
@@ -553,7 +423,7 @@
         "performers": []
       },
       {
-        "name": "Wed, Apr 3, 2024",
+        "name": "Thu, Apr 4, 2024",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -564,16 +434,34 @@
     ],
     "41": [
       {
-        "name": "JC Hopkins' Biggish Band: Billie Holiday Birthday Celebration",
-        "start_time": "7:00 PM",
+        "name": "Haus of Monsters - America’s #1 Tribute to Lady Gaga",
+        "start_time": "1:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://tickets.citywinery.com/event/jc-hopkins-biggish-band-billie-holiday-birthday--dthhjf",
+        "ticket_url": "https://tickets.citywinery.com/event/haus-of-monsters-americas-1-tribute-to-lady-gaga-ifmtu1",
         "performers": []
       },
       {
-        "name": "Fri, Apr 3 @ 7:00 pm",
+        "name": "Sat, Apr 4 @ 1:00 pm",
+        "start_time": "1:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Sat, Apr 4 @ 6:15 pm",
+        "start_time": "6:15 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Sat, Apr 4 @ 7:00 pm",
         "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -582,7 +470,16 @@
         "performers": []
       },
       {
-        "name": "Fri, Apr 3 @ 10:00 pm",
+        "name": "Sat, Apr 4 @ 9:15 pm",
+        "start_time": "9:15 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Sat, Apr 4 @ 10:00 pm",
         "start_time": "10:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -593,17 +490,17 @@
     ],
     "48": [
       {
-        "name": "I Love R&B Party",
-        "start_time": "8:00PM",
+        "name": "Donna The Buffalo",
+        "start_time": "6:00PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://www.ticketweb.com/event/i-love-rb-party-sony-hall-tickets/14140254?pl=sonyhall&REFID=260403site",
+        "ticket_url": "https://www.ticketweb.com/event/donna-the-buffalo-w-ric-sony-hall-tickets/14656313?pl=sonyhall&REFID=260404site",
         "performers": []
       },
       {
-        "name": "Friday Apr 3 DOORS 8:00pm | SHOW 9:00pm",
-        "start_time": "8:00PM",
+        "name": "Saturday Apr 4 DOORS 6:00pm | SHOW 8:00pm",
+        "start_time": "6:00PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -620,26 +517,6 @@
         "ticket_price_door": "",
         "ticket_url": "",
         "performers": []
-      },
-      {
-        "name": "Passenger (ends Apr 30)",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "52": [
-      {
-        "name": "Steve Wilson Quintet “Enduring Sonance” Record Release",
-        "start_time": "6PM",
-        "end_time": "",
-        "ticket_price_advance": "$25.00",
-        "ticket_price_door": "$25.00",
-        "ticket_url": "",
-        "performers": []
       }
     ],
     "62": [
@@ -649,20 +526,11 @@
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://www.ticketmaster.com/luna-new-york-new-york-04-03-2026/event/00006379BAB9AC6D",
+        "ticket_url": "https://www.ticketmaster.com/luna-new-york-new-york-04-04-2026/event/00006379BA77AC36",
         "performers": []
       },
       {
-        "name": "Fri Apr 3, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Thu Apr 30, 2026",
+        "name": "Sat Apr 4, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -673,7 +541,7 @@
     ],
     "73": [
       {
-        "name": "April 3 | Marc Devine",
+        "name": "April 4 | Drew Nugent & The Midnight Society",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -693,8 +561,8 @@
         "performers": []
       },
       {
-        "name": "Friday, April 3, 2026 6:30 PM 10:00 PM Google Calendar ICS",
-        "start_time": "6:30 PM",
+        "name": "NYCABC Letter Writing — more info TBA",
+        "start_time": "1:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -702,8 +570,35 @@
         "performers": []
       },
       {
-        "name": "Friday, April 3, 2026",
+        "name": "Saturday, April 4, 2026 1:00 PM 3:00 PM Google Calendar ICS",
+        "start_time": "1:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Saturday, April 4, 2026",
         "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "CANCELLED: Saxapahaw Prison Books Weekly Packing Party",
+        "start_time": "4:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Saturday, April 4, 2026 4:00 PM 6:00 PM Google Calendar ICS",
+        "start_time": "4:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -713,77 +608,13 @@
     ],
     "96": [
       {
-        "name": "Kaitlyn Aurelia Smith, UMA DJliveZone One",
-        "start_time": "7:00 PM",
+        "name": "Divorce, After OursliveZone One",
+        "start_time": "6:30 PM",
         "end_time": "",
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
-        "ticket_url": "https://www.eventbrite.com/e/kaitlyn-aurelia-smith-uma-dj-tickets-1967712076791",
+        "ticket_url": "https://www.eventbrite.com/e/divorce-after-ours-tickets-1316418987629",
         "performers": [
-          {
-            "name": "Kaitlyn Aurelia Smith, UMA DJliveZone One",
-            "mbid": "",
-            "description": "Kaitlyn Aurelia Smith, UMA DJ",
-            "website": "https://www.elsewhere.club/events/1967712076791",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Kaitlyn Aurelia Smith, UMA DJ",
-            "mbid": "",
-            "description": "Kaitlyn Aurelia Smith, UMA DJ",
-            "website": "https://www.elsewhere.club/events/1967712076791",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio BounceclubFull Venue",
-            "mbid": "",
-            "description": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio Bounce",
-            "website": "https://www.elsewhere.club/events/1983123667273",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio Bounce",
-            "mbid": "",
-            "description": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio Bounce",
-            "website": "https://www.elsewhere.club/events/1983123667273",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
           {
             "name": "Divorce, After OursliveZone One",
             "mbid": "",
@@ -1201,38 +1032,6 @@
             }
           },
           {
-            "name": "Frog, Olivia O., DJ Silky SmoothliveThe Hall",
-            "mbid": "",
-            "description": "Frog, Olivia O., DJ Silky Smooth",
-            "website": "https://www.elsewhere.club/events/1983103228139",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Frog, Olivia O., DJ Silky Smooth",
-            "mbid": "",
-            "description": "Frog, Olivia O., DJ Silky Smooth",
-            "website": "https://www.elsewhere.club/events/1983103228139",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
             "name": "Indie Hourzz Presents: Scarlet Rae, Comet, Theo BleakliveZone One",
             "mbid": "",
             "description": "Indie Hourzz Presents: Scarlet Rae, Comet, Theo Bleak",
@@ -1253,6 +1052,38 @@
             "mbid": "",
             "description": "Indie Hourzz Presents: Scarlet Rae, Comet, Theo Bleak",
             "website": "https://www.elsewhere.club/events/1983828506466",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Frog, Olivia O., DJ Silky SmoothliveThe Hall",
+            "mbid": "",
+            "description": "Frog, Olivia O., DJ Silky Smooth",
+            "website": "https://www.elsewhere.club/events/1983103228139",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Frog, Olivia O., DJ Silky Smooth",
+            "mbid": "",
+            "description": "Frog, Olivia O., DJ Silky Smooth",
+            "website": "https://www.elsewhere.club/events/1983103228139",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -1393,6 +1224,38 @@
             }
           },
           {
+            "name": "*Drag Show* Essa Tea, Girl! Special Guest Performer: Slagatha, Jon Ali (DJ)Chatroom",
+            "mbid": "",
+            "description": "*Drag Show* Essa Tea, Girl! Special Guest Performer: Slagatha, Jon Ali (DJ)",
+            "website": "https://www.elsewhere.club/events/1986636548395",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "*Drag Show* Essa Tea, Girl! Special Guest Performer: Slagatha, Jon Ali (DJ)",
+            "mbid": "",
+            "description": "*Drag Show* Essa Tea, Girl! Special Guest Performer: Slagatha, Jon Ali (DJ)",
+            "website": "https://www.elsewhere.club/events/1986636548395",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
             "name": "Swing Kids (10 Years of the Chain) w/ Fatboi Sharif, Trace Amount & MoreliveThe Hall",
             "mbid": "",
             "description": "Swing Kids (10 Years of the Chain) w/ Fatboi Sharif, Trace Amount & More",
@@ -1457,38 +1320,6 @@
             }
           },
           {
-            "name": "trauma ray + Glixen, Her New Knife, KnifeplayliveThe Hall",
-            "mbid": "",
-            "description": "trauma ray + Glixen, Her New Knife, Knifeplay",
-            "website": "https://www.elsewhere.club/events/1980603444218",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "trauma ray + Glixen, Her New Knife, Knifeplay",
-            "mbid": "",
-            "description": "trauma ray + Glixen, Her New Knife, Knifeplay",
-            "website": "https://www.elsewhere.club/events/1980603444218",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
             "name": "Your Neighbors - Live In Real Life Tour, VISION ARCADE, Social CreaturesliveZone One",
             "mbid": "",
             "description": "Your Neighbors - Live In Real Life Tour, VISION ARCADE, Social Creatures",
@@ -1509,6 +1340,38 @@
             "mbid": "",
             "description": "Your Neighbors - Live In Real Life Tour, VISION ARCADE, Social Creatures",
             "website": "https://www.elsewhere.club/events/1981790202845",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "trauma ray + Glixen, Her New Knife, KnifeplayliveThe Hall",
+            "mbid": "",
+            "description": "trauma ray + Glixen, Her New Knife, Knifeplay",
+            "website": "https://www.elsewhere.club/events/1980603444218",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "trauma ray + Glixen, Her New Knife, Knifeplay",
+            "mbid": "",
+            "description": "trauma ray + Glixen, Her New Knife, Knifeplay",
+            "website": "https://www.elsewhere.club/events/1980603444218",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -1649,38 +1512,6 @@
             }
           },
           {
-            "name": "The Convenience, KatzinliveZone One",
-            "mbid": "",
-            "description": "The Convenience, Katzin",
-            "website": "https://www.elsewhere.club/events/1982791534856",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "The Convenience, Katzin",
-            "mbid": "",
-            "description": "The Convenience, Katzin",
-            "website": "https://www.elsewhere.club/events/1982791534856",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
             "name": "WU LYF, Lauren AuderliveThe Hall",
             "mbid": "",
             "description": "",
@@ -1701,6 +1532,38 @@
             "mbid": "",
             "description": "",
             "website": "https://www.elsewhere.club/events/1980127600958",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "The Convenience, KatzinliveZone One",
+            "mbid": "",
+            "description": "The Convenience, Katzin",
+            "website": "https://www.elsewhere.club/events/1982791534856",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "The Convenience, Katzin",
+            "mbid": "",
+            "description": "The Convenience, Katzin",
+            "website": "https://www.elsewhere.club/events/1982791534856",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -1871,11 +1734,43 @@
               "soundcloud": "",
               "tiktok": ""
             }
+          },
+          {
+            "name": "Asher White, Amiture Music, Brutus VIIIliveZone One",
+            "mbid": "",
+            "description": "Asher White, Amiture Music, Brutus VIII",
+            "website": "https://www.elsewhere.club/events/1982306422873",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Asher White, Amiture Music, Brutus VIII",
+            "mbid": "",
+            "description": "Asher White, Amiture Music, Brutus VIII",
+            "website": "https://www.elsewhere.club/events/1982306422873",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
           }
         ]
       },
       {
-        "name": "Fri, Apr 3",
+        "name": "Sat, Apr 4",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1884,18 +1779,18 @@
         "performers": []
       },
       {
-        "name": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio BounceclubFull Venue",
+        "name": "Neon Indian (DJ Set), Neggy Gemmy (DJ Set), Contact: KeplerclubFull Venue",
         "start_time": "10:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://www.eventbrite.com/e/baile-world-lady-shaka-mango-ginger-daniro-cquestt-barrio-bounce-tickets-1983123667273",
+        "ticket_url": "https://www.eventbrite.com/e/neon-indian-dj-set-neggy-gemmy-dj-set-contact-kepler-tickets-1977299553191",
         "performers": [
           {
-            "name": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio Bounce",
+            "name": "Neon Indian (DJ Set), Neggy Gemmy (DJ Set), Contact: Kepler",
             "mbid": "",
-            "description": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio Bounce",
-            "website": "https://www.elsewhere.club/events/1983123667273",
+            "description": "Neon Indian (DJ Set), Neggy Gemmy (DJ Set), Contact: Kepler",
+            "website": "https://www.elsewhere.club/events/1977299553191",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -1912,59 +1807,30 @@
     ],
     "101": [
       {
-        "name": "Classical Re-Imagined by Anirudh Varma Collective.",
+        "name": "Dog House, Lauren Mian, The [ Placeholders ]",
         "start_time": "11:00 PM",
         "end_time": "2:00 AM",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/classical-re-imagined-by-anirudh-varma-collective-3rd-apr-the-sultan-room-new-york-tickets",
-        "performers": []
-      }
-    ],
-    "100": [
-      {
-        "name": "THE RECESSION POP PARTY MARKET HOTEL // 1140 Myrtle Ave, Brooklyn, NYC, NY",
-        "start_time": "11:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Friday Apr 3 11:00 PM",
-        "start_time": "11:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
+        "ticket_url": "https://dice.fm/event/dog-house-lauren-mian-the-placeholders-4th-apr-the-sultan-room-new-york-tickets",
         "performers": []
       }
     ],
     "102": [
       {
-        "name": "Spirit of the Bear, Basic Printer, Vethaken",
+        "name": "CS Cleaners, Black Beach, Yuvees, Suburban Speed",
         "start_time": "11:00 PM",
-        "end_time": "2:00 AM",
+        "end_time": "2:30 AM",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://dice.fm/event/spirit-of-the-bear-basic-printer-vethaken-3rd-apr-alphaville-new-york-tickets",
+        "ticket_url": "https://dice.fm/event/cs-cleaners-black-beach-yuvees-suburban-speed-4th-apr-alphaville-new-york-tickets",
         "performers": []
       }
     ],
-    "109": [
+    "100": [
       {
-        "name": "Red Parry NYC vs. Wonderville",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "$10",
-        "ticket_price_door": "$10",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Thu, Apr 2, 2026 7:00 PM 19:00 Fri, Apr 3, 2026 12:00 AM 00:00 Wonderville (map)",
-        "start_time": "7:00 PM",
+        "name": "BAMM BAMM PresentsSurfbortMARKET HOTEL // 1140 Myrtle Ave, Brooklyn, NYC, NY",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -1972,8 +1838,8 @@
         "performers": []
       },
       {
-        "name": "Thu, Apr 2, 2026 7:00 PM 19:00 Fri, Apr 3, 2026 12:00 AM 00:00",
-        "start_time": "7:00 PM",
+        "name": "Saturday Apr 4 7:00 PM",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -1981,7 +1847,36 @@
         "performers": []
       },
       {
-        "name": "Fri, Apr 3, 2026",
+        "name": "GOTHIQUE HOTELMARKET HOTEL // 1140 Myrtle Ave, Brooklyn, NYC, NY",
+        "start_time": "11:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Saturday Apr 4 11:00 PM",
+        "start_time": "11:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "110": [
+      {
+        "name": "Earlybird Show",
+        "start_time": "06:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Saturday April 4th",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -1989,6 +1884,17 @@
         "ticket_url": "",
         "performers": []
       },
+      {
+        "name": "Jazz Dialogue",
+        "start_time": "09:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "109": [
       {
         "name": "GROWL Arcade",
         "start_time": "8:00 PM",
@@ -2017,54 +1923,7 @@
         "performers": []
       },
       {
-        "name": "Killer Queen Open Hive Night",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Wed, Apr 29, 2026 8:00 PM 20:00 Thu, Apr 30, 2026 12:30 AM 00:30 Wonderville (ma",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Wed, Apr 29, 2026 8:00 PM 20:00 Thu, Apr 30, 2026 12:30 AM 00:30",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Thu, Apr 30, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "110": [
-      {
-        "name": "Earlybird Show",
-        "start_time": "06:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Friday April 3rd",
+        "name": "Sat, Apr 4, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -2073,19 +1932,8 @@
         "performers": []
       },
       {
-        "name": "Jazz Dialogue",
-        "start_time": "09:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "111": [
-      {
-        "name": "Upcoming Events",
-        "start_time": "8:00 PM",
+        "name": "KQ Wonderville Monthly BYOT (Bring Your Own Team)!",
+        "start_time": "2:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -2093,8 +1941,8 @@
         "performers": []
       },
       {
-        "name": "IYKYK",
-        "start_time": "10:00 PM",
+        "name": "Saturday, April 4, 2026 2:00 PM 6:00 PM 14:00 18:00 Wonderville (map) Google Cal",
+        "start_time": "2:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -2102,17 +1950,35 @@
         "performers": []
       },
       {
-        "name": "Friday, April 3, 2026 10:00 PM 10:00 PM Google Calendar ICS",
-        "start_time": "10:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Friday, April 3, 2026",
+        "name": "Saturday, April 4, 2026",
         "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "HORSE RAVE 2: AN UMA MUSUME X JOJO X MLP X HORSE RACE TESTS RAVE",
+        "start_time": "9:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Sat, Apr 4, 2026 9:00 PM 21:00 Sun, Apr 5, 2026 3:00 AM 03:00 Wonderville (map)",
+        "start_time": "9:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Sat, Apr 4, 2026 9:00 PM 21:00 Sun, Apr 5, 2026 3:00 AM 03:00",
+        "start_time": "9:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -2131,7 +1997,7 @@
         "performers": []
       },
       {
-        "name": "Apr 3, 2026",
+        "name": "Apr 4, 2026",
         "start_time": "9PM",
         "end_time": "",
         "ticket_price_advance": "$10",
@@ -2149,8 +2015,57 @@
         "performers": []
       },
       {
-        "name": "Apr 3, 2026 9:00 PM – 11:30 PM21:00 – 23:309:00 PM – 11:30 PM",
+        "name": "Apr 4, 2026 9:00 PM – 11:30 PM21:00 – 23:309:00 PM – 11:30 PM",
         "start_time": "9:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "111": [
+      {
+        "name": "Upcoming Events",
+        "start_time": "8:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "A Lil Sum Sum",
+        "start_time": "10:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Saturday, April 4, 2026 10:00 PM 10:00 PM Google Calendar ICS",
+        "start_time": "10:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Saturday, April 4, 2026",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      }
+    ],
+    "116": [
+      {
+        "name": "Rachiim Ausar-Sahu Quartet",
+        "start_time": "7:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -2160,8 +2075,17 @@
     ],
     "122": [
       {
-        "name": "SOLD OUT - JACQUELINE NOVAK: 2026 TOUR",
+        "name": "JACQUELINE NOVAK: 2026 TOUR",
         "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "SOLD OUT - JACQUELINE NOVAK: 2026 TOUR",
+        "start_time": "9:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -2172,15 +2096,6 @@
     "131": [
       {
         "name": "jazz calendar",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Fri Happy Hour w/Peter Watrous",
         "start_time": "5:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -2189,8 +2104,8 @@
         "performers": []
       },
       {
-        "name": "Friday, April 3, 2026 5:30 PM 7:30 PM Google Calendar ICS",
-        "start_time": "5:30 PM",
+        "name": "Sat 6-7:30 - Duet Set(s) w/Glenn Zaleski and Adam Kolker",
+        "start_time": "6:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -2198,7 +2113,16 @@
         "performers": []
       },
       {
-        "name": "Friday, April 3, 2026",
+        "name": "Saturday, April 4, 2026 6:00 PM 7:30 PM Google Calendar ICS",
+        "start_time": "6:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Saturday, April 4, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -2207,7 +2131,7 @@
         "performers": []
       },
       {
-        "name": "FRI 8 & 9:30 - Marta Sanchez",
+        "name": "SAT 8 & 9:30 - Garvin Blake w/Frankie McIntosh, Konrad Adderley, Chris Eddleton",
         "start_time": "8:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
@@ -2216,82 +2140,8 @@
         "performers": []
       },
       {
-        "name": "Friday, April 3, 2026 8:00 PM 11:00 PM Google Calendar ICS",
+        "name": "Saturday, April 4, 2026 8:00 PM 11:00 PM Google Calendar ICS",
         "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Thurs Happy Hour w/Max Light",
-        "start_time": "5:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Thursday, April 30, 2026 5:30 PM 7:30 PM Google Calendar ICS",
-        "start_time": "5:30 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Thursday, April 30, 2026",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "THURS 8 & 9:30 Matt Mitchell w/Adam Kolker, Jeremy Stratton, Jeff Williams",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Thursday, April 30, 2026 8:00 PM 11:00 PM Google Calendar ICS",
-        "start_time": "8:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      }
-    ],
-    "127": [
-      {
-        "name": "Dirty Three",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Long Play Festival at Pioneer Works",
-        "start_time": "",
-        "end_time": "",
-        "ticket_price_advance": "",
-        "ticket_price_door": "",
-        "ticket_url": "",
-        "performers": []
-      },
-      {
-        "name": "Oneohtrix Point Never, Tyondai Braxton",
-        "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -2306,14 +2156,14 @@
         "end_time": "",
         "ticket_price_advance": "$60.00",
         "ticket_price_door": "$60.00",
-        "ticket_url": "https://wl.seetickets.us/event/foundation-meets-the-future/676405?afflky=CrownHillTheatre",
+        "ticket_url": "https://wl.seetickets.us/event/Foundation-Meets-the-Future/676856?afflky=CrownHillTheatre",
         "performers": []
       }
     ],
     "140": [
       {
-        "name": "BOYS LIKE GIRLS - The Soundtrack Of Your Life Tour",
-        "start_time": "6:00 PM",
+        "name": "City Pop Waves: Masayoshi Takanaka SUPER TAKANAKA WORLD LIVE 2026",
+        "start_time": "7:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -2323,8 +2173,17 @@
     ],
     "152": [
       {
-        "name": "XQT: ideasforconversations / harry teardrop / bbpue / exfilmstar / saja / b7lanket / espur",
+        "name": "Zatru & Friends NYC",
         "start_time": "7:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "HEADS KNOW: DJ Paypal / SUCIA! / Celebrity Bitcrush / Arielle Lana",
+        "start_time": "11:00 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -2334,12 +2193,30 @@
     ],
     "153": [
       {
-        "name": "Appendix, Indikator B, Acid Casualties, Kasso, The Hated",
+        "name": "Dice Holes, We Are All Human, Yard, Backyard Ritual",
         "start_time": "7:00PM",
         "end_time": "",
-        "ticket_price_advance": "$20.00",
-        "ticket_price_door": "$20.00",
-        "ticket_url": "https://wl.seetickets.us/event/appendix-indikator-b-acid-casualties-kasso-the-hated/681205?afflky=TVEye",
+        "ticket_price_advance": "$15.00",
+        "ticket_price_door": "$15.00",
+        "ticket_url": "https://wl.seetickets.us/event/dice-holes-we-are-all-human-yard-backyard-ritual/685725?afflky=TVEye",
+        "performers": []
+      },
+      {
+        "name": "DESCONTROL! Eclectic pan-latin vinyl dance w/deejay TENOSH!",
+        "start_time": "10:00PM",
+        "end_time": "",
+        "ticket_price_advance": "$0.00",
+        "ticket_price_door": "$0.00",
+        "ticket_url": "https://wl.seetickets.us/event/descontrol-eclectic-pan-latin-vinyl-dance-wdeejay-tenosh/687092?afflky=TVEye",
+        "performers": []
+      },
+      {
+        "name": "Underworld",
+        "start_time": "11:00PM",
+        "end_time": "",
+        "ticket_price_advance": "$0.00",
+        "ticket_price_door": "$0.00",
+        "ticket_url": "https://wl.seetickets.us/event/Underworld-/685646?afflky=TVEye",
         "performers": []
       }
     ],
@@ -2365,45 +2242,19 @@
         "performers": []
       }
     ],
-    "186": [
+    "190": [
       {
-        "name": "Upcoming Events",
-        "start_time": "7:00 PM",
+        "name": "Farm Stewardship",
+        "start_time": "9:00 AM",
         "end_time": "",
-        "ticket_price_advance": "$5",
-        "ticket_price_door": "$5",
-        "ticket_url": "",
-        "performers": [
-          {
-            "name": "Snug Harbor Show",
-            "mbid": "",
-            "description": "",
-            "website": "",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "https://www.youtube.com/live/P5baOwG0htI?si=EvFkV9RvesBCu4zt",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          }
-        ]
-      },
-      {
-        "name": "Liberation Open Mic",
-        "start_time": "7:00 PM",
-        "end_time": "",
-        "ticket_price_advance": "$5",
-        "ticket_price_door": "$5",
-        "ticket_url": "",
+        "ticket_price_advance": "Free",
+        "ticket_price_door": "Free",
+        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg000008yxa5MAA",
         "performers": []
       },
       {
-        "name": "Friday, April 3, 2026 7:00 PM 8:30 PM Google Calendar ICS",
-        "start_time": "7:00 PM",
+        "name": "Apr 4 @ 9:00 AM – 12:00 PM",
+        "start_time": "9:00 AM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -2411,8 +2262,107 @@
         "performers": []
       },
       {
-        "name": "Friday, April 3, 2026",
-        "start_time": "",
+        "name": "When:",
+        "start_time": "9:00 AM",
+        "end_time": "",
+        "ticket_price_advance": "Free",
+        "ticket_price_door": "Free",
+        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg000008yxa5MAA",
+        "performers": []
+      },
+      {
+        "name": "Edible Garden Planning Workshop",
+        "start_time": "10:00 AM",
+        "end_time": "",
+        "ticket_price_advance": "$10.00",
+        "ticket_price_door": "$10.00",
+        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg000009F7yTMAS",
+        "performers": []
+      },
+      {
+        "name": "Apr 4 @ 10:00 AM – 11:30 AM",
+        "start_time": "10:00 AM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Windowsill Herb Gardening Workshop",
+        "start_time": "11:00 AM",
+        "end_time": "",
+        "ticket_price_advance": "$40",
+        "ticket_price_door": "$40",
+        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg000009DylxMAC",
+        "performers": []
+      },
+      {
+        "name": "Apr 4 @ 11:00 AM – 1:00 PM",
+        "start_time": "11:00 AM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Glass House Tour",
+        "start_time": "1:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "$10",
+        "ticket_price_door": "$10",
+        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg000008ey8vMAA",
+        "performers": []
+      },
+      {
+        "name": "Apr 4 @ 1:00 PM – 2:00 PM",
+        "start_time": "1:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "BUY TICKETS HERE",
+        "start_time": "1:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "$10",
+        "ticket_price_door": "$10",
+        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg000008ey8vMAA",
+        "performers": []
+      },
+      {
+        "name": "Perennial Propagation Workshop",
+        "start_time": "1:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "$35",
+        "ticket_price_door": "$35",
+        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg000008uVirMAE",
+        "performers": []
+      },
+      {
+        "name": "Apr 4 @ 1:00 PM – 3:00 PM",
+        "start_time": "1:00 PM",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Tiny Gardens Workshop",
+        "start_time": "2:30 PM",
+        "end_time": "",
+        "ticket_price_advance": "$15",
+        "ticket_price_door": "$15",
+        "ticket_url": "https://snugharbor.my.salesforce-sites.com/ticket/#/events/a0SQg000008esmfMAA",
+        "performers": []
+      },
+      {
+        "name": "Apr 4 @ 2:30 PM – 4:00 PM",
+        "start_time": "2:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
@@ -2422,77 +2372,13 @@
     ],
     "193": [
       {
-        "name": "Kaitlyn Aurelia Smith, UMA DJliveZone One",
-        "start_time": "7:00 PM",
+        "name": "Divorce, After OursliveZone One",
+        "start_time": "6:30 PM",
         "end_time": "",
         "ticket_price_advance": "Free",
         "ticket_price_door": "Free",
-        "ticket_url": "https://www.eventbrite.com/e/kaitlyn-aurelia-smith-uma-dj-tickets-1967712076791",
+        "ticket_url": "https://www.eventbrite.com/e/divorce-after-ours-tickets-1316418987629",
         "performers": [
-          {
-            "name": "Kaitlyn Aurelia Smith, UMA DJliveZone One",
-            "mbid": "",
-            "description": "Kaitlyn Aurelia Smith, UMA DJ",
-            "website": "https://www.elsewhere.club/events/1967712076791",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Kaitlyn Aurelia Smith, UMA DJ",
-            "mbid": "",
-            "description": "Kaitlyn Aurelia Smith, UMA DJ",
-            "website": "https://www.elsewhere.club/events/1967712076791",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio BounceclubFull Venue",
-            "mbid": "",
-            "description": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio Bounce",
-            "website": "https://www.elsewhere.club/events/1983123667273",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio Bounce",
-            "mbid": "",
-            "description": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio Bounce",
-            "website": "https://www.elsewhere.club/events/1983123667273",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
           {
             "name": "Divorce, After OursliveZone One",
             "mbid": "",
@@ -2910,38 +2796,6 @@
             }
           },
           {
-            "name": "Frog, Olivia O., DJ Silky SmoothliveThe Hall",
-            "mbid": "",
-            "description": "Frog, Olivia O., DJ Silky Smooth",
-            "website": "https://www.elsewhere.club/events/1983103228139",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "Frog, Olivia O., DJ Silky Smooth",
-            "mbid": "",
-            "description": "Frog, Olivia O., DJ Silky Smooth",
-            "website": "https://www.elsewhere.club/events/1983103228139",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
             "name": "Indie Hourzz Presents: Scarlet Rae, Comet, Theo BleakliveZone One",
             "mbid": "",
             "description": "Indie Hourzz Presents: Scarlet Rae, Comet, Theo Bleak",
@@ -2962,6 +2816,38 @@
             "mbid": "",
             "description": "Indie Hourzz Presents: Scarlet Rae, Comet, Theo Bleak",
             "website": "https://www.elsewhere.club/events/1983828506466",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Frog, Olivia O., DJ Silky SmoothliveThe Hall",
+            "mbid": "",
+            "description": "Frog, Olivia O., DJ Silky Smooth",
+            "website": "https://www.elsewhere.club/events/1983103228139",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Frog, Olivia O., DJ Silky Smooth",
+            "mbid": "",
+            "description": "Frog, Olivia O., DJ Silky Smooth",
+            "website": "https://www.elsewhere.club/events/1983103228139",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -3102,6 +2988,38 @@
             }
           },
           {
+            "name": "*Drag Show* Essa Tea, Girl! Special Guest Performer: Slagatha, Jon Ali (DJ)Chatroom",
+            "mbid": "",
+            "description": "*Drag Show* Essa Tea, Girl! Special Guest Performer: Slagatha, Jon Ali (DJ)",
+            "website": "https://www.elsewhere.club/events/1986636548395",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "*Drag Show* Essa Tea, Girl! Special Guest Performer: Slagatha, Jon Ali (DJ)",
+            "mbid": "",
+            "description": "*Drag Show* Essa Tea, Girl! Special Guest Performer: Slagatha, Jon Ali (DJ)",
+            "website": "https://www.elsewhere.club/events/1986636548395",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
             "name": "Swing Kids (10 Years of the Chain) w/ Fatboi Sharif, Trace Amount & MoreliveThe Hall",
             "mbid": "",
             "description": "Swing Kids (10 Years of the Chain) w/ Fatboi Sharif, Trace Amount & More",
@@ -3166,38 +3084,6 @@
             }
           },
           {
-            "name": "trauma ray + Glixen, Her New Knife, KnifeplayliveThe Hall",
-            "mbid": "",
-            "description": "trauma ray + Glixen, Her New Knife, Knifeplay",
-            "website": "https://www.elsewhere.club/events/1980603444218",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "trauma ray + Glixen, Her New Knife, Knifeplay",
-            "mbid": "",
-            "description": "trauma ray + Glixen, Her New Knife, Knifeplay",
-            "website": "https://www.elsewhere.club/events/1980603444218",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
             "name": "Your Neighbors - Live In Real Life Tour, VISION ARCADE, Social CreaturesliveZone One",
             "mbid": "",
             "description": "Your Neighbors - Live In Real Life Tour, VISION ARCADE, Social Creatures",
@@ -3218,6 +3104,38 @@
             "mbid": "",
             "description": "Your Neighbors - Live In Real Life Tour, VISION ARCADE, Social Creatures",
             "website": "https://www.elsewhere.club/events/1981790202845",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "trauma ray + Glixen, Her New Knife, KnifeplayliveThe Hall",
+            "mbid": "",
+            "description": "trauma ray + Glixen, Her New Knife, Knifeplay",
+            "website": "https://www.elsewhere.club/events/1980603444218",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "trauma ray + Glixen, Her New Knife, Knifeplay",
+            "mbid": "",
+            "description": "trauma ray + Glixen, Her New Knife, Knifeplay",
+            "website": "https://www.elsewhere.club/events/1980603444218",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -3358,38 +3276,6 @@
             }
           },
           {
-            "name": "The Convenience, KatzinliveZone One",
-            "mbid": "",
-            "description": "The Convenience, Katzin",
-            "website": "https://www.elsewhere.club/events/1982791534856",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
-            "name": "The Convenience, Katzin",
-            "mbid": "",
-            "description": "The Convenience, Katzin",
-            "website": "https://www.elsewhere.club/events/1982791534856",
-            "social": {
-              "instagram": "",
-              "bandcamp": "",
-              "facebook": "",
-              "spotify": "",
-              "twitter": "",
-              "youtube": "",
-              "soundcloud": "",
-              "tiktok": ""
-            }
-          },
-          {
             "name": "WU LYF, Lauren AuderliveThe Hall",
             "mbid": "",
             "description": "",
@@ -3410,6 +3296,38 @@
             "mbid": "",
             "description": "",
             "website": "https://www.elsewhere.club/events/1980127600958",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "The Convenience, KatzinliveZone One",
+            "mbid": "",
+            "description": "The Convenience, Katzin",
+            "website": "https://www.elsewhere.club/events/1982791534856",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "The Convenience, Katzin",
+            "mbid": "",
+            "description": "The Convenience, Katzin",
+            "website": "https://www.elsewhere.club/events/1982791534856",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -3580,11 +3498,43 @@
               "soundcloud": "",
               "tiktok": ""
             }
+          },
+          {
+            "name": "Asher White, Amiture Music, Brutus VIIIliveZone One",
+            "mbid": "",
+            "description": "Asher White, Amiture Music, Brutus VIII",
+            "website": "https://www.elsewhere.club/events/1982306422873",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
+          },
+          {
+            "name": "Asher White, Amiture Music, Brutus VIII",
+            "mbid": "",
+            "description": "Asher White, Amiture Music, Brutus VIII",
+            "website": "https://www.elsewhere.club/events/1982306422873",
+            "social": {
+              "instagram": "",
+              "bandcamp": "",
+              "facebook": "",
+              "spotify": "",
+              "twitter": "",
+              "youtube": "",
+              "soundcloud": "",
+              "tiktok": ""
+            }
           }
         ]
       },
       {
-        "name": "Fri, Apr 3",
+        "name": "Sat, Apr 4",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
@@ -3593,18 +3543,18 @@
         "performers": []
       },
       {
-        "name": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio BounceclubFull Venue",
+        "name": "Neon Indian (DJ Set), Neggy Gemmy (DJ Set), Contact: KeplerclubFull Venue",
         "start_time": "10:30 PM",
         "end_time": "",
         "ticket_price_advance": "",
         "ticket_price_door": "",
-        "ticket_url": "https://www.eventbrite.com/e/baile-world-lady-shaka-mango-ginger-daniro-cquestt-barrio-bounce-tickets-1983123667273",
+        "ticket_url": "https://www.eventbrite.com/e/neon-indian-dj-set-neggy-gemmy-dj-set-contact-kepler-tickets-1977299553191",
         "performers": [
           {
-            "name": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio Bounce",
+            "name": "Neon Indian (DJ Set), Neggy Gemmy (DJ Set), Contact: Kepler",
             "mbid": "",
-            "description": "BAILE WORLD: LADY SHAKA, MANGO & GINGER, DANIRO, CQUESTT, Barrio Bounce",
-            "website": "https://www.elsewhere.club/events/1983123667273",
+            "description": "Neon Indian (DJ Set), Neggy Gemmy (DJ Set), Contact: Kepler",
+            "website": "https://www.elsewhere.club/events/1977299553191",
             "social": {
               "instagram": "",
               "bandcamp": "",
@@ -3639,7 +3589,16 @@
         "performers": []
       },
       {
-        "name": "Apr 3, 2026",
+        "name": "Apr 4, 2026",
+        "start_time": "",
+        "end_time": "",
+        "ticket_price_advance": "",
+        "ticket_price_door": "",
+        "ticket_url": "",
+        "performers": []
+      },
+      {
+        "name": "Apr 4, 2026 – Apr 5, 2026",
         "start_time": "",
         "end_time": "",
         "ticket_price_advance": "",
